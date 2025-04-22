@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2024.2">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2020.4">
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -533,6 +533,24 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="TextInput:" type="Byte" />
+            <Field name="Nome" size="8" source="TextInput:" type="String" />
+            <Field name="Sobrenome" size="9" source="TextInput:" type="String" />
+            <Field name="Endereço" size="34" source="TextInput:" type="V_String" />
+            <Field name="Cidade" size="23" source="TextInput:" type="V_String" />
+            <Field name="Estado" size="2" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+            <Field name="Segmento do Cliente" size="15" source="TextInput:" type="String" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Visitas" source="TextInput:" type="Byte" />
+            <Field name="Gasto total" source="TextInput:" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Latitude" source="TextInput:" type="Double" />
+            <Field name="Longitude" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -1607,6 +1625,24 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="TextInput:" type="Byte" />
+            <Field name="Nome" size="9" source="TextInput:" type="String" />
+            <Field name="Sobrenome" size="10" source="TextInput:" type="String" />
+            <Field name="Endereço" size="38" source="TextInput:" type="V_String" />
+            <Field name="Cidade" size="23" source="TextInput:" type="V_String" />
+            <Field name="Estado" size="2" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+            <Field name="Segmento do Cliente" size="15" source="TextInput:" type="String" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Visitas" source="TextInput:" type="Byte" />
+            <Field name="Gasto total" source="TextInput:" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Latitude" source="TextInput:" type="Double" />
+            <Field name="Longitude" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -1705,6 +1741,24 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="TextInput:" type="Byte" />
+            <Field name="Nome" size="6" source="TextInput:" type="String" />
+            <Field name="Sobrenome" size="8" source="TextInput:" type="String" />
+            <Field name="Endereço" size="24" source="TextInput:" type="V_String" />
+            <Field name="Cidade" size="23" source="TextInput:" type="V_String" />
+            <Field name="Estado" size="2" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+            <Field name="Segmento do Cliente" size="15" source="TextInput:" type="String" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Visitas" source="TextInput:" type="Byte" />
+            <Field name="Gasto total" source="TextInput:" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Latitude" source="TextInput:" type="Double" />
+            <Field name="Longitude" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -2971,6 +3025,24 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="TextInput:" type="Byte" />
+            <Field name="Nome" size="9" source="TextInput:" type="String" />
+            <Field name="Sobrenome" size="10" source="TextInput:" type="String" />
+            <Field name="Endereço" size="38" source="TextInput:" type="V_String" />
+            <Field name="Cidade" size="23" source="TextInput:" type="V_String" />
+            <Field name="Estado" size="2" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+            <Field name="Segmento do Cliente" size="15" source="TextInput:" type="String" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Visitas" source="TextInput:" type="Byte" />
+            <Field name="Gasto total" source="TextInput:" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Latitude" source="TextInput:" type="Double" />
+            <Field name="Longitude" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -3533,6 +3605,24 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="TextInput:" type="Byte" />
+            <Field name="Nome" size="8" source="TextInput:" type="String" />
+            <Field name="Sobrenome" size="10" source="TextInput:" type="String" />
+            <Field name="Endereço" size="35" source="TextInput:" type="V_String" />
+            <Field name="Cidade" size="23" source="TextInput:" type="V_String" />
+            <Field name="Estado" size="2" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+            <Field name="Segmento do Cliente" size="15" source="TextInput:" type="String" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Visitas" source="TextInput:" type="Byte" />
+            <Field name="Gasto total" source="TextInput:" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="Latitude" source="TextInput:" type="Double" />
+            <Field name="Longitude" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -3571,6 +3661,9 @@
           <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -3627,6 +3720,9 @@
           <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -3673,6 +3769,27 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+            <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+            <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+            <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
@@ -3711,6 +3828,9 @@
           <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -3757,6 +3877,27 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+            <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+            <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+            <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
@@ -3795,6 +3936,9 @@
           <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -3841,6 +3985,27 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+            <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+            <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+            <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
@@ -3879,6 +4044,9 @@
           <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -3925,6 +4093,27 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+            <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+            <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+            <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
@@ -3953,104 +4142,33 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+            <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+            <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+            <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+            <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
-    <Node ToolID="91">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="282" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Estado" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="92">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="294" y="342" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Cidade" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="93">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="294" y="498" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Segmento do Cliente" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="94">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="282" y="654" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Cidade" />
-            <Field field="Segmento do Cliente" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="95">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="282" y="822" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Segmento do Cliente" />
-            <Field field="Número da loja" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
     <Node ToolID="62">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="603" y="117" width="128" height="24" />
+        <Position x="603" y="117" width="130" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4101,6 +4219,9 @@
               <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -4137,6 +4258,48 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Estado" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Estado" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
         </Node>
@@ -4175,6 +4338,9 @@
               <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -4221,6 +4387,27 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
@@ -4239,6 +4426,48 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Cidade" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Cidade" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
         </Node>
@@ -4277,6 +4506,9 @@
               <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -4323,6 +4555,27 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
@@ -4341,6 +4594,48 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Segmento do Cliente" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Segmento do Cliente" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
         </Node>
@@ -4379,6 +4674,9 @@
               <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -4425,6 +4723,27 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
@@ -4444,6 +4763,50 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Cidade" order="Asc" />
+                <Field field="Segmento do Cliente" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Cidade" order="Asc" />
+                <Field field="Segmento do Cliente" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
         </Node>
@@ -4482,6 +4845,9 @@
               <DefaultAnnotationText>Base_Clientes.yxdb</DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
             <MetaInfo connection="Output">
               <RecordInfo>
                 <Field name="ID do Cliente" source="RecordID: Starting Value=1" type="Int32" />
@@ -4528,6 +4894,27 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
@@ -4547,6 +4934,50 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Segmento do Cliente" order="Asc" />
+                <Field field="Número da loja" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Segmento do Cliente" order="Asc" />
+                <Field field="Número da loja" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
         </Node>
@@ -4575,6 +5006,27 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="ID do Cliente" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Int32" />
+                <Field name="Nome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Sobrenome" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Endereço" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Cidade" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Estado" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CEP" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Segmento do Cliente" size="255" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="Número da loja" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Byte" />
+                <Field name="Visitas" size="3" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Gasto total" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Objeto geográfico" size="2147483647" source="Formula: IF IsNull([Z9_Point]) THEN [SpatialObj] ELSE [Z9_Point] ENDIF (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="SpatialObj" />
+                <Field name="Latitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+                <Field name="Longitude" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_]) (BatchMacro)" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro="Cleanse.yxmc" />
         </Node>
@@ -4631,36 +5083,16 @@
       <Destination ToolID="80" Connection="Input2" />
     </Connection>
     <Connection>
-      <Origin ToolID="80" Connection="Output26" />
-      <Destination ToolID="92" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="82" Connection="Output" />
       <Destination ToolID="83" Connection="Input2" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="83" Connection="Output26" />
-      <Destination ToolID="93" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="85" Connection="Output" />
       <Destination ToolID="86" Connection="Input2" />
     </Connection>
     <Connection>
-      <Origin ToolID="86" Connection="Output26" />
-      <Destination ToolID="94" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="88" Connection="Output" />
       <Destination ToolID="89" Connection="Input2" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="89" Connection="Output26" />
-      <Destination ToolID="95" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="90" Connection="Output26" />
-      <Destination ToolID="91" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="43" Connection="Output" />
@@ -4713,14 +5145,12 @@
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
     <EnablePerformanceProfiling value="False" />
-    <PredictiveToolsCodePage value="1252" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
     <ShowConnectionStatusOnlyWhenRunning value="True" />
     <ZoomLevel value="-2" />
     <LayoutType>Horizontal</LayoutType>
-    <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
       <Name>PT_Exclusivo</Name>
@@ -4738,12 +5168,6 @@
         <Description />
         <File />
       </Example>
-      <WorkflowId value="569b82e0-437b-4cfc-a2f3-bc59855c7a86" />
-      <Telemetry>
-        <PreviousWorkflowId value="" />
-        <OriginWorkflowId value="569b82e0-437b-4cfc-a2f3-bc59855c7a86" />
-      </Telemetry>
-      <PlatformWorkflowId value="" />
     </MetaInfo>
     <Events>
       <Enabled value="True" />
