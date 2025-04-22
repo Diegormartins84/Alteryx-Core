@@ -1,0 +1,2623 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="150" width="252" height="128" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Selecione os 3 primeiros presidentes</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="353" y="182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Index" />
+            <Field name="Name" />
+            <Field name="Party" />
+            <Field name="From" />
+            <Field name="To" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>George Washington</c>
+              <c>No party</c>
+              <c>1789-04-30</c>
+              <c>1797-03-04</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>John Adams</c>
+              <c>Federalist</c>
+              <c>1797-03-04</c>
+              <c>1801-03-04</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Thomas Jefferson</c>
+              <c>Democratic-Republican</c>
+              <c>1801-03-04</c>
+              <c>1809-03-04</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="292" width="252" height="112" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Selecione os últimos 5 presidentes</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="329" y="158" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="329" y="296" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="418" width="252" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Selecione os 3 primeiros presidentes de cada partido</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="329" y="432" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="66" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Amostra</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="546" y="54" width="222" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="392" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Amostra para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="40" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>Deodoro da Fonseca</c>
+              <c>nenhum</c>
+              <c>15/11/1889</c>
+              <c>23/11/1891</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Floriano Peixoto</c>
+              <c>nenhum</c>
+              <c>23/11/1891</c>
+              <c>15/11/1894</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Prudente de Morais</c>
+              <c>PR Federal</c>
+              <c>15/11/1894</c>
+              <c>15/11/1898</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>Campos Sales</c>
+              <c>PRP</c>
+              <c>15/11/1898</c>
+              <c>15/11/1092</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Rodrigues Alves</c>
+              <c>PRP</c>
+              <c>15/11/1092</c>
+              <c>15/11/1906</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>Afonso Pena</c>
+              <c>PRM</c>
+              <c>15/11/1906</c>
+              <c>14/06/1909</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>Nilo Peçanha</c>
+              <c>PRF</c>
+              <c>14/06/1909</c>
+              <c>15/11/1910</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>Hermes da Fonseca</c>
+              <c>PRC</c>
+              <c>15/11/1910</c>
+              <c>15/11/1914</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>Venceslau Brás</c>
+              <c>PRM</c>
+              <c>15/11/1914</c>
+              <c>15/11/1918</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>Delfim Moreira</c>
+              <c>PRM</c>
+              <c>15/11/1918</c>
+              <c>28/07/1919</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>Epitácio Pessoa</c>
+              <c>PRM</c>
+              <c>28/07/1919</c>
+              <c>15/11/1922</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>Artur Bernardes</c>
+              <c>PRM</c>
+              <c>15/11/1922</c>
+              <c>15/11/1926</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>Washington Luís</c>
+              <c>PRP</c>
+              <c>15/11/1926</c>
+              <c>24/10/1930</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>Junta Governativa Provisória de 1930</c>
+              <c>nenhum</c>
+              <c>24/10/1930</c>
+              <c>3/11/1930</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>3/11/1930</c>
+              <c>10/11/1937</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>10/11/1937</c>
+              <c>29/10/1945</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>José Linhares</c>
+              <c>nenhum</c>
+              <c>29/10/1945</c>
+              <c>31/01/1946</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>Eurico Gaspar Dutra</c>
+              <c>PSD</c>
+              <c>31/01/1946</c>
+              <c>21/01/1951</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>Getúlio Vargas</c>
+              <c>PTB</c>
+              <c>21/01/1951</c>
+              <c>24/08/1954</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>Café Filho</c>
+              <c>PSP</c>
+              <c>24/08/1954</c>
+              <c>8/11/1955</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>Carlos Luz</c>
+              <c>PSD</c>
+              <c>8/11/1955</c>
+              <c>11/11/1955</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>Nereu Ramos</c>
+              <c>PSD</c>
+              <c>11/11/1955</c>
+              <c>31/01/1956</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>Juscelino Kubitschek</c>
+              <c>PSD</c>
+              <c>31/01/1956</c>
+              <c>31/01/1961</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>Jânio Quadros</c>
+              <c>PTN</c>
+              <c>31/01/1961</c>
+              <c>25/08/1961</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>25/08/1961</c>
+              <c>7/9/1961</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>João Goulart</c>
+              <c>PTB</c>
+              <c>7/9/1961</c>
+              <c>2/4/1964</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>2/4/1964</c>
+              <c>15/04/1964</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>Humberto Castelo Branco</c>
+              <c>ARENA</c>
+              <c>15/04/1964</c>
+              <c>15/03/1967</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>Artur da Costa e Silva</c>
+              <c>ARENA</c>
+              <c>15/03/1967</c>
+              <c>31/08/1969</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>Junta Governativa Provisória de 1969</c>
+              <c>nenhum</c>
+              <c>31/08/1969</c>
+              <c>30/10/1969</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Emílio Garrastazu Médici</c>
+              <c>ARENA</c>
+              <c>30/10/1969</c>
+              <c>15/03/1974</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>Ernesto Geisel</c>
+              <c>ARENA</c>
+              <c>15/03/1974</c>
+              <c>15/03/1979</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>João Figueiredo</c>
+              <c>ARENA</c>
+              <c>15/03/1979</c>
+              <c>15/03/1985</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>José Sarney</c>
+              <c>PMDB</c>
+              <c>15/03/1985</c>
+              <c>15/03/1990</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>Fernando Collor</c>
+              <c>PRN</c>
+              <c>15/03/1990</c>
+              <c>23/12/1992</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>Itamar Franco</c>
+              <c>PMDB</c>
+              <c>23/12/1992</c>
+              <c>1/1/1995</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>Fernando Henrique Cardoso</c>
+              <c>PSDB</c>
+              <c>1/1/1995</c>
+              <c>1/1/2003</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>Luiz Inácio Lula da Silva</c>
+              <c>PT</c>
+              <c>1/1/2003</c>
+              <c>1/1/2011</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>Dilma Rousseff</c>
+              <c>PT</c>
+              <c>1/1/2011</c>
+              <c>31/08/2016</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>Michel Temer</c>
+              <c>PMDB</c>
+              <c>31/08/2016</c>
+              <c>1/1/2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="40" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>Deodoro da Fonseca</c>
+              <c>nenhum</c>
+              <c>15/11/1889</c>
+              <c>23/11/1891</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Floriano Peixoto</c>
+              <c>nenhum</c>
+              <c>23/11/1891</c>
+              <c>15/11/1894</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Prudente de Morais</c>
+              <c>PR Federal</c>
+              <c>15/11/1894</c>
+              <c>15/11/1898</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>Campos Sales</c>
+              <c>PRP</c>
+              <c>15/11/1898</c>
+              <c>15/11/1092</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Rodrigues Alves</c>
+              <c>PRP</c>
+              <c>15/11/1092</c>
+              <c>15/11/1906</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>Afonso Pena</c>
+              <c>PRM</c>
+              <c>15/11/1906</c>
+              <c>14/06/1909</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>Nilo Peçanha</c>
+              <c>PRF</c>
+              <c>14/06/1909</c>
+              <c>15/11/1910</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>Hermes da Fonseca</c>
+              <c>PRC</c>
+              <c>15/11/1910</c>
+              <c>15/11/1914</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>Venceslau Brás</c>
+              <c>PRM</c>
+              <c>15/11/1914</c>
+              <c>15/11/1918</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>Delfim Moreira</c>
+              <c>PRM</c>
+              <c>15/11/1918</c>
+              <c>28/07/1919</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>Epitácio Pessoa</c>
+              <c>PRM</c>
+              <c>28/07/1919</c>
+              <c>15/11/1922</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>Artur Bernardes</c>
+              <c>PRM</c>
+              <c>15/11/1922</c>
+              <c>15/11/1926</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>Washington Luís</c>
+              <c>PRP</c>
+              <c>15/11/1926</c>
+              <c>24/10/1930</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>Junta Governativa Provisória de 1930</c>
+              <c>nenhum</c>
+              <c>24/10/1930</c>
+              <c>3/11/1930</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>3/11/1930</c>
+              <c>10/11/1937</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>10/11/1937</c>
+              <c>29/10/1945</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>José Linhares</c>
+              <c>nenhum</c>
+              <c>29/10/1945</c>
+              <c>31/01/1946</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>Eurico Gaspar Dutra</c>
+              <c>PSD</c>
+              <c>31/01/1946</c>
+              <c>21/01/1951</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>Getúlio Vargas</c>
+              <c>PTB</c>
+              <c>21/01/1951</c>
+              <c>24/08/1954</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>Café Filho</c>
+              <c>PSP</c>
+              <c>24/08/1954</c>
+              <c>8/11/1955</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>Carlos Luz</c>
+              <c>PSD</c>
+              <c>8/11/1955</c>
+              <c>11/11/1955</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>Nereu Ramos</c>
+              <c>PSD</c>
+              <c>11/11/1955</c>
+              <c>31/01/1956</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>Juscelino Kubitschek</c>
+              <c>PSD</c>
+              <c>31/01/1956</c>
+              <c>31/01/1961</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>Jânio Quadros</c>
+              <c>PTN</c>
+              <c>31/01/1961</c>
+              <c>25/08/1961</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>25/08/1961</c>
+              <c>7/9/1961</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>João Goulart</c>
+              <c>PTB</c>
+              <c>7/9/1961</c>
+              <c>2/4/1964</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>2/4/1964</c>
+              <c>15/04/1964</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>Humberto Castelo Branco</c>
+              <c>ARENA</c>
+              <c>15/04/1964</c>
+              <c>15/03/1967</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>Artur da Costa e Silva</c>
+              <c>ARENA</c>
+              <c>15/03/1967</c>
+              <c>31/08/1969</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>Junta Governativa Provisória de 1969</c>
+              <c>nenhum</c>
+              <c>31/08/1969</c>
+              <c>30/10/1969</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Emílio Garrastazu Médici</c>
+              <c>ARENA</c>
+              <c>30/10/1969</c>
+              <c>15/03/1974</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>Ernesto Geisel</c>
+              <c>ARENA</c>
+              <c>15/03/1974</c>
+              <c>15/03/1979</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>João Figueiredo</c>
+              <c>ARENA</c>
+              <c>15/03/1979</c>
+              <c>15/03/1985</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>José Sarney</c>
+              <c>PMDB</c>
+              <c>15/03/1985</c>
+              <c>15/03/1990</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>Fernando Collor</c>
+              <c>PRN</c>
+              <c>15/03/1990</c>
+              <c>23/12/1992</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>Itamar Franco</c>
+              <c>PMDB</c>
+              <c>23/12/1992</c>
+              <c>1/1/1995</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>Fernando Henrique Cardoso</c>
+              <c>PSDB</c>
+              <c>1/1/1995</c>
+              <c>1/1/2003</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>Luiz Inácio Lula da Silva</c>
+              <c>PT</c>
+              <c>1/1/2003</c>
+              <c>1/1/2011</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>Dilma Rousseff</c>
+              <c>PT</c>
+              <c>1/1/2011</c>
+              <c>31/08/2016</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>Michel Temer</c>
+              <c>PMDB</c>
+              <c>31/08/2016</c>
+              <c>1/1/2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="460" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="40" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>Deodoro da Fonseca</c>
+              <c>nenhum</c>
+              <c>15/11/1889</c>
+              <c>23/11/1891</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Floriano Peixoto</c>
+              <c>nenhum</c>
+              <c>23/11/1891</c>
+              <c>15/11/1894</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Prudente de Morais</c>
+              <c>PR Federal</c>
+              <c>15/11/1894</c>
+              <c>15/11/1898</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>Campos Sales</c>
+              <c>PRP</c>
+              <c>15/11/1898</c>
+              <c>15/11/1092</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Rodrigues Alves</c>
+              <c>PRP</c>
+              <c>15/11/1092</c>
+              <c>15/11/1906</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>Afonso Pena</c>
+              <c>PRM</c>
+              <c>15/11/1906</c>
+              <c>14/06/1909</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>Nilo Peçanha</c>
+              <c>PRF</c>
+              <c>14/06/1909</c>
+              <c>15/11/1910</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>Hermes da Fonseca</c>
+              <c>PRC</c>
+              <c>15/11/1910</c>
+              <c>15/11/1914</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>Venceslau Brás</c>
+              <c>PRM</c>
+              <c>15/11/1914</c>
+              <c>15/11/1918</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>Delfim Moreira</c>
+              <c>PRM</c>
+              <c>15/11/1918</c>
+              <c>28/07/1919</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>Epitácio Pessoa</c>
+              <c>PRM</c>
+              <c>28/07/1919</c>
+              <c>15/11/1922</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>Artur Bernardes</c>
+              <c>PRM</c>
+              <c>15/11/1922</c>
+              <c>15/11/1926</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>Washington Luís</c>
+              <c>PRP</c>
+              <c>15/11/1926</c>
+              <c>24/10/1930</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>Junta Governativa Provisória de 1930</c>
+              <c>nenhum</c>
+              <c>24/10/1930</c>
+              <c>3/11/1930</c>
+            </r>
+            <r>
+              <c>15</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>3/11/1930</c>
+              <c>10/11/1937</c>
+            </r>
+            <r>
+              <c>16</c>
+              <c>Getúlio Vargas</c>
+              <c>nenhum</c>
+              <c>10/11/1937</c>
+              <c>29/10/1945</c>
+            </r>
+            <r>
+              <c>17</c>
+              <c>José Linhares</c>
+              <c>nenhum</c>
+              <c>29/10/1945</c>
+              <c>31/01/1946</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>Eurico Gaspar Dutra</c>
+              <c>PSD</c>
+              <c>31/01/1946</c>
+              <c>21/01/1951</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>Getúlio Vargas</c>
+              <c>PTB</c>
+              <c>21/01/1951</c>
+              <c>24/08/1954</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>Café Filho</c>
+              <c>PSP</c>
+              <c>24/08/1954</c>
+              <c>8/11/1955</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>Carlos Luz</c>
+              <c>PSD</c>
+              <c>8/11/1955</c>
+              <c>11/11/1955</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>Nereu Ramos</c>
+              <c>PSD</c>
+              <c>11/11/1955</c>
+              <c>31/01/1956</c>
+            </r>
+            <r>
+              <c>23</c>
+              <c>Juscelino Kubitschek</c>
+              <c>PSD</c>
+              <c>31/01/1956</c>
+              <c>31/01/1961</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>Jânio Quadros</c>
+              <c>PTN</c>
+              <c>31/01/1961</c>
+              <c>25/08/1961</c>
+            </r>
+            <r>
+              <c>25</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>25/08/1961</c>
+              <c>7/9/1961</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>João Goulart</c>
+              <c>PTB</c>
+              <c>7/9/1961</c>
+              <c>2/4/1964</c>
+            </r>
+            <r>
+              <c>27</c>
+              <c>Ranieri Mazzilli</c>
+              <c>PSD</c>
+              <c>2/4/1964</c>
+              <c>15/04/1964</c>
+            </r>
+            <r>
+              <c>28</c>
+              <c>Humberto Castelo Branco</c>
+              <c>ARENA</c>
+              <c>15/04/1964</c>
+              <c>15/03/1967</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>Artur da Costa e Silva</c>
+              <c>ARENA</c>
+              <c>15/03/1967</c>
+              <c>31/08/1969</c>
+            </r>
+            <r>
+              <c>30</c>
+              <c>Junta Governativa Provisória de 1969</c>
+              <c>nenhum</c>
+              <c>31/08/1969</c>
+              <c>30/10/1969</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Emílio Garrastazu Médici</c>
+              <c>ARENA</c>
+              <c>30/10/1969</c>
+              <c>15/03/1974</c>
+            </r>
+            <r>
+              <c>32</c>
+              <c>Ernesto Geisel</c>
+              <c>ARENA</c>
+              <c>15/03/1974</c>
+              <c>15/03/1979</c>
+            </r>
+            <r>
+              <c>33</c>
+              <c>João Figueiredo</c>
+              <c>ARENA</c>
+              <c>15/03/1979</c>
+              <c>15/03/1985</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>José Sarney</c>
+              <c>PMDB</c>
+              <c>15/03/1985</c>
+              <c>15/03/1990</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>Fernando Collor</c>
+              <c>PRN</c>
+              <c>15/03/1990</c>
+              <c>23/12/1992</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>Itamar Franco</c>
+              <c>PMDB</c>
+              <c>23/12/1992</c>
+              <c>1/1/1995</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>Fernando Henrique Cardoso</c>
+              <c>PSDB</c>
+              <c>1/1/1995</c>
+              <c>1/1/2003</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>Luiz Inácio Lula da Silva</c>
+              <c>PT</c>
+              <c>1/1/2003</c>
+              <c>1/1/2011</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>Dilma Rousseff</c>
+              <c>PT</c>
+              <c>1/1/2011</c>
+              <c>31/08/2016</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>Michel Temer</c>
+              <c>PMDB</c>
+              <c>31/08/2016</c>
+              <c>1/1/2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="348" y="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>Deodoro da Fonseca</c>
+              <c>nenhum</c>
+              <c>15/11/1889</c>
+              <c>23/11/1891</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Floriano Peixoto</c>
+              <c>nenhum</c>
+              <c>23/11/1891</c>
+              <c>15/11/1894</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Prudente de Morais</c>
+              <c>PR Federal</c>
+              <c>15/11/1894</c>
+              <c>15/11/1898</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="348" y="320" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>36</c>
+              <c>Itamar Franco</c>
+              <c>PMDB</c>
+              <c>23/12/1992</c>
+              <c>1/1/1995</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>Fernando Henrique Cardoso</c>
+              <c>PSDB</c>
+              <c>1/1/1995</c>
+              <c>1/1/2003</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>Luiz Inácio Lula da Silva</c>
+              <c>PT</c>
+              <c>1/1/2003</c>
+              <c>1/1/2011</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>Dilma Rousseff</c>
+              <c>PT</c>
+              <c>1/1/2011</c>
+              <c>31/08/2016</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>Michel Temer</c>
+              <c>PMDB</c>
+              <c>31/08/2016</c>
+              <c>1/1/2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="348" y="446" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="29" />
+          <Fields>
+            <Field name="Índice" />
+            <Field name="Nome" />
+            <Field name="Partido" />
+            <Field name="De" />
+            <Field name="Até" />
+          </Fields>
+          <Data>
+            <r>
+              <c>28</c>
+              <c>Humberto Castelo Branco</c>
+              <c>ARENA</c>
+              <c>15/04/1964</c>
+              <c>15/03/1967</c>
+            </r>
+            <r>
+              <c>29</c>
+              <c>Artur da Costa e Silva</c>
+              <c>ARENA</c>
+              <c>15/03/1967</c>
+              <c>31/08/1969</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Emílio Garrastazu Médici</c>
+              <c>ARENA</c>
+              <c>30/10/1969</c>
+              <c>15/03/1974</c>
+            </r>
+            <r>
+              <c>34</c>
+              <c>José Sarney</c>
+              <c>PMDB</c>
+              <c>15/03/1985</c>
+              <c>15/03/1990</c>
+            </r>
+            <r>
+              <c>36</c>
+              <c>Itamar Franco</c>
+              <c>PMDB</c>
+              <c>23/12/1992</c>
+              <c>1/1/1995</c>
+            </r>
+            <r>
+              <c>40</c>
+              <c>Michel Temer</c>
+              <c>PMDB</c>
+              <c>31/08/2016</c>
+              <c>1/1/2019</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>Prudente de Morais</c>
+              <c>PR Federal</c>
+              <c>15/11/1894</c>
+              <c>15/11/1898</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>Hermes da Fonseca</c>
+              <c>PRC</c>
+              <c>15/11/1910</c>
+              <c>15/11/1914</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>Nilo Peçanha</c>
+              <c>PRF</c>
+              <c>14/06/1909</c>
+              <c>15/11/1910</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>Afonso Pena</c>
+              <c>PRM</c>
+              <c>15/11/1906</c>
+              <c>14/06/1909</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>Venceslau Brás</c>
+              <c>PRM</c>
+              <c>15/11/1914</c>
+              <c>15/11/1918</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>Delfim Moreira</c>
+              <c>PRM</c>
+              <c>15/11/1918</c>
+              <c>28/07/1919</c>
+            </r>
+            <r>
+              <c>35</c>
+              <c>Fernando Collor</c>
+              <c>PRN</c>
+              <c>15/03/1990</c>
+              <c>23/12/1992</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>Campos Sales</c>
+              <c>PRP</c>
+              <c>15/11/1898</c>
+              <c>15/11/1092</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Rodrigues Alves</c>
+              <c>PRP</c>
+              <c>15/11/1092</c>
+              <c>15/11/1906</c>
+            </r>
+            <r>
+              <c>13</c>
+              <c>Washington Luís</c>
+              <c>PRP</c>
+              <c>15/11/1926</c>
+              <c>24/10/1930</c>
+            </r>
+            <r>
+              <c>18</c>
+              <c>Eurico Gaspar Dutra</c>
+              <c>PSD</c>
+              <c>31/01/1946</c>
+              <c>21/01/1951</c>
+            </r>
+            <r>
+              <c>21</c>
+              <c>Carlos Luz</c>
+              <c>PSD</c>
+              <c>8/11/1955</c>
+              <c>11/11/1955</c>
+            </r>
+            <r>
+              <c>22</c>
+              <c>Nereu Ramos</c>
+              <c>PSD</c>
+              <c>11/11/1955</c>
+              <c>31/01/1956</c>
+            </r>
+            <r>
+              <c>37</c>
+              <c>Fernando Henrique Cardoso</c>
+              <c>PSDB</c>
+              <c>1/1/1995</c>
+              <c>1/1/2003</c>
+            </r>
+            <r>
+              <c>20</c>
+              <c>Café Filho</c>
+              <c>PSP</c>
+              <c>24/08/1954</c>
+              <c>8/11/1955</c>
+            </r>
+            <r>
+              <c>38</c>
+              <c>Luiz Inácio Lula da Silva</c>
+              <c>PT</c>
+              <c>1/1/2003</c>
+              <c>1/1/2011</c>
+            </r>
+            <r>
+              <c>39</c>
+              <c>Dilma Rousseff</c>
+              <c>PT</c>
+              <c>1/1/2011</c>
+              <c>31/08/2016</c>
+            </r>
+            <r>
+              <c>19</c>
+              <c>Getúlio Vargas</c>
+              <c>PTB</c>
+              <c>21/01/1951</c>
+              <c>24/08/1954</c>
+            </r>
+            <r>
+              <c>26</c>
+              <c>João Goulart</c>
+              <c>PTB</c>
+              <c>7/9/1961</c>
+              <c>2/4/1964</c>
+            </r>
+            <r>
+              <c>24</c>
+              <c>Jânio Quadros</c>
+              <c>PTN</c>
+              <c>31/01/1961</c>
+              <c>25/08/1961</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>Deodoro da Fonseca</c>
+              <c>nenhum</c>
+              <c>15/11/1889</c>
+              <c>23/11/1891</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Floriano Peixoto</c>
+              <c>nenhum</c>
+              <c>23/11/1891</c>
+              <c>15/11/1894</c>
+            </r>
+            <r>
+              <c>14</c>
+              <c>Junta Governativa Provisória de 1930</c>
+              <c>nenhum</c>
+              <c>24/10/1930</c>
+              <c>3/11/1930</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="603" y="103" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="628" y="152" width="252" height="112" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Selecione os 3 primeiros presidentes</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="628" y="278" width="252" height="112" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Selecione os últimos 5 presidentes</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="628" y="404" width="252" height="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Selecione os 3 primeiros presidentes de cada partido</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="782" y="446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>3</N>
+              <GroupFields orderChanged="False">
+                <Field name="Partido" />
+              </GroupFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Primeiro 3</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="656" y="177" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="40" />
+              <Fields>
+                <Field name="Índice" />
+                <Field name="Nome" />
+                <Field name="Partido" />
+                <Field name="De" />
+                <Field name="Até" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>Deodoro da Fonseca</c>
+                  <c>nenhum</c>
+                  <c>15/11/1889</c>
+                  <c>23/11/1891</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Floriano Peixoto</c>
+                  <c>nenhum</c>
+                  <c>23/11/1891</c>
+                  <c>15/11/1894</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>Prudente de Morais</c>
+                  <c>PR Federal</c>
+                  <c>15/11/1894</c>
+                  <c>15/11/1898</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>Campos Sales</c>
+                  <c>PRP</c>
+                  <c>15/11/1898</c>
+                  <c>15/11/1092</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Rodrigues Alves</c>
+                  <c>PRP</c>
+                  <c>15/11/1092</c>
+                  <c>15/11/1906</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>Afonso Pena</c>
+                  <c>PRM</c>
+                  <c>15/11/1906</c>
+                  <c>14/06/1909</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>Nilo Peçanha</c>
+                  <c>PRF</c>
+                  <c>14/06/1909</c>
+                  <c>15/11/1910</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>Hermes da Fonseca</c>
+                  <c>PRC</c>
+                  <c>15/11/1910</c>
+                  <c>15/11/1914</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>Venceslau Brás</c>
+                  <c>PRM</c>
+                  <c>15/11/1914</c>
+                  <c>15/11/1918</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>Delfim Moreira</c>
+                  <c>PRM</c>
+                  <c>15/11/1918</c>
+                  <c>28/07/1919</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>Epitácio Pessoa</c>
+                  <c>PRM</c>
+                  <c>28/07/1919</c>
+                  <c>15/11/1922</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>Artur Bernardes</c>
+                  <c>PRM</c>
+                  <c>15/11/1922</c>
+                  <c>15/11/1926</c>
+                </r>
+                <r>
+                  <c>13</c>
+                  <c>Washington Luís</c>
+                  <c>PRP</c>
+                  <c>15/11/1926</c>
+                  <c>24/10/1930</c>
+                </r>
+                <r>
+                  <c>14</c>
+                  <c>Junta Governativa Provisória de 1930</c>
+                  <c>nenhum</c>
+                  <c>24/10/1930</c>
+                  <c>3/11/1930</c>
+                </r>
+                <r>
+                  <c>15</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>3/11/1930</c>
+                  <c>10/11/1937</c>
+                </r>
+                <r>
+                  <c>16</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>10/11/1937</c>
+                  <c>29/10/1945</c>
+                </r>
+                <r>
+                  <c>17</c>
+                  <c>José Linhares</c>
+                  <c>nenhum</c>
+                  <c>29/10/1945</c>
+                  <c>31/01/1946</c>
+                </r>
+                <r>
+                  <c>18</c>
+                  <c>Eurico Gaspar Dutra</c>
+                  <c>PSD</c>
+                  <c>31/01/1946</c>
+                  <c>21/01/1951</c>
+                </r>
+                <r>
+                  <c>19</c>
+                  <c>Getúlio Vargas</c>
+                  <c>PTB</c>
+                  <c>21/01/1951</c>
+                  <c>24/08/1954</c>
+                </r>
+                <r>
+                  <c>20</c>
+                  <c>Café Filho</c>
+                  <c>PSP</c>
+                  <c>24/08/1954</c>
+                  <c>8/11/1955</c>
+                </r>
+                <r>
+                  <c>21</c>
+                  <c>Carlos Luz</c>
+                  <c>PSD</c>
+                  <c>8/11/1955</c>
+                  <c>11/11/1955</c>
+                </r>
+                <r>
+                  <c>22</c>
+                  <c>Nereu Ramos</c>
+                  <c>PSD</c>
+                  <c>11/11/1955</c>
+                  <c>31/01/1956</c>
+                </r>
+                <r>
+                  <c>23</c>
+                  <c>Juscelino Kubitschek</c>
+                  <c>PSD</c>
+                  <c>31/01/1956</c>
+                  <c>31/01/1961</c>
+                </r>
+                <r>
+                  <c>24</c>
+                  <c>Jânio Quadros</c>
+                  <c>PTN</c>
+                  <c>31/01/1961</c>
+                  <c>25/08/1961</c>
+                </r>
+                <r>
+                  <c>25</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>25/08/1961</c>
+                  <c>7/9/1961</c>
+                </r>
+                <r>
+                  <c>26</c>
+                  <c>João Goulart</c>
+                  <c>PTB</c>
+                  <c>7/9/1961</c>
+                  <c>2/4/1964</c>
+                </r>
+                <r>
+                  <c>27</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>2/4/1964</c>
+                  <c>15/04/1964</c>
+                </r>
+                <r>
+                  <c>28</c>
+                  <c>Humberto Castelo Branco</c>
+                  <c>ARENA</c>
+                  <c>15/04/1964</c>
+                  <c>15/03/1967</c>
+                </r>
+                <r>
+                  <c>29</c>
+                  <c>Artur da Costa e Silva</c>
+                  <c>ARENA</c>
+                  <c>15/03/1967</c>
+                  <c>31/08/1969</c>
+                </r>
+                <r>
+                  <c>30</c>
+                  <c>Junta Governativa Provisória de 1969</c>
+                  <c>nenhum</c>
+                  <c>31/08/1969</c>
+                  <c>30/10/1969</c>
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>Emílio Garrastazu Médici</c>
+                  <c>ARENA</c>
+                  <c>30/10/1969</c>
+                  <c>15/03/1974</c>
+                </r>
+                <r>
+                  <c>32</c>
+                  <c>Ernesto Geisel</c>
+                  <c>ARENA</c>
+                  <c>15/03/1974</c>
+                  <c>15/03/1979</c>
+                </r>
+                <r>
+                  <c>33</c>
+                  <c>João Figueiredo</c>
+                  <c>ARENA</c>
+                  <c>15/03/1979</c>
+                  <c>15/03/1985</c>
+                </r>
+                <r>
+                  <c>34</c>
+                  <c>José Sarney</c>
+                  <c>PMDB</c>
+                  <c>15/03/1985</c>
+                  <c>15/03/1990</c>
+                </r>
+                <r>
+                  <c>35</c>
+                  <c>Fernando Collor</c>
+                  <c>PRN</c>
+                  <c>15/03/1990</c>
+                  <c>23/12/1992</c>
+                </r>
+                <r>
+                  <c>36</c>
+                  <c>Itamar Franco</c>
+                  <c>PMDB</c>
+                  <c>23/12/1992</c>
+                  <c>1/1/1995</c>
+                </r>
+                <r>
+                  <c>37</c>
+                  <c>Fernando Henrique Cardoso</c>
+                  <c>PSDB</c>
+                  <c>1/1/1995</c>
+                  <c>1/1/2003</c>
+                </r>
+                <r>
+                  <c>38</c>
+                  <c>Luiz Inácio Lula da Silva</c>
+                  <c>PT</c>
+                  <c>1/1/2003</c>
+                  <c>1/1/2011</c>
+                </r>
+                <r>
+                  <c>39</c>
+                  <c>Dilma Rousseff</c>
+                  <c>PT</c>
+                  <c>1/1/2011</c>
+                  <c>31/08/2016</c>
+                </r>
+                <r>
+                  <c>40</c>
+                  <c>Michel Temer</c>
+                  <c>PMDB</c>
+                  <c>31/08/2016</c>
+                  <c>1/1/2019</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="656" y="308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="40" />
+              <Fields>
+                <Field name="Índice" />
+                <Field name="Nome" />
+                <Field name="Partido" />
+                <Field name="De" />
+                <Field name="Até" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>Deodoro da Fonseca</c>
+                  <c>nenhum</c>
+                  <c>15/11/1889</c>
+                  <c>23/11/1891</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Floriano Peixoto</c>
+                  <c>nenhum</c>
+                  <c>23/11/1891</c>
+                  <c>15/11/1894</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>Prudente de Morais</c>
+                  <c>PR Federal</c>
+                  <c>15/11/1894</c>
+                  <c>15/11/1898</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>Campos Sales</c>
+                  <c>PRP</c>
+                  <c>15/11/1898</c>
+                  <c>15/11/1092</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Rodrigues Alves</c>
+                  <c>PRP</c>
+                  <c>15/11/1092</c>
+                  <c>15/11/1906</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>Afonso Pena</c>
+                  <c>PRM</c>
+                  <c>15/11/1906</c>
+                  <c>14/06/1909</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>Nilo Peçanha</c>
+                  <c>PRF</c>
+                  <c>14/06/1909</c>
+                  <c>15/11/1910</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>Hermes da Fonseca</c>
+                  <c>PRC</c>
+                  <c>15/11/1910</c>
+                  <c>15/11/1914</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>Venceslau Brás</c>
+                  <c>PRM</c>
+                  <c>15/11/1914</c>
+                  <c>15/11/1918</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>Delfim Moreira</c>
+                  <c>PRM</c>
+                  <c>15/11/1918</c>
+                  <c>28/07/1919</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>Epitácio Pessoa</c>
+                  <c>PRM</c>
+                  <c>28/07/1919</c>
+                  <c>15/11/1922</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>Artur Bernardes</c>
+                  <c>PRM</c>
+                  <c>15/11/1922</c>
+                  <c>15/11/1926</c>
+                </r>
+                <r>
+                  <c>13</c>
+                  <c>Washington Luís</c>
+                  <c>PRP</c>
+                  <c>15/11/1926</c>
+                  <c>24/10/1930</c>
+                </r>
+                <r>
+                  <c>14</c>
+                  <c>Junta Governativa Provisória de 1930</c>
+                  <c>nenhum</c>
+                  <c>24/10/1930</c>
+                  <c>3/11/1930</c>
+                </r>
+                <r>
+                  <c>15</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>3/11/1930</c>
+                  <c>10/11/1937</c>
+                </r>
+                <r>
+                  <c>16</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>10/11/1937</c>
+                  <c>29/10/1945</c>
+                </r>
+                <r>
+                  <c>17</c>
+                  <c>José Linhares</c>
+                  <c>nenhum</c>
+                  <c>29/10/1945</c>
+                  <c>31/01/1946</c>
+                </r>
+                <r>
+                  <c>18</c>
+                  <c>Eurico Gaspar Dutra</c>
+                  <c>PSD</c>
+                  <c>31/01/1946</c>
+                  <c>21/01/1951</c>
+                </r>
+                <r>
+                  <c>19</c>
+                  <c>Getúlio Vargas</c>
+                  <c>PTB</c>
+                  <c>21/01/1951</c>
+                  <c>24/08/1954</c>
+                </r>
+                <r>
+                  <c>20</c>
+                  <c>Café Filho</c>
+                  <c>PSP</c>
+                  <c>24/08/1954</c>
+                  <c>8/11/1955</c>
+                </r>
+                <r>
+                  <c>21</c>
+                  <c>Carlos Luz</c>
+                  <c>PSD</c>
+                  <c>8/11/1955</c>
+                  <c>11/11/1955</c>
+                </r>
+                <r>
+                  <c>22</c>
+                  <c>Nereu Ramos</c>
+                  <c>PSD</c>
+                  <c>11/11/1955</c>
+                  <c>31/01/1956</c>
+                </r>
+                <r>
+                  <c>23</c>
+                  <c>Juscelino Kubitschek</c>
+                  <c>PSD</c>
+                  <c>31/01/1956</c>
+                  <c>31/01/1961</c>
+                </r>
+                <r>
+                  <c>24</c>
+                  <c>Jânio Quadros</c>
+                  <c>PTN</c>
+                  <c>31/01/1961</c>
+                  <c>25/08/1961</c>
+                </r>
+                <r>
+                  <c>25</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>25/08/1961</c>
+                  <c>7/9/1961</c>
+                </r>
+                <r>
+                  <c>26</c>
+                  <c>João Goulart</c>
+                  <c>PTB</c>
+                  <c>7/9/1961</c>
+                  <c>2/4/1964</c>
+                </r>
+                <r>
+                  <c>27</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>2/4/1964</c>
+                  <c>15/04/1964</c>
+                </r>
+                <r>
+                  <c>28</c>
+                  <c>Humberto Castelo Branco</c>
+                  <c>ARENA</c>
+                  <c>15/04/1964</c>
+                  <c>15/03/1967</c>
+                </r>
+                <r>
+                  <c>29</c>
+                  <c>Artur da Costa e Silva</c>
+                  <c>ARENA</c>
+                  <c>15/03/1967</c>
+                  <c>31/08/1969</c>
+                </r>
+                <r>
+                  <c>30</c>
+                  <c>Junta Governativa Provisória de 1969</c>
+                  <c>nenhum</c>
+                  <c>31/08/1969</c>
+                  <c>30/10/1969</c>
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>Emílio Garrastazu Médici</c>
+                  <c>ARENA</c>
+                  <c>30/10/1969</c>
+                  <c>15/03/1974</c>
+                </r>
+                <r>
+                  <c>32</c>
+                  <c>Ernesto Geisel</c>
+                  <c>ARENA</c>
+                  <c>15/03/1974</c>
+                  <c>15/03/1979</c>
+                </r>
+                <r>
+                  <c>33</c>
+                  <c>João Figueiredo</c>
+                  <c>ARENA</c>
+                  <c>15/03/1979</c>
+                  <c>15/03/1985</c>
+                </r>
+                <r>
+                  <c>34</c>
+                  <c>José Sarney</c>
+                  <c>PMDB</c>
+                  <c>15/03/1985</c>
+                  <c>15/03/1990</c>
+                </r>
+                <r>
+                  <c>35</c>
+                  <c>Fernando Collor</c>
+                  <c>PRN</c>
+                  <c>15/03/1990</c>
+                  <c>23/12/1992</c>
+                </r>
+                <r>
+                  <c>36</c>
+                  <c>Itamar Franco</c>
+                  <c>PMDB</c>
+                  <c>23/12/1992</c>
+                  <c>1/1/1995</c>
+                </r>
+                <r>
+                  <c>37</c>
+                  <c>Fernando Henrique Cardoso</c>
+                  <c>PSDB</c>
+                  <c>1/1/1995</c>
+                  <c>1/1/2003</c>
+                </r>
+                <r>
+                  <c>38</c>
+                  <c>Luiz Inácio Lula da Silva</c>
+                  <c>PT</c>
+                  <c>1/1/2003</c>
+                  <c>1/1/2011</c>
+                </r>
+                <r>
+                  <c>39</c>
+                  <c>Dilma Rousseff</c>
+                  <c>PT</c>
+                  <c>1/1/2011</c>
+                  <c>31/08/2016</c>
+                </r>
+                <r>
+                  <c>40</c>
+                  <c>Michel Temer</c>
+                  <c>PMDB</c>
+                  <c>31/08/2016</c>
+                  <c>1/1/2019</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="656" y="446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="40" />
+              <Fields>
+                <Field name="Índice" />
+                <Field name="Nome" />
+                <Field name="Partido" />
+                <Field name="De" />
+                <Field name="Até" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>Deodoro da Fonseca</c>
+                  <c>nenhum</c>
+                  <c>15/11/1889</c>
+                  <c>23/11/1891</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Floriano Peixoto</c>
+                  <c>nenhum</c>
+                  <c>23/11/1891</c>
+                  <c>15/11/1894</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>Prudente de Morais</c>
+                  <c>PR Federal</c>
+                  <c>15/11/1894</c>
+                  <c>15/11/1898</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>Campos Sales</c>
+                  <c>PRP</c>
+                  <c>15/11/1898</c>
+                  <c>15/11/1092</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Rodrigues Alves</c>
+                  <c>PRP</c>
+                  <c>15/11/1092</c>
+                  <c>15/11/1906</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>Afonso Pena</c>
+                  <c>PRM</c>
+                  <c>15/11/1906</c>
+                  <c>14/06/1909</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>Nilo Peçanha</c>
+                  <c>PRF</c>
+                  <c>14/06/1909</c>
+                  <c>15/11/1910</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>Hermes da Fonseca</c>
+                  <c>PRC</c>
+                  <c>15/11/1910</c>
+                  <c>15/11/1914</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>Venceslau Brás</c>
+                  <c>PRM</c>
+                  <c>15/11/1914</c>
+                  <c>15/11/1918</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>Delfim Moreira</c>
+                  <c>PRM</c>
+                  <c>15/11/1918</c>
+                  <c>28/07/1919</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>Epitácio Pessoa</c>
+                  <c>PRM</c>
+                  <c>28/07/1919</c>
+                  <c>15/11/1922</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>Artur Bernardes</c>
+                  <c>PRM</c>
+                  <c>15/11/1922</c>
+                  <c>15/11/1926</c>
+                </r>
+                <r>
+                  <c>13</c>
+                  <c>Washington Luís</c>
+                  <c>PRP</c>
+                  <c>15/11/1926</c>
+                  <c>24/10/1930</c>
+                </r>
+                <r>
+                  <c>14</c>
+                  <c>Junta Governativa Provisória de 1930</c>
+                  <c>nenhum</c>
+                  <c>24/10/1930</c>
+                  <c>3/11/1930</c>
+                </r>
+                <r>
+                  <c>15</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>3/11/1930</c>
+                  <c>10/11/1937</c>
+                </r>
+                <r>
+                  <c>16</c>
+                  <c>Getúlio Vargas</c>
+                  <c>nenhum</c>
+                  <c>10/11/1937</c>
+                  <c>29/10/1945</c>
+                </r>
+                <r>
+                  <c>17</c>
+                  <c>José Linhares</c>
+                  <c>nenhum</c>
+                  <c>29/10/1945</c>
+                  <c>31/01/1946</c>
+                </r>
+                <r>
+                  <c>18</c>
+                  <c>Eurico Gaspar Dutra</c>
+                  <c>PSD</c>
+                  <c>31/01/1946</c>
+                  <c>21/01/1951</c>
+                </r>
+                <r>
+                  <c>19</c>
+                  <c>Getúlio Vargas</c>
+                  <c>PTB</c>
+                  <c>21/01/1951</c>
+                  <c>24/08/1954</c>
+                </r>
+                <r>
+                  <c>20</c>
+                  <c>Café Filho</c>
+                  <c>PSP</c>
+                  <c>24/08/1954</c>
+                  <c>8/11/1955</c>
+                </r>
+                <r>
+                  <c>21</c>
+                  <c>Carlos Luz</c>
+                  <c>PSD</c>
+                  <c>8/11/1955</c>
+                  <c>11/11/1955</c>
+                </r>
+                <r>
+                  <c>22</c>
+                  <c>Nereu Ramos</c>
+                  <c>PSD</c>
+                  <c>11/11/1955</c>
+                  <c>31/01/1956</c>
+                </r>
+                <r>
+                  <c>23</c>
+                  <c>Juscelino Kubitschek</c>
+                  <c>PSD</c>
+                  <c>31/01/1956</c>
+                  <c>31/01/1961</c>
+                </r>
+                <r>
+                  <c>24</c>
+                  <c>Jânio Quadros</c>
+                  <c>PTN</c>
+                  <c>31/01/1961</c>
+                  <c>25/08/1961</c>
+                </r>
+                <r>
+                  <c>25</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>25/08/1961</c>
+                  <c>7/9/1961</c>
+                </r>
+                <r>
+                  <c>26</c>
+                  <c>João Goulart</c>
+                  <c>PTB</c>
+                  <c>7/9/1961</c>
+                  <c>2/4/1964</c>
+                </r>
+                <r>
+                  <c>27</c>
+                  <c>Ranieri Mazzilli</c>
+                  <c>PSD</c>
+                  <c>2/4/1964</c>
+                  <c>15/04/1964</c>
+                </r>
+                <r>
+                  <c>28</c>
+                  <c>Humberto Castelo Branco</c>
+                  <c>ARENA</c>
+                  <c>15/04/1964</c>
+                  <c>15/03/1967</c>
+                </r>
+                <r>
+                  <c>29</c>
+                  <c>Artur da Costa e Silva</c>
+                  <c>ARENA</c>
+                  <c>15/03/1967</c>
+                  <c>31/08/1969</c>
+                </r>
+                <r>
+                  <c>30</c>
+                  <c>Junta Governativa Provisória de 1969</c>
+                  <c>nenhum</c>
+                  <c>31/08/1969</c>
+                  <c>30/10/1969</c>
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>Emílio Garrastazu Médici</c>
+                  <c>ARENA</c>
+                  <c>30/10/1969</c>
+                  <c>15/03/1974</c>
+                </r>
+                <r>
+                  <c>32</c>
+                  <c>Ernesto Geisel</c>
+                  <c>ARENA</c>
+                  <c>15/03/1974</c>
+                  <c>15/03/1979</c>
+                </r>
+                <r>
+                  <c>33</c>
+                  <c>João Figueiredo</c>
+                  <c>ARENA</c>
+                  <c>15/03/1979</c>
+                  <c>15/03/1985</c>
+                </r>
+                <r>
+                  <c>34</c>
+                  <c>José Sarney</c>
+                  <c>PMDB</c>
+                  <c>15/03/1985</c>
+                  <c>15/03/1990</c>
+                </r>
+                <r>
+                  <c>35</c>
+                  <c>Fernando Collor</c>
+                  <c>PRN</c>
+                  <c>15/03/1990</c>
+                  <c>23/12/1992</c>
+                </r>
+                <r>
+                  <c>36</c>
+                  <c>Itamar Franco</c>
+                  <c>PMDB</c>
+                  <c>23/12/1992</c>
+                  <c>1/1/1995</c>
+                </r>
+                <r>
+                  <c>37</c>
+                  <c>Fernando Henrique Cardoso</c>
+                  <c>PSDB</c>
+                  <c>1/1/1995</c>
+                  <c>1/1/2003</c>
+                </r>
+                <r>
+                  <c>38</c>
+                  <c>Luiz Inácio Lula da Silva</c>
+                  <c>PT</c>
+                  <c>1/1/2003</c>
+                  <c>1/1/2011</c>
+                </r>
+                <r>
+                  <c>39</c>
+                  <c>Dilma Rousseff</c>
+                  <c>PT</c>
+                  <c>1/1/2011</c>
+                  <c>31/08/2016</c>
+                </r>
+                <r>
+                  <c>40</c>
+                  <c>Michel Temer</c>
+                  <c>PMDB</c>
+                  <c>31/08/2016</c>
+                  <c>1/1/2019</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="780" y="177" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>First</Mode>
+              <N>3</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Primeiro 3</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+            <Position x="783" y="308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Last</Mode>
+              <N>5</N>
+              <GroupFields orderChanged="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Último 5</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="737" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="786" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-2" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AMB_PT_Amostra</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

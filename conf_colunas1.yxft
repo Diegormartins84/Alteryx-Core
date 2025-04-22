@@ -1,0 +1,18 @@
+<YXFT>
+  <fields>
+    <field name="# Cliente" type="Int32" size="4" description="" />
+    <field name="Nome" type="V_String" size="100" description="" />
+    <field name="Sobrenome" type="V_String" size="100" description="" />
+    <field name="Endereço" type="V_String" size="255" description="" />
+    <field name="Cidade" type="V_String" size="255" description="" />
+    <field name="Estado" type="V_String" size="255" description="" />
+    <field name="CEP" type="V_String" size="255" description="" />
+    <field name="Número da loja" type="Byte" size="1" description="" />
+    <field name="Segmento do Cliente" type="String" size="14" description="" />
+    <field name="Visitas" type="String" size="3" description="" />
+    <field name="Gasto total" type="Double" size="8" description="" />
+    <field name="Objeto geográfico" type="SpatialObj" size="536870911" description="" />
+    <field name="Latitude" type="Double" size="8" description="" />
+    <field name="Longitude" type="Double" size="8" description="" />
+  </fields>
+</YXFT>
