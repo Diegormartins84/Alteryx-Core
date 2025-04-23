@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="558" width="98" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Endereço</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="56" y="350" width="98" height="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Entradas Transações</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Campo 1" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Alcides|1128|Rua Indaial, 85|Joinville|89221-400</c>
+            </r>
+            <r>
+              <c>Luis|2911|Rua Anatolio Silva, 40|Blumenau|88074-476</c>
+            </r>
+            <r>
+              <c>Jailton|787|Rua Mário Mendes Marques, 96|Apucarana|86812-020</c>
+            </r>
+            <r>
+              <c>Daniel|483|Avenida Arthur Thomas, 25|Londrina|86066-000</c>
+            </r>
+            <r>
+              <c>Fernanda|466|Rua Sebastião Garbelini, 853|Maringá|87070-650</c>
+            </r>
+            <r>
+              <c>Patricia|2|Rua Wilson Eddi Faraco, 250|Criciúma|88811-213</c>
+            </r>
+            <r>
+              <c>Rafael|252|Rua São Tiago, 52|Joinville|89210-700</c>
+            </r>
+            <r>
+              <c>Sueli|3310|Rua Rodolfo Hesse, 78l|Jaraguá do Sul|89256-540</c>
+            </r>
+            <r>
+              <c>Carlos|960|Rua Santa Rita de Cássia, 32|Curitiba|80540-200</c>
+            </r>
+            <r>
+              <c>Heitor|1319|Rua Alberto Motta, 61|Tubarão|88704-140</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Campo 1" size="60" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="436" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício Prático 2</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="436" height="64" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Una os dois conjuntos de dados que 
+contêm transações de clientes com 
+o endereço de cada cliente.</Text>
+          <Font name="Montserrat" size="11.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="56" y="180" width="434" height="70" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Una as duas entradas com transações de clientes (Base 1 e Base 2) e se certifique de que não há clientes duplicados. Em seguida, junte o resultado dessa combinação com os dados de endereço, que estão separados por barras verticais.</Text>
+          <Font name="Arial" size="9" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="350" width="98" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Saída</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="70" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Base_1.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Base 1</AnnotationText>
+          <DefaultAnnotationText>Base_1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Número da loja" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Segmento do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Região" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Transações anuais" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="70" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Base_2.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Base 2</AnnotationText>
+          <DefaultAnnotationText>Base_2.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Número da loja" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Segmento do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Região" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Transações anuais" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="409" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Região" />
+            <Field name="Transações anuais" />
+            <Field name="Nome do cliente" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="CEP" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1128</c>
+              <c>108</c>
+              <c>Governo</c>
+              <c>Sul</c>
+              <c>150</c>
+              <c>Alcides</c>
+              <c>Rua Indaial, 85</c>
+              <c>Joinville</c>
+              <c>89221-400</c>
+            </r>
+            <r>
+              <c>1319</c>
+              <c>108</c>
+              <c>Governo</c>
+              <c>Sul</c>
+              <c>150</c>
+              <c>Heitor</c>
+              <c>Rua Alberto Motta, 61</c>
+              <c>Tubarão</c>
+              <c>88704-140</c>
+            </r>
+            <r>
+              <c>2911</c>
+              <c>107</c>
+              <c>Pessoa física</c>
+              <c>Sul</c>
+              <c>100</c>
+              <c>Luis</c>
+              <c>Rua Anatolio Silva, 40</c>
+              <c>Blumenau</c>
+              <c>88074-476</c>
+            </r>
+            <r>
+              <c>466</c>
+              <c>104</c>
+              <c>Pequenas empresas</c>
+              <c>Sul</c>
+              <c>50</c>
+              <c>Fernanda</c>
+              <c>Rua Sebastião Garbelini, 853</c>
+              <c>Maringá</c>
+              <c>87070-650</c>
+            </r>
+            <r>
+              <c>483</c>
+              <c>105</c>
+              <c>Corporativo</c>
+              <c>Sul</c>
+              <c>50</c>
+              <c>Daniel</c>
+              <c>Avenida Arthur Thomas, 25</c>
+              <c>Londrina</c>
+              <c>86066-000</c>
+            </r>
+            <r>
+              <c>787</c>
+              <c>104</c>
+              <c>Pessoa física</c>
+              <c>Sul</c>
+              <c>86</c>
+              <c>Jailton</c>
+              <c>Rua Mário Mendes Marques, 96</c>
+              <c>Apucarana</c>
+              <c>86812-020</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do cliente" source="TextInput:" type="Int16" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Segmento do cliente" size="17" source="TextInput:" type="V_String" />
+            <Field name="Região" size="3" source="TextInput:" type="String" />
+            <Field name="Transações anuais" source="TextInput:" type="Byte" />
+            <Field name="Nome do cliente" size="8" source="TextInput:" type="String" />
+            <Field name="Endereço" size="28" source="TextInput:" type="String" />
+            <Field name="Cidade" size="9" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="258" width="420" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Antes de postar, verifique se você 
+EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
+          <Font name="Arial" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-3" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Exercício_Prático_2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a80ee021-33fe-40ee-9059-8aa11b945bbd" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="a80ee021-33fe-40ee-9059-8aa11b945bbd" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
