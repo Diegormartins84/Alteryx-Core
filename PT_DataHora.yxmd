@@ -1037,20 +1037,20 @@ dd/MM/yy hh:mm:ss</DefaultAnnotationText>
     </Node>
     <Node ToolID="167">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
-        <Position x="606" y="222" />
+        <Position x="618" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <IsFrom value="False" />
           <InputFieldName>Data</InputFieldName>
           <Language>Portuguese</Language>
-          <Format>dd/MM/yyyy</Format>
+          <Format>dd Month, yyyy</Format>
           <OutputFieldName>Data formatada</OutputFieldName>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Converter Data De:
-dd/MM/yyyy</DefaultAnnotationText>
+Personalizado</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -1086,13 +1086,13 @@ day, d' de 'Month' de 'yyyy</DefaultAnnotationText>
           <IsFrom value="False" />
           <InputFieldName>Data</InputFieldName>
           <Language>Portuguese</Language>
-          <Format>yyyy-MM-dd hh:mm:ss</Format>
+          <Format>dd/MM/yyyy hh:mm:ss</Format>
           <OutputFieldName>DateTime_Out</OutputFieldName>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Converter Data De:
-yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
+dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -1107,7 +1107,7 @@ yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
           <IsFrom value="True" />
           <InputFieldName>Data</InputFieldName>
           <Language>Portuguese</Language>
-          <Format>day, janeiro yyyy</Format>
+          <Format>day, Month yyyy</Format>
           <OutputFieldName>Data formatada</OutputFieldName>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -1128,28 +1128,94 @@ Personalizado</DefaultAnnotationText>
           <IsFrom value="False" />
           <InputFieldName>Data</InputFieldName>
           <Language>Portuguese</Language>
-          <Format>yyyy-MM-dd hh:mm:ss</Format>
+          <Format>yyyy:mm:dd---hh|mm|ss</Format>
           <OutputFieldName>DateTime_Out</OutputFieldName>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Converter Data De:
-yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
+Personalizado</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
     </Node>
+    <Node ToolID="173">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="486" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="11" />
+          <Fields>
+            <Field name="Field2" />
+            <Field name="Field3" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01 Janeiro, 2019</c>
+              <c>2019-01-01</c>
+            </r>
+            <r>
+              <c>02 Janeiro, 2019</c>
+              <c>2019-01-02</c>
+            </r>
+            <r>
+              <c>03 Janeiro, 2019</c>
+              <c>2019-01-03</c>
+            </r>
+            <r>
+              <c>04 Janeiro, 2019</c>
+              <c>2019-01-04</c>
+            </r>
+            <r>
+              <c>05 Janeiro, 2019</c>
+              <c>2019-01-05</c>
+            </r>
+            <r>
+              <c>06 Janeiro, 2019</c>
+              <c>2019-01-06</c>
+            </r>
+            <r>
+              <c>07 Janeiro, 2019</c>
+              <c>2019-01-07</c>
+            </r>
+            <r>
+              <c>08 Janeiro, 2019</c>
+              <c>2019-01-08</c>
+            </r>
+            <r>
+              <c>09 Janeiro, 2019</c>
+              <c>2019-01-09</c>
+            </r>
+            <r>
+              <c>10 Janeiro, 2019</c>
+              <c>2019-01-10</c>
+            </r>
+            <r>
+              <c />
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
     <Node ToolID="143">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="953" y="116" width="128" height="24" />
+        <Position x="953" y="115" width="585" height="525" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Soluções</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="False" />
-          <Folded value="True" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />

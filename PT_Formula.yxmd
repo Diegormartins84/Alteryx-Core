@@ -1,0 +1,5454 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="320" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Usando a função CountWords() - contar palavras, crie uma nova coluna chamada 'Contagem' que contém o número de palavras em cada linha da coluna 'Endereço'</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="320" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Crie um novo campo chamado 'Nome completo'. No novo campo, junte o conteúdo das colunas 'Nome' e 'Sobrenome'.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="152" width="252" height="140" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Converta as colunas 'Nome' e 'Sobrenome' de maneira que somente a primeira letra de cada palavra seja maiúscula.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="152" width="252" height="140" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Converta a coluna 'Segmento do cliente' para letras maiúsculas.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="137">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="502" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Alguns CEPs têm mais de 9 dígitos - use a função Left() para reescrever o campo 'CEP' com os primeiros 5 caracteres do código postal.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="502" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Usando as funções CountWords() e GetWord(), crie uma nova coluna chamada 'Número do local' contendo o número da residência do cliente.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="670" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Queremos renomear alguns dos segmentos de clientes em nossos dados.
+Usando uma instrução condicional, defina 'CORPORATIVO' como 'CORP', 'HOME OFFICE' como 'RESIDENCIAL' e qualquer outra coisa como 'OUTRO'.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="138">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="670" width="252" height="154" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Queremos criar um novo campo chamado 'Rodízio de carros'. Usando a função IIF(), defina qualquer cliente no estado de São Paulo como 'Sim' e todos os outros clientes como 'Não'.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="838" width="252" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Crie uma nova coluna chamada 'Total formatado'. Use a função ToString() para adicionar vírgulas para a casa dos milhares, definir o número para 2 casas decimais e adicionar um 'R$' antes dos valores. ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="838" width="252" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Crie uma nova coluna chamada 'Total' que calcula o valor total que o cliente pagará por cada item considerando o imposto. (DICA: o imposto está em porcentagem!)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="66" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Fórmula</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1076" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="96" width="938" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Fórmula para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>Corporativo</c>
+              <c>No</c>
+              <c>YASMIN</c>
+              <c>MELO</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>Corporativo</c>
+              <c>No</c>
+              <c>LUÍS</c>
+              <c>RIBEIRO</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>MARCOS</c>
+              <c>PINTO</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>ISABELLE</c>
+              <c>RODRIGUES</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>LUIS</c>
+              <c>SOUZA</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>CAMILA</c>
+              <c>CUNHA</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>ÁGATHA</c>
+              <c>MELO</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>RAFAEL</c>
+              <c>ARAUJO</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>VICTOR</c>
+              <c>FERREIRA</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>Home Office</c>
+              <c>No</c>
+              <c>LARISSA</c>
+              <c>PINTO</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="936" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Preço do produto" />
+            <Field name="Imposto (%)" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1512.00</c>
+              <c>7.3</c>
+            </r>
+            <r>
+              <c>3344.22</c>
+              <c>6.2</c>
+            </r>
+            <r>
+              <c>5943.01</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>2343.12</c>
+              <c>2.9</c>
+            </r>
+            <r>
+              <c>58433.81</c>
+              <c>3.5</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="572" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="754" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>MÉDIA EMPRESA</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="544" y="936" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Preço do produto" />
+            <Field name="Imposto (%)" />
+            <Field name="Total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1512</c>
+              <c>7.3</c>
+              <c>1622.38</c>
+            </r>
+            <r>
+              <c>3344.22</c>
+              <c>6.2</c>
+              <c>3551.56</c>
+            </r>
+            <r>
+              <c>5943.01</c>
+              <c>4.5</c>
+              <c>6210.45</c>
+            </r>
+            <r>
+              <c>2343.12</c>
+              <c>2.9</c>
+              <c>2411.07</c>
+            </r>
+            <r>
+              <c>58433.81</c>
+              <c>3.5</c>
+              <c>60478.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="139">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="558" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>YASMIN</c>
+              <c>MELO</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>LUÍS</c>
+              <c>RIBEIRO</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>MARCOS</c>
+              <c>PINTO</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>ISABELLE</c>
+              <c>RODRIGUES</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>LUIS</c>
+              <c>SOUZA</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>CAMILA</c>
+              <c>CUNHA</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>ÁGATHA</c>
+              <c>MELO</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>RAFAEL</c>
+              <c>ARAUJO</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>VICTOR</c>
+              <c>FERREIRA</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>LARISSA</c>
+              <c>PINTO</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="558" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="141">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="558" y="572" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221000</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584004</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-5900000</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-1601234</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="544" y="754" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>MÉDIA EMPRESA</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="143">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="320" y="152" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="782" y="152" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="145">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="320" y="320" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="320" y="502" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="320" y="670" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="320" y="838" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="782" y="320" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="782" y="502" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="782" y="670" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="782" y="838" width="140" height="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="362" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>YASMIN</c>
+              <c>MELO</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>LUÍS</c>
+              <c>RIBEIRO</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>MARCOS</c>
+              <c>PINTO</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>ISABELLE</c>
+              <c>RODRIGUES</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>LUIS</c>
+              <c>SOUZA</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>CAMILA</c>
+              <c>CUNHA</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>ÁGATHA</c>
+              <c>MELO</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>RAFAEL</c>
+              <c>ARAUJO</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>VICTOR</c>
+              <c>FERREIRA</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>LARISSA</c>
+              <c>PINTO</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="362" y="362" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+            <Field name="Nome completo" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+              <c>Yasmin Melo</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+              <c>Luís Ribeiro</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+              <c>Marcos Pinto</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+              <c>Isabelle Rodrigues</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+              <c>Luis Souza</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+              <c>Camila Cunha</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+              <c>Ágatha Melo</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+              <c>Rafael Araujo</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+              <c>Victor Ferreira</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+              <c>Larissa Pinto</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="362" y="544" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+            <Field name="Número do local" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+              <c>1370</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+              <c>1789</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+              <c>527</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+              <c>116</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+              <c>1009</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+              <c>1959</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+              <c>1256</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+              <c>915</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+              <c>865</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+              <c>881</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="362" y="712" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORP</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORP</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>RESIDENCIAL</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>RESIDENCIAL</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>OUTRO</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>RESIDENCIAL</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>RESIDENCIAL</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>RESIDENCIAL</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>OUTRO</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>OUTRO</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="362" y="880" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Preço do produto" />
+            <Field name="Imposto (%)" />
+            <Field name="Total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1512</c>
+              <c>7.3</c>
+              <c>1622.38</c>
+            </r>
+            <r>
+              <c>3344.22</c>
+              <c>6.2</c>
+              <c>3551.56</c>
+            </r>
+            <r>
+              <c>5943.01</c>
+              <c>4.5</c>
+              <c>6210.45</c>
+            </r>
+            <r>
+              <c>2343.12</c>
+              <c>2.9</c>
+              <c>2411.07</c>
+            </r>
+            <r>
+              <c>58433.81</c>
+              <c>3.5</c>
+              <c>60478.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="158">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="824" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="824" y="362" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+            <Field name="Contagem" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+              <c>5</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="160">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="824" y="544" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="161">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="824" y="712" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do cliente" />
+            <Field name="Número da loja" />
+            <Field name="Segmento do cliente" />
+            <Field name="Ativo" />
+            <Field name="Nome" />
+            <Field name="Sobrenome" />
+            <Field name="Endereço" />
+            <Field name="Cidade" />
+            <Field name="Estado" />
+            <Field name="CEP" />
+            <Field name="Lat" />
+            <Field name="Lon" />
+            <Field name="Rodízio de carros" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Yasmin</c>
+              <c>Melo</c>
+              <c>ESTRADA FONTE LIMPA 1370</c>
+              <c>ITAGUAÍ</c>
+              <c>RJ</c>
+              <c>23835-221</c>
+              <c>39.7097342857143</c>
+              <c>-104.918581741593</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>100</c>
+              <c>CORPORATIVO</c>
+              <c>No</c>
+              <c>Luís</c>
+              <c>Ribeiro</c>
+              <c>RUA MAGÉ 1789</c>
+              <c>JABOATÃO DOS GUARARAPES</c>
+              <c>PE</c>
+              <c>54490-185</c>
+              <c>39.7009275356545</c>
+              <c>-105.012175941854</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Marcos</c>
+              <c>Pinto</c>
+              <c>AVENIDA LUIZ PASTEUR 527</c>
+              <c>SAPUCAIA DO SUL</c>
+              <c>RS</c>
+              <c>93230-280</c>
+              <c>39.7939240392764</c>
+              <c>-105.015644744517</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>106</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Isabelle</c>
+              <c>Rodrigues</c>
+              <c>RUA ROVERE TROMBETTA 116</c>
+              <c>VALINHOS</c>
+              <c>SP</c>
+              <c>13277-584</c>
+              <c>39.74162</c>
+              <c>-104.966148340861</c>
+              <c>Sim</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>105</c>
+              <c>MÉDIA EMPRESA</c>
+              <c>No</c>
+              <c>Luis</c>
+              <c>Souza</c>
+              <c>RUA DEUS É GRANDE 1009</c>
+              <c>ARAGUAÍNA</c>
+              <c>TO</c>
+              <c>77808-590</c>
+              <c>39.6064016372081</c>
+              <c>-104.849237400256</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>101</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Camila</c>
+              <c>Cunha</c>
+              <c>RUA VENTO NORTE 1959</c>
+              <c>PETROLINA</c>
+              <c>PE</c>
+              <c>56330-605</c>
+              <c>39.5871251428571</c>
+              <c>-104.962487942571</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>105</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Ágatha</c>
+              <c>Melo</c>
+              <c>RUA DAS GREVÍLEAS 1256</c>
+              <c>LONDRINA</c>
+              <c>PR</c>
+              <c>86050-590</c>
+              <c>39.778242949727</c>
+              <c>-104.829779947848</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>100</c>
+              <c>HOME OFFICE</c>
+              <c>No</c>
+              <c>Rafael</c>
+              <c>Araujo</c>
+              <c>ALAMEDA DOS CAMBARÁS 915</c>
+              <c>CAMPINAS</c>
+              <c>SP</c>
+              <c>13101-640</c>
+              <c>39.7239928674084</c>
+              <c>-104.959232244898</c>
+              <c>Sim</c>
+            </r>
+            <r>
+              <c>11</c>
+              <c>106</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Victor</c>
+              <c>Ferreira</c>
+              <c>RUA B 4 865</c>
+              <c>CUIABÁ</c>
+              <c>MT</c>
+              <c>78055-675</c>
+              <c>39.7707029975632</c>
+              <c>-105.040646477717</c>
+              <c>Não</c>
+            </r>
+            <r>
+              <c>12</c>
+              <c>108</c>
+              <c>GOVERNO</c>
+              <c>No</c>
+              <c>Larissa</c>
+              <c>Pinto</c>
+              <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+              <c>SÃO PAULO</c>
+              <c>SP</c>
+              <c>04950-160</c>
+              <c>39.746908566321</c>
+              <c>-105.082754280269</c>
+              <c>Sim</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="162">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="824" y="866" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Preço do produto" />
+            <Field name="Imposto (%)" />
+            <Field name="Total" />
+            <Field name="Total formatado" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1512</c>
+              <c>7.3</c>
+              <c>1622.38</c>
+              <c>R$ 1,622.38</c>
+            </r>
+            <r>
+              <c>3344.22</c>
+              <c>6.2</c>
+              <c>3551.56</c>
+              <c>R$ 3,551.56</c>
+            </r>
+            <r>
+              <c>5943.01</c>
+              <c>4.5</c>
+              <c>6210.45</c>
+              <c>R$ 6,210.45</c>
+            </r>
+            <r>
+              <c>2343.12</c>
+              <c>2.9</c>
+              <c>2411.07</c>
+              <c>R$ 2,411.07</c>
+            </r>
+            <r>
+              <c>58433.81</c>
+              <c>3.5</c>
+              <c>60478.99</c>
+              <c>R$ 60,478.99</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1121" y="116" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1426" y="320" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Usando a função CountWords() - contar palavras, crie uma nova coluna chamada 'Contagem' que contém o número de palavras em cada linha da coluna 'Endereço'</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="320" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Crie um novo campo chamado 'Nome completo'. No novo campo, junte o conteúdo das colunas 'Nome' e 'Sobrenome'.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="838" width="252" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Crie uma nova coluna chamada 'Total' que calcula o valor total que o cliente pagará por cada item considerando o imposto. (DICA: o imposto está em porcentagem!)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="97">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1426" y="838" width="252" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Crie uma nova coluna chamada 'Total formatado'. Use a função ToString() para adicionar vírgulas para a casa dos milhares, definir o número para 2 casas decimais e adicionar um 'R$' antes dos valores.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1426" y="670" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Queremos criar um novo campo chamado 'Rodízio de carros'. Usando a função IIF(), defina qualquer cliente no estado de São Paulo como 'Sim' e todos os outros clientes como 'Não'.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="669" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Queremos renomear alguns dos segmentos de clientes em nossos dados.
+Usando uma instrução condicional, defina 'CORPORATIVO' como 'CORP', 'HOME OFFICE' como 'RESIDENCIAL' e qualquer outra coisa como 'OUTRO'.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1426" y="502" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Alguns CEPs têm mais de 9 dígitos - use a função Left() para reescrever o campo 'CEP' com os primeiros 5 caracteres do código postal.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="502" width="252" height="154" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Usando as funções CountWords() e GetWord(), crie uma nova coluna chamada 'Número do local' contendo o número da residência do cliente.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1426" y="164" width="252" height="140" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Converta as colunas 'Nome' e 'Sobrenome' de maneira que somente a primeira letra de cada palavra seja maiúscula.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="165" width="252" height="140" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Converta a coluna 'Segmento do cliente' para letras maiúsculas.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1174" y="754" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>MÉDIA EMPRESA</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>GOVERNO</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>GOVERNO</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1314" y="908" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="(([Imposto (%)]/100)*[Preço do produto])+[Preço do produto]" field="Total" size="19.2" type="FixedDecimal" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Total = (([Imposto (%)]/100)*[Preço do produto])+[Preço do produto]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1314" y="572" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="getword([Endereço],CountWords([Endereço])-1)" field="Número do local" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Número do local = getword([Endereço],CountWords([Endereço])-1)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1468" y="572" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221000</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584004</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-5900000</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-1601234</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1468" y="208" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>YASMIN</c>
+                  <c>MELO</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>LUÍS</c>
+                  <c>RIBEIRO</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>MARCOS</c>
+                  <c>PINTO</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>ISABELLE</c>
+                  <c>RODRIGUES</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>LUIS</c>
+                  <c>SOUZA</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>CAMILA</c>
+                  <c>CUNHA</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>ÁGATHA</c>
+                  <c>MELO</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>RAFAEL</c>
+                  <c>ARAUJO</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>VICTOR</c>
+                  <c>FERREIRA</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>LARISSA</c>
+                  <c>PINTO</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="95">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1174" y="906" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="Preço do produto" />
+                <Field name="Imposto (%)" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1512.00</c>
+                  <c>7.3</c>
+                </r>
+                <r>
+                  <c>3344.22</c>
+                  <c>6.2</c>
+                </r>
+                <r>
+                  <c>5943.01</c>
+                  <c>4.5</c>
+                </r>
+                <r>
+                  <c>2343.12</c>
+                  <c>2.9</c>
+                </r>
+                <r>
+                  <c>58433.81</c>
+                  <c>3.5</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1174" y="572" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1174" y="403" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1300" y="404" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Nome]+' '+[Sobrenome]" field="Nome completo" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Nome completo = [Nome]+' '+[Sobrenome]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1580" y="572" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Left([CEP], 5)" field="CEP" size="13" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[CEP = Left([CEP], 5)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1580" y="207" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="TitleCase([Nome])" field="Nome" size="8" type="String" />
+                <FormulaField expression="TitleCase([Sobrenome])" field="Sobrenome" size="9" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Nome = TitleCase([Nome])
+Sobrenome = TitleCase([Sobrenome])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1454" y="754" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>MÉDIA EMPRESA</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>GOVERNO</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>GOVERNO</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1174" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>Corporativo</c>
+                  <c>No</c>
+                  <c>YASMIN</c>
+                  <c>MELO</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>Corporativo</c>
+                  <c>No</c>
+                  <c>LUÍS</c>
+                  <c>RIBEIRO</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>MARCOS</c>
+                  <c>PINTO</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>ISABELLE</c>
+                  <c>RODRIGUES</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>LUIS</c>
+                  <c>SOUZA</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>CAMILA</c>
+                  <c>CUNHA</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>ÁGATHA</c>
+                  <c>MELO</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>RAFAEL</c>
+                  <c>ARAUJO</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>VICTOR</c>
+                  <c>FERREIRA</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>Home Office</c>
+                  <c>No</c>
+                  <c>LARISSA</c>
+                  <c>PINTO</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1300" y="754" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [Segmento do cliente]='CORPORATIVO' THEN 'CORP'&#xA;ELSEIF [Segmento do cliente]='HOME OFFICE' THEN 'RESIDENCIAL'&#xA;ELSE 'OUTRO' ENDIF" field="Segmento do cliente" size="13" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Segmento do cliente = IF [Segmento do cliente]='CORPORATIVO' THEN 'CORP'
+ELSEIF ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1300" y="208" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Uppercase([Segmento do cliente])" field="Segmento do cliente" size="11" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Segmento do cliente = Uppercase([Segmento do cliente])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1580" y="754" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([Estado]='SP', 'Sim', 'Não')&#xA;" field="Rodízio de carros" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Rodízio de carros = IIF([Estado]='SP', 'Sim', 'Não')
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1468" y="404" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="ID do cliente" />
+                <Field name="Número da loja" />
+                <Field name="Segmento do cliente" />
+                <Field name="Ativo" />
+                <Field name="Nome" />
+                <Field name="Sobrenome" />
+                <Field name="Endereço" />
+                <Field name="Cidade" />
+                <Field name="Estado" />
+                <Field name="CEP" />
+                <Field name="Lat" />
+                <Field name="Lon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Yasmin</c>
+                  <c>Melo</c>
+                  <c>ESTRADA FONTE LIMPA 1370</c>
+                  <c>ITAGUAÍ</c>
+                  <c>RJ</c>
+                  <c>23835-221</c>
+                  <c>39.7097342857143</c>
+                  <c>-104.918581741593</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>100</c>
+                  <c>CORPORATIVO</c>
+                  <c>No</c>
+                  <c>Luís</c>
+                  <c>Ribeiro</c>
+                  <c>RUA MAGÉ 1789</c>
+                  <c>JABOATÃO DOS GUARARAPES</c>
+                  <c>PE</c>
+                  <c>54490-185</c>
+                  <c>39.7009275356545</c>
+                  <c>-105.012175941854</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Marcos</c>
+                  <c>Pinto</c>
+                  <c>AVENIDA LUIZ PASTEUR 527</c>
+                  <c>SAPUCAIA DO SUL</c>
+                  <c>RS</c>
+                  <c>93230-280</c>
+                  <c>39.7939240392764</c>
+                  <c>-105.015644744517</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Isabelle</c>
+                  <c>Rodrigues</c>
+                  <c>RUA ROVERE TROMBETTA 116</c>
+                  <c>VALINHOS</c>
+                  <c>SP</c>
+                  <c>13277-584</c>
+                  <c>39.74162</c>
+                  <c>-104.966148340861</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Luis</c>
+                  <c>Souza</c>
+                  <c>RUA DEUS É GRANDE 1009</c>
+                  <c>ARAGUAÍNA</c>
+                  <c>TO</c>
+                  <c>77808-590</c>
+                  <c>39.6064016372081</c>
+                  <c>-104.849237400256</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>101</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Camila</c>
+                  <c>Cunha</c>
+                  <c>RUA VENTO NORTE 1959</c>
+                  <c>PETROLINA</c>
+                  <c>PE</c>
+                  <c>56330-605</c>
+                  <c>39.5871251428571</c>
+                  <c>-104.962487942571</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>105</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Ágatha</c>
+                  <c>Melo</c>
+                  <c>RUA DAS GREVÍLEAS 1256</c>
+                  <c>LONDRINA</c>
+                  <c>PR</c>
+                  <c>86050-590</c>
+                  <c>39.778242949727</c>
+                  <c>-104.829779947848</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>100</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Rafael</c>
+                  <c>Araujo</c>
+                  <c>ALAMEDA DOS CAMBARÁS 915</c>
+                  <c>CAMPINAS</c>
+                  <c>SP</c>
+                  <c>13101-640</c>
+                  <c>39.7239928674084</c>
+                  <c>-104.959232244898</c>
+                </r>
+                <r>
+                  <c>11</c>
+                  <c>106</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Victor</c>
+                  <c>Ferreira</c>
+                  <c>RUA B 4 865</c>
+                  <c>CUIABÁ</c>
+                  <c>MT</c>
+                  <c>78055-675</c>
+                  <c>39.7707029975632</c>
+                  <c>-105.040646477717</c>
+                </r>
+                <r>
+                  <c>12</c>
+                  <c>108</c>
+                  <c>HOME OFFICE</c>
+                  <c>No</c>
+                  <c>Larissa</c>
+                  <c>Pinto</c>
+                  <c>RUA REPÚBLICA CENTRO AFRICANA 881</c>
+                  <c>SÃO PAULO</c>
+                  <c>SP</c>
+                  <c>04950-160</c>
+                  <c>39.746908566321</c>
+                  <c>-105.082754280269</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1580" y="404" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="CountWords([Endereço])" field="Contagem" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Contagem = CountWords([Endereço])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1453" y="935" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="Preço do produto" />
+                <Field name="Imposto (%)" />
+                <Field name="Total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1512</c>
+                  <c>7.3</c>
+                  <c>1622.38</c>
+                </r>
+                <r>
+                  <c>3344.22</c>
+                  <c>6.2</c>
+                  <c>3551.56</c>
+                </r>
+                <r>
+                  <c>5943.01</c>
+                  <c>4.5</c>
+                  <c>6210.45</c>
+                </r>
+                <r>
+                  <c>2343.12</c>
+                  <c>2.9</c>
+                  <c>2411.07</c>
+                </r>
+                <r>
+                  <c>58433.81</c>
+                  <c>3.5</c>
+                  <c>60478.99</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1580" y="936" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'R$ '+ToString([Total], 2,1)" field="Total formatado" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Total formatado = 'R$ '+ToString([Total], 2,1)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1301" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1350" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-2" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AMB_PT_Formula</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
