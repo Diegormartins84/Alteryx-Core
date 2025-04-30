@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2024.2">
+<AlteryxDocument yxmdVer="2020.4">
   <Nodes>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -3450,209 +3450,16 @@ Usando uma instrução condicional, defina 'CORPORATIVO' como 'CORP', 'HOME OFFI
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
-    <Node ToolID="163">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="Uppercase([Segmento do cliente])" field="Segmento do cliente" size="11" type="String" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Segmento do cliente = Uppercase([Segmento do cliente])
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="164">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="[Nome]+' '+[Sobrenome]" field="Nome completo" size="1073741823" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Nome completo = [Nome]+' '+[Sobrenome]
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="165">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="GetWord([Endereço],CountWords([Endereço]) -1)&#xA;" field="Número do local" size="1073741823" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Número do local = GetWord([Endereço],CountWords([Endereço]) -1)
-
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="166">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="750" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="IF [Segmento do cliente] = 'CORPORATIVO' then 'CORP'&#xA;ELSEIF [Segmento do cliente]='HOME OFFICE' then 'RESIDENCIAL'&#xA;ELSE 'OUTRO'&#xA;ENDIF" field="Segmento do cliente" size="13" type="String" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Segmento do cliente = IF [Segmento do cliente] = 'CORPORATIVO' then 'CORP'
-ELSEI...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="167">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="186" y="930" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="[Preço do produto] + ([Preço do produto] * ([Imposto (%)]/100))" field="Total" size="19.2" type="FixedDecimal" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Total = [Preço do produto] + ([Preço do produto] * ([Imposto (%)]/100))
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="168">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="666" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="TitleCase([Nome])" field="Nome" size="8" type="String" enabled="true" />
-            <FormulaField expression="TitleCase([Sobrenome])" field="Sobrenome" size="9" type="String" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Nome = TitleCase([Nome])
-Sobrenome = TitleCase([Sobrenome])
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="169">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="654" y="390" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="CountWords([Endereço])" field="Contagem" size="1073741823" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Contagem = CountWords([Endereço])
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="170">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="654" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="Left([CEP], 5)" field="CEP" size="13" type="String" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[CEP = Left([CEP], 5)
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="171">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="630" y="750" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="IIF([Estado] = 'SP', 'Sim', 'Não')" field="Rodízio de carros" size="1073741823" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Rodízio de carros = IIF([Estado] = 'SP', 'Sim', 'Não')
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="172">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="642" y="930" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="'R$ ' + ToString([Total], 2,1)" field="Total formatado" size="1073741823" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Total formatado = 'R$ ' + ToString([Total], 2,1)
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1121" y="115" width="582" height="916" />
+        <Position x="1121" y="116" width="130" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Caption>Soluções</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="False" />
-          <Folded value="False" />
+          <Folded value="True" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -5566,46 +5373,6 @@ ELSEIF ...</DefaultAnnotationText>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="126" Connection="Output" />
-      <Destination ToolID="163" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="129" Connection="Output" />
-      <Destination ToolID="167" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="130" Connection="Output" />
-      <Destination ToolID="164" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="131" Connection="Output" />
-      <Destination ToolID="165" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="132" Connection="Output" />
-      <Destination ToolID="166" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="134" Connection="Output" />
-      <Destination ToolID="172" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="139" Connection="Output" />
-      <Destination ToolID="168" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="140" Connection="Output" />
-      <Destination ToolID="169" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="141" Connection="Output" />
-      <Destination ToolID="170" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="142" Connection="Output" />
-      <Destination ToolID="171" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="109" Connection="Output" />
       <Destination ToolID="90" Connection="Input" />
     </Connection>
@@ -5656,17 +5423,15 @@ ELSEIF ...</DefaultAnnotationText>
     <CancelOnError value="False" />
     <DisableBrowse value="False" />
     <EnablePerformanceProfiling value="False" />
-    <PredictiveToolsCodePage value="1252" />
     <DisableAllOutput value="False" />
     <ShowAllMacroMessages value="False" />
     <ShowConnectionStatusIsOn value="True" />
     <ShowConnectionStatusOnlyWhenRunning value="True" />
     <ZoomLevel value="-2" />
     <LayoutType>Horizontal</LayoutType>
-    <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>PT_Formula</Name>
+      <Name>AMB_PT_Formula</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -5681,12 +5446,6 @@ ELSEIF ...</DefaultAnnotationText>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="c6f7b006-ac48-47e3-ade0-b387a3d4798f" />
-      <Telemetry>
-        <PreviousWorkflowId value="" />
-        <OriginWorkflowId value="c6f7b006-ac48-47e3-ade0-b387a3d4798f" />
-      </Telemetry>
-      <PlatformWorkflowId value="" />
     </MetaInfo>
     <Events>
       <Enabled value="True" />
