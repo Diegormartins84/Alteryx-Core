@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2024.2">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2021.3">
   <Nodes>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -89,6 +89,11 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Campo 1" size="60" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -190,6 +195,9 @@ o endereço de cada cliente.</Text>
           <DefaultAnnotationText>Base_1.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_1.xlsx|||`Planilha1$`" type="V_String" />
@@ -218,6 +226,9 @@ o endereço de cada cliente.</Text>
           <DefaultAnnotationText>Base_2.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID do cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Exercises 20181\Practice Exercise 2\Base_2.xlsx|||`Planilha1$`" type="V_String" />
@@ -322,6 +333,19 @@ o endereço de cada cliente.</Text>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do cliente" source="TextInput:" type="Int16" />
+            <Field name="Número da loja" source="TextInput:" type="Byte" />
+            <Field name="Segmento do cliente" size="17" source="TextInput:" type="V_String" />
+            <Field name="Região" size="3" source="TextInput:" type="String" />
+            <Field name="Transações anuais" source="TextInput:" type="Byte" />
+            <Field name="Nome do cliente" size="8" source="TextInput:" type="String" />
+            <Field name="Endereço" size="28" source="TextInput:" type="String" />
+            <Field name="Cidade" size="9" source="TextInput:" type="String" />
+            <Field name="CEP" size="9" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
     </Node>
@@ -346,185 +370,8 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="27">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="186" y="414" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
-          <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
-    </Node>
-    <Node ToolID="29">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="390" y="498" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="ID do cliente" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="ID do cliente" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_Campo 1" selected="False" input="Right_" />
-                <SelectField field="Right_ID do cliente" selected="False" rename="Right_ID do cliente" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="32">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="198" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Field>Campo 1</Field>
-          <ErrorHandling>Last</ErrorHandling>
-          <RootName>
-          </RootName>
-          <Delimeters value="|" />
-          <NumFields value="5" />
-          <Flags value="0" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
-    </Node>
-    <Node ToolID="36">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="282" y="414" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="ID do cliente" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="37">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="486" y="498" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\diego\AppData\Local\Temp\Alteryx\Engine_7300_0efd4f633c674d79a264ab2077547038_\Engine_15868_35ef963a4d134272b959610d54d4eb1f_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Perfil</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="38">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="1" selected="True" rename="Nome" />
-            <SelectField field="2" selected="True" rename="ID do cliente" />
-            <SelectField field="3" selected="True" rename="Endereço" />
-            <SelectField field="4" selected="True" rename="Cidade" />
-            <SelectField field="5" selected="True" rename="CEP" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
   </Nodes>
-  <Connections>
-    <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="32" Connection="Input" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="20" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection name="#2">
-      <Origin ToolID="21" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="36" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="29" Connection="Join" />
-      <Destination ToolID="37" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="32" Connection="Output" />
-      <Destination ToolID="38" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="36" Connection="Unique" />
-      <Destination ToolID="29" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="38" Connection="Output" />
-      <Destination ToolID="29" Connection="Right" />
-    </Connection>
-  </Connections>
+  <Connections />
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
@@ -542,7 +389,6 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
     <ShowConnectionStatusOnlyWhenRunning value="True" />
     <ZoomLevel value="-3" />
     <LayoutType>Horizontal</LayoutType>
-    <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
       <Name>PT_Exercício_Prático_2</Name>
@@ -565,7 +411,6 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
         <PreviousWorkflowId value="" />
         <OriginWorkflowId value="a80ee021-33fe-40ee-9059-8aa11b945bbd" />
       </Telemetry>
-      <PlatformWorkflowId value="" />
     </MetaInfo>
     <Events>
       <Enabled value="True" />

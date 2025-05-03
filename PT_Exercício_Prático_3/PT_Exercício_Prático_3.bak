@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="57" y="600" width="126" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Detalhes do pedido</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="513" y="222" width="104" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Saída</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="57" y="456" width="126" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Base de clientes Exercício 2</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="85" y="484" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Base_Clientes_Exercício_2.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Base_Clientes_Exercício_2.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do cliente" size="255" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Número da loja" size="255" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Segmento do cliente" size="255" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Região" size="255" source="File: (Multiple Sources)" type="V_String" />
+            <Field name="Transações anuais" source="File: (Multiple Sources)" type="Double" />
+            <Field description="TextToColumns: Parsed from Campo 1" name="Nome do cliente" size="60" source="TextToColumns: Parsed from Campo 1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Campo 1" name="Endereço" size="60" source="TextToColumns: Parsed from Campo 1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Campo 1" name="Cidade" size="60" source="TextToColumns: Parsed from Campo 1" type="V_String" />
+            <Field description="TextToColumns: Parsed from Campo 1" name="CEP" size="60" source="TextToColumns: Parsed from Campo 1" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="57" y="54" width="420" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício Prático 3</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="57" y="102" width="420" height="92" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Combine a base de clientes do Exercício Prático 2 com o conjunto de dados "Detalhes do pedido" para encontrar o total geral e o total que cada cliente economizou por pedido.</Text>
+          <Font name="Montserrat" size="11.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="208" width="432" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Combine as informações dos clientes do exercício 2 com o conjunto de dados "Detalhes do pedido". Certifique-se de que as colunas "Data do pedido" e "Data de envio" estejam formatadas como dados do tipo Date.
+
+Para cada linha, encontre quantos dias se passaram entre a data que o cliente fez o pedido até a data em que o produto foi enviado. Calcule também o subtotal para os pedidos em cada linha (DICA: o desconto e o frete são custos fixos, independente da quantidade). Por fim, encontre o custo total e o total economizado em cada pedido (note que um único pedido será formado por várias linhas quando ele incluir múltiplos produtos), bem como o número de dias máximo que se levou para enviar todos os produtos de cada pedido.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="85" y="624" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">_externals\1\Detalhes do Pedido.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Detalhes do Pedido.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do Cliente" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="SKU do produto" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Desconto" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Valor por unidade" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Valor do frete" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Data do pedido" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="Date" />
+            <Field name="Data de envio" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Quantidade solicitada" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="ID do pedido" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Prioridade" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Practical Exercises\Practice Exercise 3\Detalhes do Pedido.xlsx|||`Planilha1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="536" y="257" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="ID do pedido" />
+            <Field name="Total" />
+            <Field name="Total economizado" />
+            <Field name="Dias até o envio" />
+          </Fields>
+          <Data>
+            <r>
+              <c>87222</c>
+              <c>53.58</c>
+              <c>3.28</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>87399</c>
+              <c>163.38</c>
+              <c>12.47</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>88060</c>
+              <c>1383.84</c>
+              <c>119.06</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>90353</c>
+              <c>74.65</c>
+              <c>2.15</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>90354</c>
+              <c>5896</c>
+              <c>441.39</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>90355</c>
+              <c>105.1</c>
+              <c>8.36</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>91515</c>
+              <c>491.61</c>
+              <c>42.23</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>91516</c>
+              <c>14.87</c>
+              <c>0.38</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>91519</c>
+              <c>1429.36</c>
+              <c>121.18</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>91560</c>
+              <c>235.46</c>
+              <c>7.13</c>
+              <c>3</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID do pedido" source="TextInput:" type="Int32" />
+            <Field name="Total" source="TextInput:" type="Double" />
+            <Field name="Total economizado" source="TextInput:" type="Double" />
+            <Field name="Dias até o envio" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="366" width="432" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Antes de postar, verifique se você 
+EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
+          <Font name="Arial" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-4" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Exercício_Prático_3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="55bc4bb9-f9b6-40dc-84be-8b654caacd84" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="55bc4bb9-f9b6-40dc-84be-8b654caacd84" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
