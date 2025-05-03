@@ -1,0 +1,1522 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="838" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado
+
+19.624 registros</Text>
+          <Font name="Microsoft Sans Serif" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="152" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="320" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="488" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="392" y="664" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="66" width="411" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Sumarizar</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="54" width="242" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="102" width="408" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Sumarizar para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="96" y="152" width="287" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Quantos estados distintos há nesta base de dados?</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="124" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="96" y="320" width="287" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Quantas vezes cada estado aparece na base de dados?</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="124" y="362" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="96" y="488" width="288" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Qual é a média e a mediana da coluna 'Salário total'? (DICA: Verifique seu tipo de dados, podem ser necessárias outras ferramentas!)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="122" y="540" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="98" y="664" width="288" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Qual é a média e a mediana da coluna 'Salário total' para cada estado? (DICA: Verifique seu tipo de dados!)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="706" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="96" y="838" width="288" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Conte o número de vezes que cada cargo aparece em cada estado e veja se o número de registros está igual ao resultado desejado à direita.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="124" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="CountDistinct_Estado" />
+          </Fields>
+          <Data>
+            <r>
+              <c>27</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CountDistinct_Estado" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="341" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="27" />
+          <Fields>
+            <Field name="Estado" />
+            <Field name="Contagem" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Acre</c>
+              <c>98</c>
+            </r>
+            <r>
+              <c>Alagoas</c>
+              <c>569</c>
+            </r>
+            <r>
+              <c>Amapá</c>
+              <c>108</c>
+            </r>
+            <r>
+              <c>Amazonas</c>
+              <c>904</c>
+            </r>
+            <r>
+              <c>Bahia</c>
+              <c>2800</c>
+            </r>
+            <r>
+              <c>Ceará</c>
+              <c>1874</c>
+            </r>
+            <r>
+              <c>Distrito Federal</c>
+              <c>2572</c>
+            </r>
+            <r>
+              <c>Espírito Santo</c>
+              <c>1933</c>
+            </r>
+            <r>
+              <c>Goiás</c>
+              <c>3544</c>
+            </r>
+            <r>
+              <c>Maranhão</c>
+              <c>649</c>
+            </r>
+            <r>
+              <c>Mato Grosso</c>
+              <c>940</c>
+            </r>
+            <r>
+              <c>Mato Grosso do Sul</c>
+              <c>1073</c>
+            </r>
+            <r>
+              <c>Minas Gerais</c>
+              <c>7093</c>
+            </r>
+            <r>
+              <c>Paraná</c>
+              <c>4274</c>
+            </r>
+            <r>
+              <c>Paraíba</c>
+              <c>954</c>
+            </r>
+            <r>
+              <c>Pará</c>
+              <c>1688</c>
+            </r>
+            <r>
+              <c>Pernambuco</c>
+              <c>3845</c>
+            </r>
+            <r>
+              <c>Piauí</c>
+              <c>417</c>
+            </r>
+            <r>
+              <c>Rio Grande do Norte</c>
+              <c>866</c>
+            </r>
+            <r>
+              <c>Rio Grande do Sul</c>
+              <c>3469</c>
+            </r>
+            <r>
+              <c>Rio de Janeiro</c>
+              <c>7118</c>
+            </r>
+            <r>
+              <c>Rondônia</c>
+              <c>297</c>
+            </r>
+            <r>
+              <c>Roraima</c>
+              <c>133</c>
+            </r>
+            <r>
+              <c>Santa Catarina</c>
+              <c>2539</c>
+            </r>
+            <r>
+              <c>Sergipe</c>
+              <c>290</c>
+            </r>
+            <r>
+              <c>São Paulo</c>
+              <c>23919</c>
+            </r>
+            <r>
+              <c>Tocantins</c>
+              <c>602</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Estado" size="19" source="TextInput:" type="V_String" />
+            <Field name="Contagem" source="TextInput:" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="416" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Média Salário Total" />
+            <Field name="Mediana Salário total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>76405.822345778</c>
+              <c>66351.5</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Média Salário Total" source="TextInput:" type="Double" />
+            <Field name="Mediana Salário total" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="687" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="27" />
+          <Fields>
+            <Field name="Estado" />
+            <Field name="Média Salário total" />
+            <Field name="Mediana Salário total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Acre</c>
+              <c>71313.3917346939</c>
+              <c>59495.31</c>
+            </r>
+            <r>
+              <c>Alagoas</c>
+              <c>73238.0372231986</c>
+              <c>62495</c>
+            </r>
+            <r>
+              <c>Amapá</c>
+              <c>72760.9489814815</c>
+              <c>57476.985</c>
+            </r>
+            <r>
+              <c>Amazonas</c>
+              <c>76579.1037831858</c>
+              <c>64132.01</c>
+            </r>
+            <r>
+              <c>Bahia</c>
+              <c>75810.313975</c>
+              <c>66492.145</c>
+            </r>
+            <r>
+              <c>Ceará</c>
+              <c>76591.1364087514</c>
+              <c>68678.545</c>
+            </r>
+            <r>
+              <c>Distrito Federal</c>
+              <c>77408.6021267496</c>
+              <c>66800.615</c>
+            </r>
+            <r>
+              <c>Espírito Santo</c>
+              <c>75586.1510450078</c>
+              <c>65740.05</c>
+            </r>
+            <r>
+              <c>Goiás</c>
+              <c>77429.6141817156</c>
+              <c>66307.34</c>
+            </r>
+            <r>
+              <c>Maranhão</c>
+              <c>77532.0462865947</c>
+              <c>66617.26</c>
+            </r>
+            <r>
+              <c>Mato Grosso</c>
+              <c>78770.1580851064</c>
+              <c>69672.93</c>
+            </r>
+            <r>
+              <c>Mato Grosso do Sul</c>
+              <c>73866.9607455732</c>
+              <c>64336.98</c>
+            </r>
+            <r>
+              <c>Minas Gerais</c>
+              <c>76491.6435739461</c>
+              <c>67151.8</c>
+            </r>
+            <r>
+              <c>Paraná</c>
+              <c>77060.156483388</c>
+              <c>66936.54</c>
+            </r>
+            <r>
+              <c>Paraíba</c>
+              <c>77540.085</c>
+              <c>67301.5</c>
+            </r>
+            <r>
+              <c>Pará</c>
+              <c>76979.1861255925</c>
+              <c>68996.5</c>
+            </r>
+            <r>
+              <c>Pernambuco</c>
+              <c>77071.3977373212</c>
+              <c>67275.29</c>
+            </r>
+            <r>
+              <c>Piauí</c>
+              <c>74876.0774340527</c>
+              <c>62950.6</c>
+            </r>
+            <r>
+              <c>Rio Grande do Norte</c>
+              <c>73825.1427944573</c>
+              <c>61210</c>
+            </r>
+            <r>
+              <c>Rio Grande do Sul</c>
+              <c>74705.3659757855</c>
+              <c>65222.87</c>
+            </r>
+            <r>
+              <c>Rio de Janeiro</c>
+              <c>76457.6063023321</c>
+              <c>65505.865</c>
+            </r>
+            <r>
+              <c>Rondônia</c>
+              <c>76071.282962963</c>
+              <c>69611.04</c>
+            </r>
+            <r>
+              <c>Roraima</c>
+              <c>76746.5254887218</c>
+              <c>71306.28</c>
+            </r>
+            <r>
+              <c>Santa Catarina</c>
+              <c>75670.4443048445</c>
+              <c>65942</c>
+            </r>
+            <r>
+              <c>Sergipe</c>
+              <c>77327.8345862069</c>
+              <c>68484.2</c>
+            </r>
+            <r>
+              <c>São Paulo</c>
+              <c>76457.8654249758</c>
+              <c>66324</c>
+            </r>
+            <r>
+              <c>Tocantins</c>
+              <c>76080.3100332226</c>
+              <c>64285.215</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Estado" size="19" source="TextInput:" type="V_String" />
+            <Field name="Média Salário total" source="TextInput:" type="Double" />
+            <Field name="Mediana Salário total" source="TextInput:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1037" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1086" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="639" y="103" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="666" y="152" width="287" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Quantos estados distintos há nesta base de dados?</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="708" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="666" y="320" width="287" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Quantas vezes cada estado aparece na base de dados?</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="703" y="369" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="666" y="488" width="288" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Qual é a média e a mediana da coluna 'Salário total'? (DICA: Verifique seu tipo de dados, podem ser necessárias outras ferramentas!)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="690" y="536" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="665" y="667" width="288" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Qual é a média e a mediana da coluna 'Salário total' para cada estado? (DICA: Verifique seu tipo de dados!)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="686" y="722" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="664" y="835" width="288" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Conte o número de vezes que cada cargo aparece em cada estado e veja se o número de registros está igual ao resultado desejado à direita.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="706" y="900" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Database.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Database.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="852" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Estado" action="CountDistinct" rename="CountDistinct_Estado" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CountDistinct_Estado" source="Summarize: CountDistinct - Estado" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="882" y="536" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Salário total" action="Avg" rename="Média Salário total" />
+                <SummarizeField field="Salário total" action="Median" rename="Mediana Salário total" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Média Salário total" source="Summarize: Avg - Salário total" type="Double" />
+                <Field name="Mediana Salário total" source="Summarize: Median - Salário total" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="786" y="536" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Salário" selected="True" type="Double" size="8" />
+                <SelectField field="Hora extra" selected="True" type="Double" size="8" />
+                <SelectField field="Outros pagamentos" selected="True" type="Double" size="8" />
+                <SelectField field="Benefícios" selected="True" type="Double" size="8" />
+                <SelectField field="Salário total" selected="True" type="Double" size="8" />
+                <SelectField field="Salário Total &amp; Benefícios" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Hora extra" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Outros pagamentos" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Benefícios" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Salário total" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Salário Total &amp; Benefícios" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="784" y="722" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Salário" selected="True" type="Double" size="8" />
+                <SelectField field="Hora extra" selected="True" type="Double" size="8" />
+                <SelectField field="Outros pagamentos" selected="True" type="Double" size="8" />
+                <SelectField field="Benefícios" selected="True" type="Double" size="8" />
+                <SelectField field="Salário total" selected="True" type="Double" size="8" />
+                <SelectField field="Salário Total &amp; Benefícios" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+                <Field name="Salário" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Hora extra" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Outros pagamentos" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Benefícios" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Salário total" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Salário Total &amp; Benefícios" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="Double" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Summarize\PT_Sumarizar\PT_Database.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="860" y="900" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Estado" action="GroupBy" rename="Estado" />
+                <SummarizeField field="Cargo" action="GroupBy" rename="Cargo" />
+                <SummarizeField field="Cargo" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Estado" size="254" source="Summarize: GroupBy - Estado" type="V_String" />
+                <Field name="Cargo" size="254" source="Summarize: GroupBy - Cargo" type="V_String" />
+                <Field name="Count" source="Summarize: Count - Cargo" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Estado" order="Asc" />
+                <Field field="Cargo" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="882" y="722" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Estado" action="GroupBy" rename="Estado" />
+                <SummarizeField field="Salário total" action="Avg" rename="Média Salário total" />
+                <SummarizeField field="Salário total" action="Median" rename="Mediana Salário total" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Estado" size="254" source="Summarize: GroupBy - Estado" type="V_String" />
+                <Field name="Média Salário total" source="Summarize: Avg - Salário total" type="Double" />
+                <Field name="Mediana Salário total" source="Summarize: Median - Salário total" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Estado" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="853" y="369" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Estado" action="GroupBy" rename="Estado" />
+                <SummarizeField field="Estado" action="Count" rename="Contagem" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Estado" size="254" source="Summarize: GroupBy - Estado" type="V_String" />
+                <Field name="Contagem" source="Summarize: Count - Estado" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Estado" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-4" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Sumarizar</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
