@@ -1,0 +1,2098 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="145" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Items</Name>
+          <Abbrev>I</Abbrev>
+          <ShowFieldMap value="True" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="16" />
+              <Fields>
+                <Field name="Items" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>d</c>
+                </r>
+                <r>
+                  <c>ab</c>
+                </r>
+                <r>
+                  <c>ac</c>
+                </r>
+                <r>
+                  <c>ad</c>
+                </r>
+                <r>
+                  <c>bc</c>
+                </r>
+                <r>
+                  <c>bd</c>
+                </r>
+                <r>
+                  <c>cd</c>
+                </r>
+                <r>
+                  <c>abc</c>
+                </r>
+                <r>
+                  <c>abd</c>
+                </r>
+                <r>
+                  <c>acb</c>
+                </r>
+                <r>
+                  <c>acd</c>
+                </r>
+                <r>
+                  <c>bcd</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Items</Name>
+          <AnnotationText>Items:
+a
+b
+c
+d
+ab
+ac
+ad
+bc
+bd
+cd
+abc
+abd
+bcd</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Items" size="3" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="145" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Items" selected="True" type="V_WString" size="64" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Set type to V_WString size 64</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2862" y="54" width="1682" height="329" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Decide whether to loop</Caption>
+          <Style TextColor="#314c4a" FillColor="#b4daf5" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3964" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Items" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="4072" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3964" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Items" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="3748" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="len" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>len - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Source_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="len" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="len" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="3652" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="len" type="Double" size="8" expression="Length([Items])" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>len=Length([Items])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Source_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="len" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3844" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Source_Count] = [max_length]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>IF the maximum character length matches the record count of the original items
+THEN DONE
+ELSE LOOP
+
+(i.e. a,b,c,d -&gt; "abcd")</AnnotationText>
+              <DefaultAnnotationText>[Source_Count] = [max_length]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Source_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="len" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="len" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Source_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="len" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="len" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="3556" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Count" selected="True" rename="Source_Count" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="Source_Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings>
+            <Position x="3460" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output9">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="CountRecords.yxmc" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3460" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="max_length" selected="True" />
+                <SelectField field="Items" selected="True" />
+                <SelectField field="Items2" selected="False" rename="Items" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="3376" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>Custom</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                    <Field name="max_length" source="Formula: Length([Items])" type="Double" column="2" />
+                    <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" column="1" />
+                    <Field name="max_length" source="Formula: Length([Items])" type="Double" column="2" />
+                    <Field name="Source_Items" size="64" source="(Multiple Sources)" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>Manual</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Appends the maximum character length in item list</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="3256" y="149.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_RecordID" selected="False" />
+                    <SelectField field="Source_RecordID" selected="False" rename="Source_RecordID" />
+                    <SelectField field="Source_Items" selected="True" rename="Source_Items" />
+                    <SelectField field="Source_max_length" selected="False" rename="Source_max_length" />
+                    <SelectField field="Source_len" selected="False" rename="Source_len" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Source_Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="3064" y="149.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="max_length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="3160" y="149.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>RecordID</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[RecordID] = 1</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="max_length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="max_length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="2968" y="149.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="max_length" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>max_length - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="max_length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2872" y="149.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="max_length" type="Double" size="8" expression="Length([Items])" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>max_length=Length([Items])</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field name="max_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Items" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="4048" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Loop</Name>
+              <Abbrev>L</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="4420" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>Combinations</Name>
+              <Abbrev>O</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="4192" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Items</Field>
+              <RegExExpression value="." />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="True" />
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+              </ParseComplex>
+              <Match>
+                <Field>Items_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Tokenize:
+.</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="4300" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>RecordID</UpdateField_Name>
+              <CreateField_Name>col</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>254</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>[Row-1:col]+1</Expression>
+              <GroupByFields>
+                <Field field="RecordID" />
+              </GroupByFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Row-1:col]+1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+                <Field description="Formula: [Row-1:col]+1" name="col" source="Formula: [Row-1:col]+1" type="Int32" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2082" y="54" width="741" height="404" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Assemble Combinations</Caption>
+          <Style TextColor="#314c4a" FillColor="#b4daf5" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2092" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Items" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>"Short" list
+(i.e. a,b,c,d)</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2092" y="217" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Items" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>"Long" list
+(i.e. abc,abd,acd,bcd)</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2094" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Items" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>"Middle" list
+(i.e. ab,ac,ad,bc,bd,cd)</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="2260" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Items" selected="True" rename="Source_Items" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2356" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="comb" type="V_WString" size="64" expression="IF CompareDictionary(Left([Source_Items], 1), [Items]) = 1&#xA;THEN&#xA;[Items] + [Source_Items]&#xA;else&#xA;Null()&#xA;endif" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Concatenate the shortest to the longest elements in alphabetical order</AnnotationText>
+              <DefaultAnnotationText>comb=IF CompareDictionary(Left([Source_Items], 1), [Items]) =...</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="Formula: IF CompareDictionary(Left([Source_Items], 1), [Items]) = 1&#xA;THEN&#xA;[Items] + [Source_Items]&#xA;else&#xA;Null()&#xA;endif" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="2476" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>comb</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Returns a list of elements one character longer than the longest input
+(i.e. If "abc" is the longest list, return "abcd")</AnnotationText>
+              <DefaultAnnotationText>!IsNull([comb])</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="Formula: IF CompareDictionary(Left([Source_Items], 1), [Items]) = 1&#xA;THEN&#xA;[Items] + [Source_Items]&#xA;else&#xA;Null()&#xA;endif" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="Formula: IF CompareDictionary(Left([Source_Items], 1), [Items]) = 1&#xA;THEN&#xA;[Items] + [Source_Items]&#xA;else&#xA;Null()&#xA;endif" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="2586" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>Custom</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#4">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#3">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="1" />
+                    <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" column="2" />
+                    <Field name="comb" size="64" source="Formula: IF CompareDictionary(Left([Source_Items], 1), [Items]) = 1&#xA;THEN&#xA;[Items] + [Source_Items]&#xA;else&#xA;Null()&#xA;endif" type="V_WString" column="3" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>Manual</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#2</Connection>
+                <Connection>#3</Connection>
+                <Connection>#4</Connection>
+                <Connection>#1</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Combine all item streams</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2754" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="comb" selected="True" rename="Items" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Items" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="2670" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="comb" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: comb</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="comb" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="comb" size="64" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="comb" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="258" y="54" width="1781" height="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Prepare lists by length</Caption>
+          <Style TextColor="#314c4a" FillColor="#b4daf5" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="352" y="146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="length" type="Double" size="8" expression="Length([Items])" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>length=Length([Items])</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="448" y="146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="length" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>length - Ascending</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="268" y="146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="532" y="146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[[length] = 1
+// [length] = [Source_len]
+]]></Expression>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>length</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Returns original elements with no combinations
+(i.e. a,b,c,d)</AnnotationText>
+              <DefaultAnnotationText>[length] = 1</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Ascending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="642" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="length" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>length - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="822" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>RecordID</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[RecordID] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="738" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+              <SortInfo locale="0">
+                <Field field="length" order="Descending" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="942" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_RecordID2" selected="True" />
+                    <SelectField field="Target_length" selected="True" />
+                    <SelectField field="Source_Items" selected="True" rename="Source_Items" />
+                    <SelectField field="Source_length" selected="True" rename="Source_length" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Source_length" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1122" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[length] != [Source_length]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Returns elements of middle lengths
+(i.e. ab,ac,ad,bc,bd,cd)</AnnotationText>
+              <DefaultAnnotationText>[length] != [Source_length]</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Source_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="length2" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Source_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="length2" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1038" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>Custom</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                    <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" column="2" />
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="3" />
+                    <Field name="length" source="Formula: Length([Items])" type="Double" column="6" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                    <Field name="Source_Items" size="64" source="TextInput:" type="V_WString" column="3" />
+                    <Field name="length" source="Formula: Length([Items])" type="Double" column="4" />
+                    <Field name="Source_length" source="Formula: Length([Items])" type="Double" column="5" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>Manual</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="RecordID2" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="length" source="Formula: Length([Items])" type="Double" />
+                <Field name="Source_length" source="Formula: Length([Items])" type="Double" />
+                <Field name="length2" source="Formula: Length([Items])" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1302" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <SelectFields>
+                    <SelectField field="Source_Count" selected="True" />
+                    <SelectField field="Target_Items" selected="True" />
+                    <SelectField field="Target_length" selected="False" />
+                    <SelectField field="Target_length2" selected="False" />
+                    <SelectField field="Target_RecordID" selected="False" />
+                    <SelectField field="Target_RecordID2" selected="False" />
+                    <SelectField field="Target_Source_length" selected="False" />
+                    <SelectField field="Source_Source_length" selected="False" />
+                    <SelectField field="Target_Count" selected="False" />
+                    <SelectField field="Source_RecordID" selected="False" />
+                    <SelectField field="Source_RecordID2" selected="False" />
+                    <SelectField field="Source_Items" selected="False" />
+                    <SelectField field="Source_length" selected="False" />
+                    <SelectField field="Source_length2" selected="False" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1386" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Count</Field>
+                <Operator>IsNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>IsNull([Count])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings>
+            <Position x="1218" y="205" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output9">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="CountRecords.yxmc" />
+        </Node>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1482" y="145" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Target_Items" selected="True" />
+                    <SelectField field="Source_Count" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1566" y="181" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="1" />
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" column="2" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="Items" size="64" source="TextInput:" type="V_WString" column="1" />
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" column="2" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>Manual</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1746" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1650" y="181" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>Items</Field>
+                <Operator>IsNotNull</Operator>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([Items])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+            <Position x="1830" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name>new</UpdateField_Name>
+              <CreateField_Name>NewField</CreateField_Name>
+              <CreateField_Type>Int32</CreateField_Type>
+              <CreateField_Size>254</CreateField_Size>
+              <OtherRows>Empty</OtherRows>
+              <NumRows value="1" />
+              <Expression>If [RecordID]=1
+Then 1
+elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1
+then 1
+Else 0
+Endif</Expression>
+              <GroupByFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>If this is the first loop,
+the original list will be returned</AnnotationText>
+              <DefaultAnnotationText>If [RecordID]=1
+Then 1
+elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1...</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field description="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" name="NewField" source="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" type="Int32" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1926" y="169" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>NewField</Field>
+                <Operator>=</Operator>
+                <Operands>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Returns elements of longest length
+(i.e. abc,abd,acd,bcd)</AnnotationText>
+              <DefaultAnnotationText>[NewField] = 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field description="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" name="NewField" source="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" type="Int32" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Items" size="64" source="TextInput:" type="V_WString" />
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field description="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" name="NewField" source="Formula: If [RecordID]=1&#xA;Then 1&#xA;elseif [Row-1:Count]=[Count] &amp;&amp; [Row-1:NewField]=1&#xA;then 1&#xA;Else 0&#xA;Endif" type="Int32" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="True" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="False" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output9" />
+      <Destination ToolID="82" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="82" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="75" Connection="True" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="False" />
+      <Destination ToolID="77" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="True" />
+      <Destination ToolID="77" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="66" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="66" Connection="Source" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="69" Connection="True" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="99" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="True" />
+      <Destination ToolID="99" Connection="Source" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="80" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Unique" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="False" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="True" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="55" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="False" />
+      <Destination ToolID="55" Connection="Source" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="52" Connection="True" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="57" Connection="True" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="False" />
+      <Destination ToolID="98" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="False" />
+      <Destination ToolID="93" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output9" />
+      <Destination ToolID="93" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="94" Connection="False" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="True" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="107" Connection="True" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Combination_iterative</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author>Alex Koszycki</Author>
+      <Company>Alteryx, Inc.</Company>
+      <Copyright>Alteryx, Inc. 2015</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>This macro will only find combinations of items represented by single character strings.</Description>
+              <Name>Label (36)</Name>
+              <ToolId value="36" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Items</Description>
+              <Name>Items</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (3)</Description>
+              <Name>Macro Output (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (4)</Description>
+              <Name>Macro Output (4)</Name>
+              <ToolId value="4" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>Items</Input>
+        <Output>Loop</Output>
+        <IterationLimit value="25" />
+        <LimitBehavior>Error</LimitBehavior>
+        <OutputMode>AutoByPos</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="80" Selected="True" />
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="98" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
