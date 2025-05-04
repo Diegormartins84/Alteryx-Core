@@ -1,0 +1,857 @@
+Nome do empregado,Cargo,Salário,Hora extra,Outros pagamentos,Benefícios,Salário total,Salário Total & Benefícios,Estado
+Luiz Melo,Agente de higiene e segurança,139010.32,0,9513.42,109434,148523.74,257957.74,Maranhão
+Kauan Sousa,Agente de pátio,113080,31913.46,13199.87,96951.95,158193.33,255145.28,Maranhão
+Luiza Sousa,Agente social,158724.81,0,9157.2,80014.22,167882.01,247896.23,Maranhão
+Livia Carvalho,Ajudante de lapidador (vidros),158724.8,0,9157.2,70513.82,167882,238395.82,Maranhão
+Nicolash Ribeiro,Amassador - em olaria,159123.2,0,0,68486.64,159123.2,227609.84,Maranhão
+Manuela Lima,Analista de mercadologia (economista),159924.87,0,9157.2,52400.78,169082.07,221482.85,Maranhão
+Caio Pereira,Artífice do couro,92969.6,27879.86,3499.24,80401.06,124348.7,204749.76,Maranhão
+Martim Pinto,Atendente do setor de vinhos,127566.4,0,7359.6,61085.98,134926,196011.98,Maranhão
+Caio Rocha,Acabador de macho - na fundição,113624.07,0,0,64547.55,113624.07,178171.62,Maranhão
+Melissa Castro,Agente de saúde,94738.4,12972.12,3991.36,59089.76,111701.88,170791.64,Maranhão
+Evelyn Souza,Agente policial,87821.6,2887.25,2689.25,76438.16,93398.1,169836.26,Maranhão
+Igor Castro,Ampoleiro,113297.6,0,0,49017.34,113297.6,162314.94,Maranhão
+Caio Costa,Analista de rede,109791.2,0,1040,48320.16,110831.2,159151.36,Maranhão
+André Goncalves,Animador de rádio,87821.6,2761.96,1679.6,65566.62,92263.16,157829.78,Maranhão
+Luís Costa,Apontador de campo,84754.4,17378.92,2282.16,51352.35,104415.48,155767.83,Maranhão
+Breno Cunha,Argumentista-roteirista de história em quadrinhos,87821.65,0,0,66202.98,87821.65,154024.63,Maranhão
+José Cavalcanti,Atendente de centro cirúrgico,98795.2,4461.85,0,44933.85,103257.05,148190.9,Maranhão
+Vitor Goncalves,Adeleiro (comércio varejista),80083.2,0,1527.2,55362.03,81610.4,136972.43,Maranhão
+Gabriela Souza,Advogado criminalista,92440.02,0,2890.99,40231.92,95331.01,135562.93,Maranhão
+Beatriz Barbosa,Ajudante de esterilização (indústria alimentícia),89064.83,0,3464.8,39507.82,92529.63,132037.45,Maranhão
+Douglas Correia,Ajudante de fábrica de tijolos,76250.42,0,1454,54243.19,77704.42,131947.61,Maranhão
+Maria Santos,Ajudante de guincheiro,100276.8,0,0,31269.54,100276.8,131546.34,Maranhão
+Alex Almeida,Analista de folha de pagamento,81660.8,3322.41,0,42865.75,84983.21,127848.96,Maranhão
+Raissa Fernandes,Antropólogo,80083.2,0,0,45435.38,80083.2,125518.58,Maranhão
+Giovana Oliveira,Apontador de cartões de ponto,85535.57,0,0,39112.38,85535.57,124647.95,Maranhão
+Bruna Almeida,Aramador - na fabricação de arame,75827.32,0,0,48181.2,75827.32,124008.52,Maranhão
+Nicolas Silva,Atendente de lojas e mercados,67371.2,4777.53,3407.42,44385.07,75556.15,119941.22,Maranhão
+Isabella Castro,Auditor de contabilidade e orçamento,54787.2,29452.48,650,33804.63,84889.68,118694.31,Maranhão
+Aline Rocha,Auxiliar de linha de produção,72778.21,0,0,43888.59,72778.21,116666.8,Maranhão
+Ryan Lima,Abastecedor de máquinas de linha de produção,75730.63,0,0,38167.96,75730.63,113898.59,Maranhão
+Rafael Cavalcanti,Administrador de restaurante,77638.4,0,0,35197.53,77638.4,112835.93,Maranhão
+Luiza Alves,Agente de segurança ferroviária,72620.85,0,527.36,37517.18,73148.21,110665.39,Maranhão
+Victor Oliveira,Ajudante de cabeleireiro,64538.46,4882.79,15.26,40320.65,69436.51,109757.16,Maranhão
+Evelyn Cavalcanti,Artesão trançador,54774.14,3472.8,650,43294.5,58896.94,102191.44,Maranhão
+Fábio Martins,Ajudante de enfardamento,53115.17,3398.48,1040,34268,57553.65,91821.65,Maranhão
+Ryan Goncalves,Alergista e imunologista,61204.8,0,0,29362.52,61204.8,90567.32,Maranhão
+Diogo Melo,Alvanel,57126.19,746.54,3302.25,29146.41,61174.98,90321.39,Maranhão
+Mateus Cavalcanti,Analista de controle orçamentário (economista),57126.17,90.49,3302.25,29200.71,60518.91,89719.62,Maranhão
+Victor Cavalcanti,Analista de estação de tratamento de efluentes,55042.61,0,642.38,33883.68,55684.99,89568.67,Maranhão
+Júlio Silva,Analista de meio ambiente (economista),54925.69,0,0,34465.68,54925.69,89391.37,Maranhão
+Luiza Fernandes,Árbitro assistente (futebol),65807.8,0,40,21902.56,65847.8,87750.36,Maranhão
+Kauan Oliveira,Auxiliar de obstetrícia,57126.11,0,3302.25,22164.33,60428.36,82592.69,Maranhão
+Luana Pinto,Auxiliar de supervisor escolar,60056.31,0,0,22085.68,60056.31,82141.99,Maranhão
+Amanda Ribeiro,Adestrador (eqüinos),53198.24,4232.35,3317.76,20538.02,60748.35,81286.37,Maranhão
+Caio Alves,Administrador de recursos tecnológicos,58569.03,0,877.34,21632.19,59446.37,81078.56,Maranhão
+Livia Silva,Afiador de facas ( inclusive ambulante),54204.8,3071.52,2108.8,21160.36,59385.12,80545.48,Maranhão
+Kauã Costa,Analista de controle orçamentário (economista),46466.39,0,0,31061.78,46466.39,77528.17,Maranhão
+Vinicius Souza,Atendente de enfermagem no serviço doméstico,55987.2,1132.87,650,15142.1,57770.07,72912.17,Maranhão
+Fábio Carvalho,Auditor independente (contadores e afins),47417.59,2396.85,0,22068.23,49814.44,71882.67,Maranhão
+Yasmin Lima,Auxiliar de dendrometria,48811.5,0,0,22300.05,48811.5,71111.55,Maranhão
+Carolina Martins,Abade,47274,245.21,0,20916.3,47519.21,68435.51,Maranhão
+Vitória Cunha,Agente de serviços de fiscalização de transportes coletivos e licenciamento de veículos,35031.79,1186.51,1551.75,27361.97,37770.05,65132.02,Maranhão
+Erick Alves,Agricultor polivalente - conta própria,64317,0,350,175,64667,64842,Maranhão
+Vitor Dias,Ajustador ferramenteiro,61268.17,0,0,1486.56,61268.17,62754.73,Maranhão
+Ágatha Cardoso,Animador de festas populares,41296.5,173.25,0,17272.49,41469.75,58742.24,Maranhão
+Thiago Barbosa,Assistente técnico de engenharia (obras de infra-estrutura de estrada),31418.4,0,0,17543.27,31418.4,48961.67,Maranhão
+Bruna Rocha,Auxiliar de farmácia de manipulação,26849.4,0,0,15591.22,26849.4,42440.62,Maranhão
+Ana Martins,Auxiliar de técnico de controle de qualidade,34271.14,0,0,5901.52,34271.14,40172.66,Maranhão
+João Rocha,Auxiliar-ajudante de operador de máquinas de lavar fibras,38898.44,0,0,0,38898.44,38898.44,Maranhão
+Marcos Araujo,Administrador de compras,36197.63,0,0,0,36197.63,36197.63,Maranhão
+Marisa Oliveira,Agbá,28793.13,0,0,4095.16,28793.13,32888.29,Maranhão
+Matilde Araujo,Agbagigan,29287.1,8.7,0,3581.84,29295.8,32877.64,Maranhão
+Davi Silva,Agenciador de publicidade,32420.35,358.32,0,0,32778.67,32778.67,Maranhão
+Tomás Alves,Ajudante de ensacador,27444.26,0,0,879.42,27444.26,28323.68,Maranhão
+Gustavo Ribeiro,Ajudante de lavador de tapetes,23349.38,653.51,0,3716.61,24002.89,27719.5,Maranhão
+Alice Goncalves,Analista de mercado e produtos (economista),23247.56,0,0,0,23247.56,23247.56,Maranhão
+Anna Pinto,Assistente de editorial,15545.14,0,0,0,15545.14,15545.14,Maranhão
+Alex Cunha,Ajudante de fundidor,1875,0,0,0,1875,1875,Maranhão
+Laura Lima,Ajudante de operação portuária,1575.75,0,0,0,1575.75,1575.75,Maranhão
+Guilherme Lima,Apontador de cartões de ponto,74139,0,0,20568,74139,94707,Maranhão
+Yasmin Cavalcanti,Árbitro central (judô),58996,120,0,26197,59116,85313,Maranhão
+Antônio Oliveira,Asfaltador,45005,3527,2574,9658,51106,60764,Maranhão
+Thiago Ribeiro,Avicultor de postura - exclusive conta própria e empregador,76929,0,300,15019,77229,92248,Maranhão
+Thaís Barros,Acabador de moldes (fundição),51699,9593,1637,27072,62929,90001,Maranhão
+Douglas Barbosa,Afiador ambulante,52180,6458,974,23584,59612,83196,Maranhão
+Tiago Cunha,Agente indígena de saneamento,65583,0,300,12626,65883,78509,Maranhão
+Bianca Cavalcanti,Agricultor polivalente - conta própria,56046,3651,0,17919,59697,77616,Maranhão
+Tânia Alves,Ajudante,54951,0,500,21803,55451,77254,Maranhão
+Otávio Rocha,Anotador de produção,40253,1020,1797,24436,43070,67506,Maranhão
+Diego Pinto,Apontador (vôlei),45101,293,616,20581,46010,66591,Maranhão
+Beatrice Barros,Armeiro (comércio atacadista),51027,0,1300,11739,52327,64066,Maranhão
+Thaís Costa,Atleta de paraquedismo,42583,0,1136,13902,43719,57621,Maranhão
+Diogo Fernandes,Auxiliar de enfermagem da estratégia de saúde da família,44051,0,75,10667,44126,54793,Maranhão
+Bianca Azevedo,Auxiliar de serigrafia,35254,0,1763,15755,37017,52772,Maranhão
+Júlio Barros,Abacaxicultor,37774,2521,0,10581,40295,50876,Maranhão
+Gustavo Almeida,Abadessa,34169,0,1926,14734,36095,50829,Maranhão
+Leonardo Ribeiro,Administrador de restaurante,32630,421,0,15410,33051,48461,Maranhão
+Tomás Cardoso,Ajudante de pintor à pistola,31141,0,0,9701,31141,40842,Maranhão
+Eduarda Rodrigues,Ajudante de sushiman,28917,433,2141,8940,31491,40431,Maranhão
+Paulo Barros,Analista de mercado de trabalho (economista),25961,0,417,8753,26378,35131,Maranhão
+Bianca Silva,Animador de circo,24179,0,0,7840,24179,32019,Maranhão
+Samuel Ferreira,Animador de eventos,25461,0,0,6555,25461,32016,Maranhão
+Murilo Silva,Armeiro (comércio varejista),18468,71,774,5637,19313,24950,Maranhão
+Anna Carvalho,Artista dramático,14976,0,0,6272,14976,21248,Maranhão
+Lucas Cavalcanti,Atendente de posto de gasolina,13328,0,0,3654,13328,16982,Maranhão
+Victor Barbosa,Auxiliar de enfermagem de clínica médica,9795,0,0,2942,9795,12737,Maranhão
+Marcos Castro,Agenciador de propaganda,4391,0,0,1262,4391,5653,Maranhão
+Carlos Souza,Agente fiscal(atividades urbanas),4486,6,0,0,4492,4492,Maranhão
+Gabrielly Sousa,Agricultor na produção da cana-de-açúcar,2704,0,178,1291,2882,4173,Maranhão
+Martim Lima,Ajudante de guincheiro,3399,0,0,0,3399,3399,Maranhão
+Leonor Martins,Ajudante de pintor à pistola,2142,0,659,278,2801,3079,Maranhão
+Victor Souza,Amolador de tesouras ( inclusive ambulante),1465,0,0,199,1465,1664,Maranhão
+Vitor Pinto,Analista ambiental,1602,0,0,0,1602,1602,Maranhão
+Marcos Castro,Analista contábil,982,0,478,127,1460,1587,Maranhão
+Beatriz Almeida,Atleta de voleibol,20348.78,0,0,0,20348.78,20348.78,Maranhão
+Joao Souza,Administrador apostólico,44292,617.61,8560.85,16012.96,53470.46,69483.42,Maranhão
+Melissa Costa,Administrador de patrimônio,42666,0,8246.76,15508.48,50912.76,66421.24,Maranhão
+Sarah Pinto,Administrador de redes,41352,0,8246.76,15399.37,49598.76,64998.13,Maranhão
+Emilly Pereira,Advogado civilista,36022,0,10272.84,12231.87,46294.84,58526.71,Maranhão
+Kauan Oliveira,Advogado da união,35724,165.32,11285.88,11095.72,47175.2,58270.92,Maranhão
+João Melo,Afiador de facas ( inclusive ambulante),32400,0,8846.76,12862.92,41246.76,54109.68,Maranhão
+Isabela Dias,Agenciador de propaganda,28668,84.52,11285.88,9106.22,40038.4,49144.62,Maranhão
+Maria Costa,Agente de estação (ferrovia e metrô),25913.08,1175.62,5714.79,9482.45,32803.49,42285.94,Maranhão
+Samuel Carvalho,Ajudante de sushiman,168129.48,0,56067.89,110941.6,224197.37,335138.97,Maranhão
+Gabrielle Alves,Analista de produto agropecuário (economista),91619.88,49917.01,10079.58,106254.87,151616.47,257871.34,Maranhão
+Vitoria Lima,Apresentador animador de circo,146090.87,0,12444.6,79928.51,158535.47,238463.98,Maranhão
+João Rodrigues,Aromista,142586.33,0,6476.57,82634.29,149062.9,231697.19,Maranhão
+Lucas Araujo,Atleta profissional de golfe,102645.37,18204.14,17023.5,72020.84,137873.01,209893.85,Maranhão
+Otávio Goncalves,Auxiliar técnico florestal,95339.88,28568.56,8315.25,63594.99,132223.69,195818.68,Maranhão
+Isabella Fernandes,Administrador de materiais,78890.09,14888.23,44792.22,52127.83,138570.54,190698.37,Maranhão
+Ryan Carvalho,Agricultor polivalente,79209.72,456.97,14276.76,87674.96,93943.45,181618.41,Maranhão
+Erick Souza,Apanhador de café,78890.09,738.08,23888.24,65313.36,103516.41,168829.77,Maranhão
+Isabella Souza,Arte educador,110446.21,0,3261.16,48952.71,113707.37,162660.08,Maranhão
+Vitoria Rodrigues,Assessor de diretoria,95339.88,5522.19,8315.25,51825.22,109177.32,161002.54,Maranhão
+Estevan Barros,Assistente de contas de seguros,96507.04,0,5340.38,58283.34,101847.42,160130.76,Maranhão
+Larissa Almeida,Atendente de peixaria,73036.68,105.34,1825.92,81792.34,74967.94,156760.28,Maranhão
+Gabrielle Pereira,Auxiliar de ginecologia,65695.8,15829.18,6075.85,63007.63,87600.83,150608.46,Maranhão
+Isabelle Dias,Auxiliar de técnico de controle de qualidade,109184.64,0,-15483.92,53669.04,93700.72,147369.76,Maranhão
+Nicolash Alves,Auxiliar técnico de centro de operação do sistema de energia,66825.12,31782.09,6928.31,41227.78,105535.52,146763.3,Maranhão
+Luiz Silva,Afinador mecânico,80763.87,381.65,7104.52,52413.35,88250.04,140663.39,Maranhão
+João Ferreira,Agenciador de propaganda,98038.92,0,2451,39977.4,100489.92,140467.32,Maranhão
+Gabrielly Ribeiro,Analista de leasing,63112.14,1416.58,15704.39,51179.15,80233.11,131412.26,Maranhão
+Victor Cavalcanti,Analista de produtos bancários,67661.39,529.45,28863.58,33517.08,97054.42,130571.5,Maranhão
+Cauã Barros,Anotador de pontuação (karatê),71042.32,3739.76,9605.68,44396.04,84387.76,128783.8,Maranhão
+Livia Pereira,Antiquário (comércio atacadista),86492.76,0,2662.28,39474.81,89155.04,128629.85,Maranhão
+Marisa Lima,Atleta de peteca,75222.6,0,2380.52,43396.77,77603.12,120999.89,Maranhão
+Fernanda Melo,Auxiliar de confeiteiro,78084.4,0,8472.56,32530.11,86556.96,119087.07,Maranhão
+Nicolash Rodrigues,Auxiliar de manutenção elétrica e hidráulica,61801.83,10931.81,5672.1,38693.88,78405.74,117099.62,Maranhão
+Vitor Ferreira,Abatedor de aves,68835.72,0,3963.23,41224.04,72798.95,114022.99,Maranhão
+Pedro Costa,Administrador de arquivos,62804.82,9284.53,2469,38747.29,74558.35,113305.64,Maranhão
+Alex Martins,Advogado comercial,59195.16,9135.42,4256.61,39423.42,72587.19,112010.61,Maranhão
+Ana Carvalho,Advogados (direito eletrônico),53214.9,6315.13,2721.02,49519.89,62251.05,111770.94,Maranhão
+Vitória Pereira,Ajudante de extrusão de fibras de vidro,59665.92,0,3191.6,45549.07,62857.52,108406.59,Maranhão
+Luiz Melo,Arqueador e temperador de molas,67108.68,0,500,33745.02,67608.68,101353.7,Maranhão
+Beatrice Rodrigues,Arrancador - na cultura,63803.2,0,4000.54,33285.35,67803.74,101089.09,Maranhão
+Sophia Ferreira,Arrolhador,87083.9,0,1287.49,12468.74,88371.39,100840.13,Maranhão
+Júlia Cunha,Assessor de presidência,64904.76,0,2122.64,33011.3,67027.4,100038.7,Maranhão
+Erick Gomes,Atendente de centro cirúrgico,65745.6,5740.95,1366.52,26178.67,72853.07,99031.74,Maranhão
+Mateus Ferreira,Advogado constitucionalista,50272.92,1296.08,1756.88,38775.93,53325.88,92101.81,Maranhão
+Rafaela Pinto,Agente de investigação privada,53100.97,6517.92,3567.69,27944.56,63186.58,91131.14,Maranhão
+Miguel Souza,Arqueador e temperador de molas,48705,17.56,1717.64,34458.97,50440.2,84899.17,Maranhão
+Anna Rodrigues,Assistente técnico - no serviço público,45348.09,12303.8,500,24980.06,58151.89,83131.95,Maranhão
+Rafaela Goncalves,Assistente técnico na fabricação de produtos de cerâmica,53841.48,0,1846.04,27376.52,55687.52,83064.04,Maranhão
+Arthur Azevedo,Atendente balconista,9789.56,0,0,73147.64,9789.56,82937.2,Maranhão
+Eduardo Almeida,Atendente do setor de frios e laticínios,54717.06,0,500,27199.21,55217.06,82416.27,Maranhão
+Manuela Pinto,Auditor contábil,52013.64,0,1800.32,27993.72,53813.96,81807.68,Maranhão
+Amanda Santos,Auxiliar de barman,42211.29,3253.84,4737.96,31145.12,50203.09,81348.21,Maranhão
+Julian Azevedo,Auxiliar de laboratório fotográfico,44508.48,470.36,1880.14,33602.62,46858.98,80461.6,Maranhão
+Emily Rocha,Auxiliar de salsicheiro,44168.76,286.66,2804.24,32691.92,47259.66,79951.58,Maranhão
+Felipe Melo,Agente de contrrole de dengue,49889.16,0,1747.28,25838.23,51636.44,77474.67,Maranhão
+Carla Silva,Ajudante de enfardamento,64180.37,6801.74,5621.83,0,76603.94,76603.94,Maranhão
+Larissa Barbosa,Ajudante de lapidador (vidros),46253.97,3770.85,500,25903.62,50524.82,76428.44,Maranhão
+Luís Correia,Ajustador de fôrmas (concreto),48765.84,0,1719.2,25455.97,50485.04,75941.01,Maranhão
+Ryan Almeida,Amarrador de madeira,60626.51,0,-15232.92,30041.43,45393.59,75435.02,Maranhão
+Paulo Correia,Assentador de canalização (edificações),47884.2,1474.9,3462.54,18705.33,52821.64,71526.97,Maranhão
+Tomás Fernandes,Assistente de cabo de fogo,44168.76,0,2804.24,24290.24,46973,71263.24,Maranhão
+Emily Oliveira,Assistente jurídico,38835.84,0,1422.16,30617.18,40258,70875.18,Maranhão
+Isabella Cunha,Assistente trilíngüe,38177.18,2296.2,873.68,29430.02,41347.06,70777.08,Maranhão
+Manuela Alves,Auxiliar de cabeleireiro,42529.76,0,-1882.04,28569.82,40647.72,69217.54,Maranhão
+Martim Cardoso,Auxiliar de dietista,44168.76,0,1604.24,23153.66,45773,68926.66,Maranhão
+Tiago Souza,Avicultor,55141.63,6153.21,1071.13,4341.37,62365.97,66707.34,Maranhão
+Rafael Costa,Advogado (biodireito),46260.66,0,500,18681.01,46760.66,65441.67,Maranhão
+Kauã Carvalho,Advogado (energia elétrica),36420.24,0,0,28753.54,36420.24,65173.78,Maranhão
+Pedro Gomes,Agente de contrrole de dengue,38109.56,1053.76,6180.38,18706.92,45343.7,64050.62,Maranhão
+Isabela Santos,Agente de inspeção (qualidade),44168.76,0,1604.24,18172.22,45773,63945.22,Maranhão
+Eduardo Pereira,Ajudante de lavanderia de artefatos da tapeçaria,42478.34,0,1610.51,17686.55,44088.85,61775.4,Maranhão
+Bianca Fernandes,Alimentador de peixe,32741.01,0,0,27753.84,32741.01,60494.85,Maranhão
+Igor Cunha,Amolador ambulante,41570.39,153.52,-1875.27,20231.17,39848.64,60079.81,Maranhão
+Vitor Cavalcanti,Apresentador de circo,29407.04,0,851.48,26798.56,30258.52,57057.08,Maranhão
+Paulo Correia,Atleta de futsal,24998.16,0,485.26,26397.68,25483.42,51881.1,Maranhão
+Amanda Souza,Ator de cinema,32514.96,0,1200,17703.07,33714.96,51418.03,Maranhão
+Carla Rodrigues,Auxiliar de fermentação,34665.67,0,1410.27,13026.97,36075.94,49102.91,Maranhão
+Bianca Lima,Auxiliar técnico em patologia cínica,31304.14,458.48,2209.3,12759.65,33971.92,46731.57,Maranhão
+Sarah Melo,Abatedor de galinha,45053.02,591.38,238.29,0,45882.69,45882.69,Maranhão
+Fábio Oliveira,Alapini,22170.24,307.35,3447.23,11854.86,25924.82,37779.68,Maranhão
+Rafael Souza,Apontador (vôlei),30523.99,491.13,2895.87,0,33910.99,33910.99,Maranhão
+Matilde Oliveira,Arreador,22018.92,0,451.54,9328.12,22470.46,31798.58,Maranhão
+Luís Dias,Atleta profissional de luta,27362.4,0,1117.18,0,28479.58,28479.58,Maranhão
+Murilo Azevedo,Auxiliar de cozinha,17010.23,0,1072.84,9067.16,18083.07,27150.23,Maranhão
+Rodrigo Azevedo,Amolador de cutelaria,3947.46,0.5,10896.14,3658.09,14844.1,18502.19,Maranhão
+Letícia Barbosa,Amostrista de minérios,16118.07,634.44,1645.1,0,18397.61,18397.61,Maranhão
+Emilly Rocha,Árbitro de futebol,15825.93,0,0,0,15825.93,15825.93,Maranhão
+Júlio Araujo,Atleta do beisebol,9278.85,0,3635.55,0,12914.4,12914.4,Maranhão
+Júlia Almeida,Auxiliar de cabo de fogo,11127.12,1045.95,-4331.88,4297.2,7841.19,12138.39,Maranhão
+Emily Barbosa,Auxiliar de laboratorista (indústria),10601.02,177.92,182.75,0,10961.69,10961.69,Maranhão
+Julieta Martins,Auxiliar geral de conservação de vias permanentes (exceto trilhos),6078.76,263.02,327.9,3324.66,6669.68,9994.34,Maranhão
+Eduarda Oliveira,Auxiliar técnico de hidrografia,9349.06,0,609.27,0,9958.33,9958.33,Maranhão
+Marcos Goncalves,Ajudante de operador de guincho,6980.7,0,-95.34,0,6885.36,6885.36,Maranhão
+Laura Pereira,Ambientador,5622.35,0,454.01,0,6076.36,6076.36,Maranhão
+Mateus Ferreira,Analista de aplicativo básico (software),4290.61,334.17,-266.43,1506.83,4358.35,5865.18,Maranhão
+Larissa Correia,Analista de mercado,4962.86,0,546.27,0,5509.13,5509.13,Maranhão
+Ryan Correia,Apresentador de programas de televisão,4187.39,0,209.38,0,4396.77,4396.77,Maranhão
+Thiago Pereira,Árbitro de poló aquático,4288.13,0,0,0,4288.13,4288.13,Maranhão
+Leonardo Barbosa,Assistente de apontador (basquete),3312.09,0,0,0,3312.09,3312.09,Maranhão
+Amanda Alves,Auxiliar de enfermagem de centro cirúrgico,1776.23,0,62.42,0,1838.65,1838.65,Maranhão
+Tiago Goncalves,Auxiliar de serviços bibliotecários,986.43,0,220.08,0,1206.51,1206.51,Maranhão
+Maria Lima,Administrador florestal,0,0,450,0,450,450,Maranhão
+Mateus Correia,Afiador ambulante,320.01,0,0,0,320.01,320.01,Maranhão
+Maria Alves,Agenciador de publicidade,156.88,0,77.05,0,233.93,233.93,Maranhão
+Douglas Alves,Agente de reserva de passagens rodoviárias,0,0,100,0,100,100,Maranhão
+Aline Sousa,Analista de ecodesenvolvimento (economista),35763,0,1068,15796,36831,52627,Maranhão
+Matheus Souza,Analista de pesquisa operacional,30088,3818,0,14944,33906,48850,Maranhão
+Marina Rodrigues,Aramista (equilibrista),7072,2025,992,11191,10089,21280,Maranhão
+Alex Dias,Arrendatário na agropecuária,119963.88,0,25953.11,44429.52,145916.99,190346.51,Maranhão
+Eduarda Santos,Artesão confeccionador de biojóias e ecojóias,108136.78,0,17156.17,47261.77,125292.95,172554.72,Maranhão
+Rafaela Ribeiro,Assentador de manilhas,90425.92,2805.58,14592.98,54577.55,107824.48,162402.03,Maranhão
+Vitória Gomes,Assessor de presidência,105157.18,0,9972.04,45598.62,115129.22,160727.84,Maranhão
+Anna Pereira,Acabador de superfícies de concreto,51842.4,260.67,4172.22,40671.29,56275.29,96946.58,Maranhão
+Mateus Souza,Afiador de cardas,46372.46,6873.6,2466.45,33997.19,55712.51,89709.7,Maranhão
+Caio Cardoso,Agente de serviços de fiscalização de transportes coletivos e licenciamento de veículos,51037.54,1756.76,4163.06,28324.87,56957.36,85282.23,Maranhão
+Samuel Goncalves,Ajudante de serrador,39637.66,1602.26,3557.63,33049.39,44797.55,77846.94,Maranhão
+Julieta Costa,Amostrista,53191.44,0,1038.7,19751.79,54230.14,73981.93,Maranhão
+Gabrielly Ribeiro,Analisador de tráfego telefônico,34216.15,2922.37,5081.77,31635.12,42220.29,73855.41,Maranhão
+Thaís Alves,Árbitro central (futebol),47456,0,4456.84,13251.74,51912.84,65164.58,Maranhão
+Lavinia Melo,Arreeiro de couro - na fabricação,34366.8,1481.26,3216.25,23305.28,39064.31,62369.59,Maranhão
+Aline Ribeiro,Assessor de microfinanças,35312.76,0,6466.81,17432.36,41779.57,59211.93,Maranhão
+Sarah Cunha,Atleta de ciclismo,28845.73,429.2,0,23088.05,29274.93,52362.98,Maranhão
+Sophia Rodrigues,Auxiliar administrativo de diretoria,35611.65,3917.8,1848.8,7095.62,41378.25,48473.87,Maranhão
+Evelyn Ribeiro,Auxiliar de serviços jurídicos,28134.92,2417.62,230.4,5225.33,30782.94,36008.27,Maranhão
+Sofia Gomes,Administrador de patrimônio,18977.85,0,0,3527.55,18977.85,22505.4,Maranhão
+Bianca Rocha,Advogado (aeroespacial),18537.76,64.49,0,1826.82,18602.25,20429.07,Maranhão
+Thaís Araujo,Ajudante de marteleteiro,4388.27,0,1261.69,2899.3,5649.96,8549.26,Maranhão
+Giovanna Melo,Alugador (comerciante varejista),4060.8,0,157.36,755.56,4218.16,4973.72,Maranhão
+Fábio Rodrigues,Asfaltador na conservação de vias permanentes (exceto trilhos),109694.04,0,0,61878.3,109694.04,171572.34,Maranhão
+Lucas Cavalcanti,Avicultor - exclusive conta própria na avicultura de postura,67742.8,11884.37,3651.2,59116.74,83278.37,142395.11,Maranhão
+Rafael Rodrigues,Agente de saneamento,61048.4,11931.8,3855.94,55476.97,76836.14,132313.11,Maranhão
+Diogo Martins,Ajudante de cabista,81432.05,293.63,914.87,47327.76,82640.55,129968.31,Maranhão
+Brenda Cardoso,Arrumador no serviço doméstico,69914.02,0,0,43941.05,69914.02,113855.07,Maranhão
+Pedro Rocha,Atendente de berçário,70876.04,178.89,0,38539.13,71054.93,109594.06,Maranhão
+Kai Costa,Auxiliar de cobrança,55692.01,11546.73,1392.3,37789.7,68631.04,106420.74,Maranhão
+Evelyn Pinto,Auxiliar de magarefe,56836,0,1169.92,46682.59,58005.92,104688.51,Maranhão
+Vinicius Lima,Auxiliar de nutrição e dietética,50381.35,17450.07,612.1,35964.55,68443.52,104408.07,Maranhão
+Emily Barbosa,Administrador de recursos humanos,51071.47,14622.63,923.16,34243.37,66617.26,100860.63,Maranhão
+Kaua Cardoso,Agente funerário - tanatopraxista,55647.24,5022.14,420.64,36703.37,61090.02,97793.39,Maranhão
+Julia Silva,Ajudante de macheiro,58396.03,0,0,37701.12,58396.03,96097.15,Maranhão
+Nicole Melo,Ambientador,55364.03,4135.57,0,34262.23,59499.6,93761.83,Maranhão
+Rodrigo Melo,Analista de informações de mercado,51829.45,4968.17,242.5,35914.32,57040.12,92954.44,Maranhão
+Júlia Carvalho,Analista de transportes e trânsito,53754.01,2475.76,1206.15,34882.19,57435.92,92318.11,Maranhão
+Julian Melo,Artífice do couro,47138.01,8466.17,1173.3,32838.25,56777.48,89615.73,Maranhão
+Aline Alves,Autor-roteirista de televisão,51784.32,271.16,0,34638.62,52055.48,86694.1,Maranhão
+Laura Barros,Auxiliar de costureira (no acabamento),53361.49,4527.04,1943.37,26086.18,59831.9,85918.08,Maranhão
+Beatriz Fernandes,Advogados (direito eletrônico),44590.03,4435.71,921.64,30885.27,49947.38,80832.65,Maranhão
+Vitor Costa,Afiador de serras,49630.03,3583.04,1240.88,26118.85,54453.95,80572.8,Maranhão
+Martim Rodrigues,Analista de crédito rural,44590.01,849.45,401.59,30876.57,45841.05,76717.62,Maranhão
+Kai Ribeiro,Animador de televisão,43875.74,0,998.97,30950.46,44874.71,75825.17,Maranhão
+Vinicius Azevedo,Apanhador de babaçu,44979.03,1359.99,530.84,28828.09,46869.86,75697.95,Maranhão
+Matheus Correia,Apontador de pessoal,44590.02,176.86,600.08,30032.05,45366.96,75399.01,Maranhão
+Miguel Sousa,Apresentador animador de programas de televisão,46254.04,0,0,29063.87,46254.04,75317.91,Maranhão
+Gabriel Ferreira,Arqueólogo,44590.09,0,0,30276.42,44590.09,74866.51,Maranhão
+Erick Lima,Artista plástico,42650.87,0,0,31243.71,42650.87,73894.58,Maranhão
+Luana Barbosa,Atleta de surf e windsurf,47154.5,1189.4,640,22895.01,48983.9,71878.91,Maranhão
+João Lima,Auxiliar de serviços de importação e exportação,38964.67,532.71,1059.37,27541.99,40556.75,68098.74,Maranhão
+Eduarda Dias,Advogado generalista,39312,0,0,25516.9,39312,64828.9,Maranhão
+Martim Barbosa,Ajudante de operador de guincho,36181.37,0,692.4,25435.71,36873.77,62309.48,Maranhão
+Melissa Fernandes,Ajustador limador de fresas,34814.05,4577.7,0,22413.33,39391.75,61805.08,Maranhão
+Luiza Fernandes,Analista de produto industrial (economista),34814.01,0,484.68,25553.4,35298.69,60852.09,Maranhão
+Kauan Silva,Árbitro central (karatê),34546.22,125.54,0,25485.8,34671.76,60157.56,Maranhão
+Vitór Carvalho,Autor-roteirista de cinema,34814.02,16.82,0,23136.2,34830.84,57967.04,Maranhão
+Luiz Azevedo,Auxiliar de técnico de eletrônica,33193.86,112.98,0,23108.48,33306.84,56415.32,Maranhão
+Diego Santos,Afiador manual,28473.85,0.28,1244.68,23807.06,29718.81,53525.87,Maranhão
+Nicolash Dias,Agente de inspeção de pesca,33953.02,61.19,0,19006.13,34014.21,53020.34,Maranhão
+Sarah Pinto,Agricultor na produção da cana-de-açúcar,30993,0,0,21180.28,30993,52173.28,Maranhão
+Rebeca Ferreira,Ajudante de britador,31256.02,183,0,20337.26,31439.02,51776.28,Maranhão
+Anna Melo,Ajudante de serrador,29822.04,0,0,20487.68,29822.04,50309.72,Maranhão
+Murilo Gomes,Alfarrabista (comércio varejista),28444.01,1148.7,0,19998.47,29592.71,49591.18,Maranhão
+Nicolash Cunha,Amestrador,29506.01,92.9,0,19457.72,29598.91,49056.63,Maranhão
+Kauê Alves,Assessor imobiliário,24446.03,0,0,17062.59,24446.03,41508.62,Maranhão
+Nicolas Alves,Assistente de coreografia,24166.1,0,0,16898.42,24166.1,41064.52,Maranhão
+Fábio Rocha,Atleta profissional de luta,19960.36,2118.61,1497.2,14049.33,23576.17,37625.5,Maranhão
+Gabrielly Sousa,Ator dramático,21254.06,0,0,16128.04,21254.06,37382.1,Maranhão
+Marisa Azevedo,Auditor externo (contadores e afins),22645.1,0,0,14408.43,22645.1,37053.53,Maranhão
+Otávio Souza,Aurifice,22288.11,286.66,0,14280.24,22574.77,36855.01,Maranhão
+Gabrielle Sousa,Auxiliar de museus,20098.01,194.97,0,12190.46,20292.98,32483.44,Maranhão
+Laura Cardoso,Agente de pátio,13637.02,406.49,0,7620.78,14043.51,21664.29,Maranhão
+Emily Silva,Agente de segurança,19891.2,0,0,1522.01,19891.2,21413.21,Maranhão
+Erick Goncalves,Ajudante de cabista,12738,0,138.48,7025.16,12876.48,19901.64,Maranhão
+Sophia Alves,Ajudante de engarrafamento,12808,45.03,0,6607.7,12853.03,19460.73,Maranhão
+Leila Cavalcanti,Ajudante de gasista,16196.64,1580.14,0,1360.26,17776.78,19137.04,Maranhão
+André Santos,Alisador de metal,11100,0,0,5307.25,11100,16407.25,Maranhão
+Fernanda Alves,Analista de areias em fundição,10451,0,0,4937.5,10451,15388.5,Maranhão
+Leonor Araujo,Analista de planejamento e orçamento - apo,8392,1160.45,184.64,4556.29,9737.09,14293.38,Maranhão
+Nicolas Azevedo,Aplicador serigráfico em vidros,8370.02,238.03,230.8,3139.9,8838.85,11978.75,Maranhão
+Guilherme Araujo,Árbitro de futsal,7371,0,0,3838.6,7371,11209.6,Maranhão
+Sophia Pinto,Atendente de buffet,5830.18,0,0,446.35,5830.18,6276.53,Maranhão
+Nicolas Rodrigues,Atleta de patinação,4521.23,0,5.77,346.65,4527,4873.65,Maranhão
+Brenda Fernandes,Atleta do hóquei,2363.54,1854.67,0,323.03,4218.21,4541.24,Maranhão
+Pedro Correia,Auditor-fiscal do trabalho,3052,0,0,729.15,3052,3781.15,Maranhão
+Melissa Azevedo,Auxiliar de encanador,2288.75,0,0,175.43,2288.75,2464.18,Maranhão
+João Santos,Ajudante de afiação de serras,42164.8,65.88,2117.6,15260.14,44348.28,59608.42,Maranhão
+Eduardo Oliveira,Ajudante de britador,41017.6,15.24,2650.3,15409.66,43683.14,59092.8,Maranhão
+Nicolash Dias,Anotador de consumo de energia elétrica,245975.76,0,9697.79,56308.72,255673.55,311982.27,Maranhão
+Vitoria Rocha,Aparador de óleo de copaíba,131666.72,0,12129.24,38955.44,143795.96,182751.4,Maranhão
+Otávio Correia,Apontador de mão-de-obra,115553.34,0,0,30775.08,115553.34,146328.42,Maranhão
+Gabrielle Martins,Árbitro de atletismo,105017.34,0,0,28600.81,105017.34,133618.15,Maranhão
+Rafael Goncalves,Atleta de bodybare,75561.42,0,0,22393.04,75561.42,97954.46,Maranhão
+Samuel Silva,Auxiliar de orientação pedagógica,64052.53,174.75,0,19974.18,64227.28,84201.46,Maranhão
+Arthur Silva,Auxiliar de saúde marítimo,58009.43,0,2966.4,22349.75,60975.83,83325.58,Maranhão
+Gabrielly Sousa,Auxiliar técnico de seguros,62682.66,0,0,18125.39,62682.66,80808.05,Maranhão
+Igor Goncalves,Avicultor avozeiro,60371.03,134.65,0,19197.81,60505.68,79703.49,Maranhão
+Leonor Azevedo,Abatedor de porco,59612.36,0,0,19045.95,59612.36,78658.31,Maranhão
+Lucas Lima,Adeleiro (comércio atacadista),55223.39,0,617.6,21543.61,55840.99,77384.6,Maranhão
+Laura Melo,Advogado (direitos da criança e do adolescente),56336.41,0,0,18365.62,56336.41,74702.03,Maranhão
+Laura Ferreira,Alisador de metal,44757.26,0,2288.84,16402.4,47046.1,63448.5,Maranhão
+Julia Alves,Arquiteto de edificações,36662.44,2731.3,1731.84,13757.68,41125.58,54883.26,Maranhão
+André Sousa,Assistente de operações de equipamentos de produção para televisão e produtoras de vídeo,37610.37,0,0,12855.74,37610.37,50466.11,Maranhão
+Lara Cardoso,Auxiliar técnico de manipulação em laboratório de farmácia,24055.28,0,675.9,8278.54,24731.18,33009.72,Maranhão
+Daniel Souza,Auxiliar técnico florestal,25416.16,0,0,6599.35,25416.16,32015.51,Maranhão
+Enzo Araujo,Agente de portaria,12231.57,8.44,0,1191.35,12240.01,13431.36,Maranhão
+Laura Almeida,Agricultor na produção da cana-de-açúcar,10827.27,0,0,0,10827.27,10827.27,Maranhão
+Leonardo Fernandes,Ajudante de obras,7058.56,0,0,0,7058.56,7058.56,Maranhão
+Victor Azevedo,Analista de informações (pesquisador de informações de rede),1266.73,0,0,0,1266.73,1266.73,Maranhão
+Danilo Ferreira,Apontador de obras,77680.68,19069.96,6749.69,37755.32,103500.33,141255.65,Maranhão
+Kauê Correia,Atleta de vela,67046.46,0,0,27227.27,67046.46,94273.73,Maranhão
+Ryan Rodrigues,Atleta de voleibol,54355.14,13100.81,571.12,26234.89,68027.07,94261.96,Maranhão
+Tânia Martins,Auxiliar de topógrafo,53797.12,0,439.43,26497.1,54236.55,80733.65,Maranhão
+Cauã Cardoso,Auxiliar técnico de conservação de estradas,58473.13,263.59,0,21310.43,58736.72,80047.15,Maranhão
+Douglas Ferreira,Afiador ambulante,46858.14,1239.07,0,24053.58,48097.21,72150.79,Maranhão
+Joao Sousa,Ajudante de impressor de formulários contínuos,46756.38,33.71,1014.01,18092.68,47804.1,65896.78,Maranhão
+Nicole Silva,Ajudante de serralheiro,43579.33,1090.93,707.79,18918.62,45378.05,64296.67,Maranhão
+Luís Lima,Analista de areias em fundição,38403.26,120.36,703.7,21816.87,39227.32,61044.19,Maranhão
+Evelyn Souza,Apontador (vôlei),38996.74,523.71,0,16791.94,39520.45,56312.39,Maranhão
+Thiago Lima,Assessor jurídico,31501.28,0,0,19590.41,31501.28,51091.69,Maranhão
+Larissa Oliveira,Assistente de controladoria,33783.31,1012.51,0,15629.1,34795.82,50424.92,Maranhão
+Marcos Costa,Administrador de instituições culturais,18090.64,1624.91,1124.52,1813.82,20840.07,22653.89,Maranhão
+Alice Gomes,Afiador de brocas e coroas,7558.92,0,0,9038,7558.92,16596.92,Maranhão
+Ana Santos,Ajustador de agulhas,2229.35,0,0,829.94,2229.35,3059.29,Maranhão
+Arthur Ferreira,Artesão com material reciclável,42124,0,1205,24403,43329,67732,Maranhão
+Matheus Castro,Artesão do couro,38548,6304,8756,13734,53608,67342,Maranhão
+Arthur Pereira,Atendente de farmácia - balconista,25226,0,2602,4578,27828,32406,Maranhão
+Douglas Dias,Atleta de futebol sete,2844,0,11447,3983,14291,18274,Maranhão
+Kauã Melo,Autor de música,7088,229,0,0,7317,7317,Maranhão
+Otávio Ferreira,Auxiliar de contas a receber,2772,220,239,0,3231,3231,Maranhão
+Ágatha Ribeiro,Auxiliar de serviços jurídicos,150486,0,22615,108937,173101,282038,Maranhão
+André Goncalves,Auxiliar em hemotransfusão,157395,0,16186,102883,173581,276464,Maranhão
+Rafaela Cardoso,Auxiliar-ajudante de operador de máquinas de lavar fibras,151995,0,17231,96611,169226,265837,Maranhão
+Luan Carvalho,Administrador de sistemas operacionais de rede,91283,46463,9453,91870,147199,239069,Maranhão
+Felipe Carvalho,Advogado (concorrência desleal),91464,49907,5334,89606,146705,236311,Maranhão
+Emily Almeida,Advogado tributarista,130080,0,14348,88977,144428,233405,Maranhão
+Eduarda Sousa,Armador de manilhas,74957,19791,11126,81739,105874,187613,Maranhão
+Cauã Costa,Assessor trilíngüe,76793,28695,3056,72764,108544,181308,Maranhão
+Isabelle Araujo,Atendente odontológico,81238,0,9031,84921,90269,175190,Maranhão
+Isabella Costa,Atleta de peteca,83143,5040,21541,64787,109724,174511,Maranhão
+Kauê Fernandes,Administrador de banco de dados,97206,641,6946,54541,104793,159334,Maranhão
+Alice Alves,Agente de estação (ferrovia e metrô),54612,42371,6143,52179,103126,155305,Maranhão
+Lucas Ribeiro,Agricultor polivalente - empregador,60495,26738,6829,58614,94062,152676,Maranhão
+Vitor Pinto,Agrostólogo,84282,0,6037,62151,90319,152470,Maranhão
+Luiza Barros,Arrematador de fogos,76280,0,3051,59068,79331,138399,Maranhão
+Thaís Oliveira,Audiodescritor,77570,0,4654,50528,82224,132752,Maranhão
+Giovana Almeida,Administrador (serviço de hospedagem),76662,279,1535,46667,78476,125143,Maranhão
+Giovana Sousa,Advogado (direito civil),73201,3216,3942,43446,80359,123805,Maranhão
+Isabelle Araujo,Advogado contratualista,55030,10604,6515,51334,72149,123483,Maranhão
+Giovanna Cunha,Agente comunitário de saúde,68412,0,1244,52833,69656,122489,Maranhão
+Vinícius Martins,Agente social,55030,11899,6871,47027,73800,120827,Maranhão
+Gabriel Costa,Analista de cadeias produtivas (economista),49940,20667,7097,38409,77704,116113,Maranhão
+Tiago Cardoso,Apropriador de mão-de-obra,69143,0,0,43317,69143,112460,Maranhão
+Matheus Santos,Armeiro (comércio varejista),70782,0,0,40636,70782,111418,Maranhão
+Lavinia Silva,Assoalhador,48791,14005,4263,41465,67059,108524,Maranhão
+Leila Castro,Auxiliar de cozinha,58561,3296,0,43674,61857,105531,Maranhão
+Gustavo Dias,Administrador de sistemas operacionais de rede,47544,1723,3752,47794,53019,100813,Maranhão
+Sofia Ferreira,Agente de saúde pública,62484,1794,0,34654,64278,98932,Maranhão
+Júlio Pereira,Arquiteto de restauro,50274,0,3016,38669,53290,91959,Maranhão
+Estevan Rodrigues,Assinalador - na pecuária,49554,363,801,39917,50718,90635,Maranhão
+Tiago Silva,Auxiliar de cartório,78012,3065,6167,0,87244,87244,Maranhão
+Pedro Rocha,Auxiliar de estúdio,42854,339,4897,38303,48090,86393,Maranhão
+Luís Santos,Auxiliar de serviço de segurança,45031,646,2788,36904,48465,85369,Maranhão
+Lavinia Fernandes,Administrador no comércio de mercadorias,35346,6776,9145,31825,51267,83092,Maranhão
+Vitória Oliveira,Ajudante de pintor de móveis,42347,0,2541,34755,44888,79643,Maranhão
+Gabrielle Carvalho,Aplainador de mármore,45593,0,5015,25685,50608,76293,Maranhão
+Leonor Martins,Aplicador de impressos em cerâmica,40286,338,0,35620,40624,76244,Maranhão
+Caio Fernandes,Árbitro central (karatê),42347,0,3388,29894,45735,75629,Maranhão
+Arthur Carvalho,Assentador de canalização (edificações),31743,13590,2040,26819,47373,74192,Maranhão
+Alex Castro,Auxiliar de conservação de barragens,38955,0,2848,29703,41803,71506,Maranhão
+Luiz Barbosa,Auxiliar de laboratorista (indústria),40894,0,818,29070,41712,70782,Maranhão
+Erick Carvalho,Avaliador de produtos do meio de comunicação,42347,778,654,25735,43779,69514,Maranhão
+Kauan Castro,Afinador de motores diesel (exceto de veículos automotores),33303,2862,2025,29524,38190,67714,Maranhão
+Kauan Pinto,Agente de pesquisa,30567,9701,839,26043,41107,67150,Maranhão
+Luis Lima,Agente fiscal têxtil,35292,6,575,30957,35873,66830,Maranhão
+Miguel Rodrigues,Ajudante de mineiro,35982,0,1250,28398,37232,65630,Maranhão
+Isabella Cardoso,Analista de marketing,31868,12,1912,29790,33792,63582,Maranhão
+Julieta Oliveira,Analista de mercado agrícola (economista),34867,109,4097,24455,39073,63528,Maranhão
+Diogo Cunha,Analista de micróbios,35564,0,0,27946,35564,63510,Maranhão
+Beatriz Cavalcanti,Analista de sistemas web (webmaster),43416,0,0,19893,43416,63309,Maranhão
+Luan Goncalves,Artesão rendeiro,58403,129,2243,0,60775,60775,Maranhão
+Kaua Rodrigues,Atleta da natação,35564,24,650,22628,36238,58866,Maranhão
+Vitor Oliveira,Autor de música,31868,0,1287,25122,33155,58277,Maranhão
+Igor Melo,Autor-roteirista de cinema,31739,775,2100,23641,34614,58255,Maranhão
+Luana Oliveira,Auxiliar de limpeza,37602,2099,0,17232,39701,56933,Maranhão
+Luis Fernandes,Auxiliar de topógrafo,29305,0,1758,25158,31063,56221,Maranhão
+Alice Goncalves,Auxiliar técnico de distribuição de energia,30399,2613,4874,18143,37886,56029,Maranhão
+Mateus Pereira,Abatedor de porco,31008,898,1889,21419,33795,55214,Maranhão
+Isabela Ferreira,Administrador de camping,31267,2516,1919,19030,35702,54732,Maranhão
+André Lima,Agente de portaria,28103,211,562,24006,28876,52882,Maranhão
+Alice Pereira,Ajudante de pizzaiolo,29026,0,18186,3664,47212,50876,Maranhão
+Danilo Carvalho,Ajuntador de andiroba,30206,3309,1622,15420,35137,50557,Maranhão
+Raissa Barros,Analista de documentação,29169,0,0,19699,29169,48868,Maranhão
+Miguel Barbosa,Analista de suporte de banco de dados,26667,1643,1628,17843,29938,47781,Maranhão
+Luis Castro,Árbitro de futebol,44617,0,480,0,45097,45097,Maranhão
+Estevan Alves,Arrematador,25932,653,2405,14735,28990,43725,Maranhão
+Vinícius Carvalho,Assistente de estúdio (cinema e vídeo),40647,596,0,0,41243,41243,Maranhão
+Otávio Azevedo,Advogado contratualista,29261,0,0,0,29261,29261,Maranhão
+Melissa Pinto,Agente funerário,26810,0,0,0,26810,26810,Maranhão
+Isabelle Melo,Ajudante de produção - na indústria de bebidas,23992,114,0,0,24106,24106,Maranhão
+Danilo Ribeiro,Analista de comunicação (teleprocessamento),21496,0,0,680,21496,22176,Maranhão
+Letícia Araujo,Arrombador - no comércio de gado - empregador,11837,0,0,6237,11837,18074,Maranhão
+Victor Barbosa,Assistente de contas de seguros,10723,0,868,5325,11591,16916,Maranhão
+Bruna Araujo,Atendente de creche,9025,212,746,5790,9983,15773,Maranhão
+Breno Ferreira,Autoridade policial (delegado),14209,0,0,0,14209,14209,Maranhão
+Cauã Correia,Auxiliar de mâitre,12191,0,0,0,12191,12191,Maranhão
+Eduardo Correia,Auxiliar de prótese dentária,11552,0,0,0,11552,11552,Maranhão
+Julia Carvalho,Auxiliar técnico de hidrografia,6884,336,2197,1308,9417,10725,Maranhão
+Kai Correia,Ajudante de forjador,5963,0,0,0,5963,5963,Maranhão
+Cauã Barbosa,Ajudante de forneiro,5943,0,0,0,5943,5943,Maranhão
+Rebeca Goncalves,Analista de finanças públicas (economista),3639,0,0,0,3639,3639,Maranhão
+Gabriel Barbosa,Analista de projetos industriais (economista),3312,0,0,0,3312,3312,Maranhão
+Júlia Cunha,Anotador de consumo de energia elétrica,1351,0,393,811,1744,2555,Maranhão
+Gabrielle Pinto,Apresentador de programas de televisão,1916,0,0,0,1916,1916,Maranhão
+Renan Oliveira,Arquiteto restaurador,905,0,68,464,973,1437,Maranhão
+Daniel Rodrigues,Artesão moveleiro (exceto reciclado),992,0,0,0,992,992,Maranhão
+Ana Costa,Assessor bilíngüe,828,0,0,0,828,828,Maranhão
+José Barros,Assistente trilíngüe,139,0,15,86,154,240,Maranhão
+Alex Cavalcanti,Atacadista,0,0,80,142,80,222,Maranhão
+Raissa Costa,Ator dublador,98191,0,5545,16601,103736,120337,Maranhão
+Amanda Souza,Auxiliar de farmácia de manipulação,70396,2787,0,19141,73183,92324,Maranhão
+Matheus Lima,Auxiliar de laboratório de análises físico-químicas,59541,8014,3556,19624,71111,90735,Maranhão
+Gabrielle Silva,Auxiliar nos serviços de alimentação,66440,3394,254,12894,70088,82982,Maranhão
+Luiza Cardoso,Avaliador de bens móveis,66248,0,789,13350,67037,80387,Maranhão
+Leonor Correia,Avicultor - exclusive conta própria na avicultura de postura,48675,18440,0,12567,67115,79682,Maranhão
+Rafael Pereira,Ajudante de banhos (vidros),43612,0,865,15961,44477,60438,Maranhão
+Luiza Ferreira,Ajudante de forjador,44976,1217,402,11589,46595,58184,Maranhão
+Gabriel Araujo,Analista de estudos de mercado,33426,3416,3569,10446,40411,50857,Maranhão
+Kai Castro,Analista técnico de sinistros,40712,15,0,6688,40727,47415,Maranhão
+Larissa Ribeiro,Apresentador de eventos,36497,1503,0,6231,38000,44231,Maranhão
+Luiz Ribeiro,Auxiliar de cortador de vidros,20804,0,0,0,20804,20804,Maranhão
+Kauê Cavalcanti,Abadessa,884,0,0,0,884,884,Maranhão
+Luiz Almeida,Advogado (biodireito),50310,5445,125,8635,55880,64515,Maranhão
+Matilde Cavalcanti,Advogado (concorrência desleal),55824.49,0,0,8632.5,55824.49,64456.99,Maranhão
+Miguel Ribeiro,Afiador de lâminas,53838,0,0,4741,53838,58579,Maranhão
+Joao Fernandes,Agricultor na produção de milho e sorgo,38683,0,0,9389,38683,48072,Maranhão
+Beatrice Pinto,Amostrador de minérios,6273,0,0,2401,6273,8674,Maranhão
+Davi Martins,Analista de balanço,186486,0,341360,61387,527846,589233,Maranhão
+Luana Cunha,Analista fiscal (economista),246376,8968,39232,89638,294576,384214,Maranhão
+Isabela Goncalves,Analista técnico em inteligência (grupo informações),240946,26209,40781,72980,307936,380916,Maranhão
+Julia Sousa,Apanhador de algodão,209005,55002,23770,78199,287777,365976,Maranhão
+Arthur Melo,Aparelhador de pedra (mármore),245182,5468,22056,90978,272706,363684,Maranhão
+Martim Silva,Arte educador,209091,0,29311,91629,238402,330031,Maranhão
+Gabriel Costa,Assistente de contabilidade industrial,152041,88551,7114,73875,247706,321581,Maranhão
+Luiza Cardoso,Assistente de estação (metrô e ferrovia),212833,0,37587,69193,250420,319613,Maranhão
+Luana Santos,Ator,220500,391,40849,40156,261740,301896,Maranhão
+Maria Souza,Autor de música,122977,99504,23342,53304,245823,299127,Maranhão
+Paulo Goncalves,Agrônomo,57022,2564,188754,19660,248340,268000,Maranhão
+Clara Pinto,Ajudante de encaixotador,208679,0,8593,49652,217272,266924,Maranhão
+Gabrielle Barros,Alergista e imunologista,122016,55530,18606,66987,196152,263139,Maranhão
+Alice Castro,Analista de ecodesenvolvimento (economista),106066,104045,2674,47572,212785,260357,Maranhão
+Victor Correia,Assistente bilíngüe,167081,28040,13826,40819,208947,249766,Maranhão
+Diego Goncalves,Auxiliar de cortador de vidros,122202,42418,19393,59543,184013,243556,Maranhão
+Vitor Martins,Auxiliar de eletrônica,107797,62224,16327,56826,186348,243174,Maranhão
+Thaís Lima,Auxiliar de montador de fotolito,104419,83418,3805,49924,191642,241566,Maranhão
+Felipe Gomes,Auxiliar de vaqueiro,161570,1533,21321,56031,184424,240455,Maranhão
+João Rocha,Agente de inteligência,122202,55701,3360,54077,181263,235340,Maranhão
+Bruno Barbosa,Árbitro geral de provas fora do estádio,157762,0,2980,66303,160742,227045,Maranhão
+Arthur Castro,Arquivista,158418,0,16863,51278,175281,226559,Maranhão
+Carolina Sousa,Assistente de governanta,183391,0,0,41776,183391,225167,Maranhão
+Sofia Souza,Atendente de pedágio,143567,2561,9873,68309,156001,224310,Maranhão
+Davi Ferreira,Auditor financeiro,103341,68888,1000,50102,173229,223331,Maranhão
+Luana Rodrigues,Auxiliar de desossador,103341,70510,1000,47711,174851,222562,Maranhão
+Martim Dias,Auxiliar de faturamento,91651,83297,1105,46141,176053,222194,Maranhão
+Vitoria Cunha,Ajudante de destilação de amônia,142944,0,24477,49468,167421,216889,Maranhão
+Lucas Rodrigues,Ajudante de lavador de tapetes,158182,0,15961,42431,174143,216574,Maranhão
+Julian Santos,Analista de areias em fundição,121259,26213,9020,58430,156492,214922,Maranhão
+Fábio Rodrigues,Analista de informações de mercado,144506,42085,2472,25599,189063,214662,Maranhão
+Beatrice Souza,Analista de rede,142944,0,8539,62703,151483,214186,Maranhão
+Nicolas Cavalcanti,Analista de sistemas para internet,171684,82,1021,41354,172787,214141,Maranhão
+Rafael Oliveira,Analista técnico de seguros,145301,0,15404,53148,160705,213853,Maranhão
+Luis Carvalho,Artesão tricoteiro,153519,0,11381,46191,164900,211091,Maranhão
+Otávio Ribeiro,Atendente de aeroporto,102294,66593,4258,36745,173145,209890,Maranhão
+Matheus Castro,Atendente do setor de rotisserie (pratos prontos),103341,54601,1000,50370,158942,209312,Maranhão
+Luiza Dias,Ator dublador,141182,0,34318,33160,175500,208660,Maranhão
+Julieta Correia,Auditor-fiscal da previdência social,111080,24020,17719,55657,152819,208476,Maranhão
+Laura Cardoso,Auxiliar de fermentação,149420,0,11303,46404,160723,207127,Maranhão
+Gabrielly Araujo,Avicultor matrizeiro,157762,0,9718,37805,167480,205285,Maranhão
+Erick Ferreira,Afiador de ferramentas,133970,0,0,69936,133970,203906,Maranhão
+Luana Cunha,Agente de estação portuária,126946,0,10143,66445,137089,203534,Maranhão
+Nicole Carvalho,Agente de trânsito,120233,24998,6879,50984,152110,203094,Maranhão
+Alex Cunha,Agente de transporte e trânsito,102398,47765,2200,50689,152363,203052,Maranhão
+Beatrice Gomes,Analisador de tráfego telefônico,93630,57969,11869,37183,163468,200651,Maranhão
+Carla Alves,Analista de políticas públicas (economista),105143,42450,1400,50992,148993,199985,Maranhão
+Enzo Alves,Analista de subscrição de títulos,95617,53775,2600,47844,151992,199836,Maranhão
+Miguel Costa,Analista de tratamento de água,103341,27877,14069,54420,145287,199707,Maranhão
+Gabrielly Sousa,Aramador - na fabricação de arame,102294,44042,2648,49501,148984,198485,Maranhão
+Julia Rodrigues,Artífice do couro,136456,0,16492,44336,152948,197284,Maranhão
+Emily Dias,Atleta de futsal,133970,0,19605,42234,153575,195809,Maranhão
+Cauã Pinto,Atleta de squash,120820,19367,4929,50533,145116,195649,Maranhão
+Gustavo Ribeiro,Auditor externo (contadores e afins),137051,0,14997,43339,152048,195387,Maranhão
+Daniel Cunha,Auxiliar de orientação educacional,73303,80413,1000,39239,154716,193955,Maranhão
+Sarah Ribeiro,Administrador de restaurante,130294,0,805,61115,131099,192214,Maranhão
+Vitór Santos,Ajudante,139291,0,6514,44959,145805,190764,Maranhão
+Emilly Almeida,Analista de documentação,101306,31864,8016,48080,141186,189266,Maranhão
+Ryan Cardoso,Analista de produtos químicos,141870,0,8506,38555,150376,188931,Maranhão
+Joao Sousa,Analista financeiro (instituições financeiras),133415,0,9683,45659,143098,188757,Maranhão
+Samuel Ferreira,Artífice de serra,133970,0,8581,44584,142551,187135,Maranhão
+Nicolash Sousa,Assistente técnico - no serviço público,103423,15994,10503,56733,129920,186653,Maranhão
+Laura Goncalves,Avicultor - exclusive conta própria na avicultura de postura,133970,0,7414,42352,141384,183736,Maranhão
+Maria Alves,Administrador de patrimônio,112661,9138,11632,49704,133431,183135,Maranhão
+Danilo Barros,Agente de pastoral,133415,0,12200,36805,145615,182420,Maranhão
+Samuel Lima,Álim,111831,10396,6602,52241,128829,181070,Maranhão
+Vinícius Sousa,Árbitro econômico,127404,0,10200,41441,137604,179045,Maranhão
+Sarah Barbosa,Assistente de contas de seguros,94466,35962,7089,40481,137517,177998,Maranhão
+Luiza Lima,Autor-roteirista de cinema,110805,21092,3990,40936,135887,176823,Maranhão
+Manuela Dias,Avaliador judicial,111433,2179,8305,53380,121917,175297,Maranhão
+Tânia Cunha,Administrador público,96372,30191,2431,45653,128994,174647,Maranhão
+Carla Cunha,Agente de estação portuária,97339,15626,11143,50017,124108,174125,Maranhão
+Camila Costa,Agente de microfinanças,94466,29531,4062,46022,128059,174081,Maranhão
+Gabrielle Alves,Ajudante de britador,113430,1982,5809,52349,121221,173570,Maranhão
+Isabella Silva,Analista de produto agropecuário (economista),91780,39516,4821,35983,136117,172100,Maranhão
+Gabrielle Silva,Analista técnico de sinistros,117305,0,11010,43513,128315,171828,Maranhão
+Rebeca Cunha,Armeiro (comércio varejista),119521,0,12931,38583,132452,171035,Maranhão
+Guilherme Azevedo,Auditor financeiro,123501,265,1414,44437,125180,169617,Maranhão
+Pedro Rodrigues,Auxiliar técnico de conservação de estradas,102294,26302,1527,38365,130123,168488,Maranhão
+Ana Cunha,Administrador em segurança da informação,117005,0,4756,46020,121761,167781,Maranhão
+Raissa Castro,Administrador no comércio de mercadorias,105629,5142,24905,32084,135676,167760,Maranhão
+Ana Melo,Aguilhoeiro,94930,35483,11015,25436,141428,166864,Maranhão
+Maria Cardoso,Anotador de pessoal,101306,7849,9873,46249,119028,165277,Maranhão
+Nicolas Barros,Auxiliar de prótese dentária,93527,17381,5105,46690,116013,162703,Maranhão
+Clara Cunha,Agente comunitário de saúde,122008,0,840,38719,122848,161567,Maranhão
+Tomás Fernandes,Agricultor polivalente,101306,7988,3645,48172,112939,161111,Maranhão
+Eduardo Gomes,Ajudante de banhos (vidros),91631,19700,5262,44433,116593,161026,Maranhão
+Isabelle Pinto,Ajudante de sushiman,110805,0,4819,44986,115624,160610,Maranhão
+Vinícius Gomes,Analista de ecodesenvolvimento (economista),115731,8598,168,35624,124497,160121,Maranhão
+Otávio Santos,Apartador de gado,112669,1162,6000,39765,119831,159596,Maranhão
+Emily Sousa,Auxiliar de enfermagem em saúde ocupacional,109900,0,2718,45022,112618,157640,Maranhão
+Mariana Fernandes,Auxiliar de mesa em restaurantes,115724,0,3251,38457,118975,157432,Maranhão
+Cauã Barros,Advogado da união,110805,0,2148,43424,112953,156377,Maranhão
+Luis Barros,Agente de investigação privada,107062,9108,1200,38749,117370,156119,Maranhão
+Luis Cardoso,Agente de portaria,110460,81,6189,39335,116730,156065,Maranhão
+João Alves,Agente de reserva de passagens rodoviárias,75523,41240,15059,24217,131822,156039,Maranhão
+Giovana Oliveira,Agricultor na produção de milho e sorgo,102329,0,11159,42362,113488,155850,Maranhão
+Giovana Melo,Alayan,110460,163,6767,37981,117390,155371,Maranhão
+Joao Rodrigues,Analista de suporte de banco de dados,92105,24090,4320,34336,120515,154851,Maranhão
+Rebeca Pinto,Armador de ferragens na construção civil,87212,18053,4632,44366,109897,154263,Maranhão
+André Rodrigues,Arqueador,106205,1236,6742,40048,114183,154231,Maranhão
+Joao Cavalcanti,Arrumadeira de hotel,80009,33024,1809,39175,114842,154017,Maranhão
+Bruno Santos,Assistente de estúdio (gravação de áudio),102683,9565,2351,39154,114599,153753,Maranhão
+Luis Silva,Auxiliar de feirante,84082,33509,1402,33865,118993,152858,Maranhão
+Júlia Sousa,Auxiliar de manutenção predial,115724,55,12386,24582,128165,152747,Maranhão
+Breno Azevedo,Advogado criminalista,115724,0,6521,29668,122245,151913,Maranhão
+Vitória Martins,Analista de logística de transporte,122167,1324,2781,24350,126272,150622,Maranhão
+Davi Barros,Aprendiz de macarroneiro,100105,2330,8055,39690,110490,150180,Maranhão
+Camila Rodrigues,Artesão confeccionador de biojóias e ecojóias,89417,12003,4749,43646,106169,149815,Maranhão
+Luiza Alves,Artista de teatro,105994,0,15288,28449,121282,149731,Maranhão
+Carla Pinto,Atleta de ciclismo,94466,2010,6637,46132,103113,149245,Maranhão
+Vinícius Rocha,Aurifice,115724,679,2340,30358,118743,149101,Maranhão
+Vinicius Araujo,Auxiliar de curtimento,94237,14117,5082,35457,113436,148893,Maranhão
+Melissa Fernandes,Auxiliar de fermentação,91221,9605,2472,45471,103298,148769,Maranhão
+Isabelle Barbosa,Auxiliar de sushiman,97956,397,3887,46265,102240,148505,Maranhão
+Julian Almeida,Afiador de tesouras ( inclusive ambulante),119421,0,4240,24111,123661,147772,Maranhão
+Camila Almeida,Agente comunitário de saúde,104119,3598,868,39154,108585,147739,Maranhão
+Júlio Dias,Agricultor na produção de arroz,102094,733,1172,43508,103999,147507,Maranhão
+Enzo Araujo,Ajudante de macheiro,96985,0,8938,41364,105923,147287,Maranhão
+Kauan Sousa,Ajuntador de andiroba,95810,0,9001,42352,104811,147163,Maranhão
+Larissa Ribeiro,Analista agroindustrial (economista),90543,1881,5342,49120,97766,146886,Maranhão
+Alice Castro,Anotador (judô),93828,3887,3721,45103,101436,146539,Maranhão
+Vinícius Araujo,Arrematador,89168,9070,4204,43598,102442,146040,Maranhão
+Luiza Lima,Assistente técnico de engenharia de obras de saneamento,97956,0,11510,36217,109466,145683,Maranhão
+Vitór Oliveira,Atendente de pedágio,103343,0,9318,32920,112661,145581,Maranhão
+Bruno Alves,Atendente do setor de vinhos,92136,0,9610,43812,101746,145558,Maranhão
+Antônio Gomes,Ator dublador,73866,37826,2174,31526,113866,145392,Maranhão
+Fernanda Martins,Abatedor de animais,89417,7510,6210,41431,103137,144568,Maranhão
+Sarah Pereira,Acompanhante de idosos,90542,14532,3932,35513,109006,144519,Maranhão
+Julia Pinto,Administrador de restaurante,98441,4702,3193,38036,106336,144372,Maranhão
+André Sousa,Ajudante de confeiteiro,90877,5903,6070,40995,102850,143845,Maranhão
+Luiz Pereira,Alambrador - na fabricação de arame,103530,0,1711,38369,105241,143610,Maranhão
+Caio Gomes,Analista de custos,105611,0,8065,29740,113676,143416,Maranhão
+Victor Castro,Analista de planejamento financeiro,35312,0,92377,15631,127689,143320,Maranhão
+Victor Oliveira,Animador de eventos,81217,13102,8176,40671,102495,143166,Maranhão
+Fábio Carvalho,Apontador de tempo (produção),91415,17551,8307,25766,117273,143039,Maranhão
+Tiago Dias,Arrematador,92136,8318,5594,36714,106048,142762,Maranhão
+Beatriz Azevedo,Atendente comercial em agência postal,98994,14821,1156,27482,114971,142453,Maranhão
+Giovanna Barbosa,Auxiliar de barman,92136,1561,4117,44320,97814,142134,Maranhão
+Vitória Silva,Auxiliar de recepção,107481,0,8657,25607,116138,141745,Maranhão
+Isabela Almeida,Auxiliar de supervisor escolar,90271,4110,7759,39571,102140,141711,Maranhão
+Beatriz Alves,Advogado,97956,1332,4848,37163,104136,141299,Maranhão
+Matheus Fernandes,Advogado (propriedade intelectual),86777,14096,4182,36202,105055,141257,Maranhão
+Luiza Rodrigues,Advogado criminalista,87733,2666,5933,44912,96332,141244,Maranhão
+Emily Souza,Afiador de cardas,91221,2934,4664,42402,98819,141221,Maranhão
+Letícia Azevedo,Ajudante de tratamento de preparo de xarope,105883,0,2543,32251,108426,140677,Maranhão
+Luan Cardoso,Analista ambiental,84082,15819,1000,39588,100901,140489,Maranhão
+Leonor Ferreira,Analista de produtos bancários,83352,18538,5144,33303,107034,140337,Maranhão
+Emilly Ribeiro,Apontador de pessoal,92557,0,1224,46285,93781,140066,Maranhão
+Eduarda Ribeiro,Apresentador de convenções,97956,0,3830,38243,101786,140029,Maranhão
+Vitór Cunha,Artesão tricoteiro,80027,8192,21341,30191,109560,139751,Maranhão
+Ágatha Correia,Assistente de laboratório industrial,105994,0,7365,26245,113359,139604,Maranhão
+Vitória Cunha,Atleta de karatê,98328,0,2800,38208,101128,139336,Maranhão
+Yasmin Correia,Atleta de squash,94909,192,6506,37721,101607,139328,Maranhão
+Murilo Cardoso,Adestrador de animais de trabalho ( asininos e muares),95108,0,8228,35211,103336,138547,Maranhão
+Yasmin Cunha,Administrador de instituições culturais,84216,9847,1893,42556,95956,138512,Maranhão
+João Almeida,Administrador de sistemas computacionais,99410,0,816,38264,100226,138490,Maranhão
+Isabela Pinto,Afiador de cutelaria,113774,0,2629,21918,116403,138321,Maranhão
+Miguel Barros,Agente funerário,79714,14578,3870,39936,98162,138098,Maranhão
+Estevan Fernandes,Amolador de facas,89417,3073,4158,41006,96648,137654,Maranhão
+Matilde Carvalho,Analista de agronegócios (economista),104119,0,881,32630,105000,137630,Maranhão
+Tiago Oliveira,Animador de televisão,90655,0,9236,37509,99891,137400,Maranhão
+Matilde Lima,Ascensorista,91677,3960,8370,32956,104007,136963,Maranhão
+Kauê Rodrigues,Assistente social,89172,742,2044,44866,91958,136824,Maranhão
+Otávio Silva,Atleta profissional de tênis,96990,0,12652,26946,109642,136588,Maranhão
+Ágatha Souza,Auxiliar de mesa em restaurantes,86777,3961,2865,42686,93603,136289,Maranhão
+Breno Azevedo,Abastecedor de máquinas de linha de produção,100105,0,1505,34413,101610,136023,Maranhão
+Livia Martins,Advogado constitucionalista,89417,0,2252,44101,91669,135770,Maranhão
+Vinícius Castro,Agente de coleta supervisor,87130,1814,3557,43185,92501,135686,Maranhão
+Bianca Fernandes,Agricultor na produção da cana-de-açúcar,74790,34611,3200,22900,112601,135501,Maranhão
+Thaís Araujo,Agricultor na produção de gramíneas forrageiras,85845,5062,2282,42303,93189,135492,Maranhão
+Anna Dias,Alergista,90526,0,10278,34347,100804,135151,Maranhão
+Marisa Cardoso,Analista de planejamento e orçamento - apo,92334,0,7737,34826,100071,134897,Maranhão
+Thiago Alves,Analista de sinistros,87786,0,6778,40303,94564,134867,Maranhão
+Lucas Ribeiro,Assistente de contabilidade industrial,89561,0,2571,42122,92132,134254,Maranhão
+Gabriela Costa,Atendente de lojas e mercados,86777,1957,2634,42689,91368,134057,Maranhão
+Luís Ribeiro,Atendente do setor de rotisserie (pratos prontos),90871,6032,1544,35573,98447,134020,Maranhão
+João Cavalcanti,Atleta de nado sincronizado,95284,9482,1913,27291,106679,133970,Maranhão
+Rodrigo Martins,Auxiliar administrativo trilíngüe,85424,2871,3029,42541,91324,133865,Maranhão
+Leila Silva,Auxiliar de depósito,94634,0,14534,24606,109168,133774,Maranhão
+Isabela Dias,Auxiliar de serviços de importação e exportação,92505,2396,1020,37599,95921,133520,Maranhão
+Rafael Rodrigues,Adaptador de obras para teatro,92867,10330,9872,20201,113069,133270,Maranhão
+Rafaela Pereira,Administrador (serviço de hospedagem),84921,10083,3110,35144,98114,133258,Maranhão
+Bruna Almeida,Administrador hospitalar,88971,517,3204,40496,92692,133188,Maranhão
+Antônio Oliveira,Advogado empresarial,97794,0,886,34422,98680,133102,Maranhão
+Tiago Araujo,Analista de desenvolvimento de sistemas,100000,0,3768,28650,103768,132418,Maranhão
+Leila Sousa,Árbitro central (judô),82604,1826,1737,45931,86167,132098,Maranhão
+Carlos Rodrigues,Arrumador no serviço doméstico,82139,1987,4849,42976,88975,131951,Maranhão
+Felipe Correia,Artista plástico,77904,24684,3669,25592,106257,131849,Maranhão
+Marcos Azevedo,Atendente de clínica veterinária,84135,1621,3978,41930,89734,131664,Maranhão
+Igor Melo,Abastecedor de máquinas de linha de produção,86906,65,7670,36288,94641,130929,Maranhão
+Camila Ferreira,Agente de coleta supervisor,98441,7572,4167,20423,110180,130603,Maranhão
+Raissa Pinto,Aguardenteiro (fabricação),84216,0,1192,44999,85408,130407,Maranhão
+Guilherme Fernandes,Ajudante de lingotamento,99410,770,2156,27984,102336,130320,Maranhão
+Camila Almeida,Animador de rádio,82873,2715,2885,41412,88473,129885,Maranhão
+Matilde Alves,Arraçoador de camarões,84216,480,2069,42857,86765,129622,Maranhão
+Guilherme Alves,Assentador de manilhas,86442,1832,7965,33244,96239,129483,Maranhão
+Vitor Silva,Assistente de tráfego rodoviário,86530,6705,1642,34522,94877,129399,Maranhão
+Fábio Rocha,Atendente de clínica veterinária,91717,198,0,37409,91915,129324,Maranhão
+Rafael Gomes,Atleta da ginástica,84216,903,3572,40569,88691,129260,Maranhão
+Leonardo Silva,Auditor financeiro,89417,3031,2294,34421,94742,129163,Maranhão
+Kauê Costa,Auxiliar de enfermagem em nefrologia,79714,17561,1676,30007,98951,128958,Maranhão
+Danilo Martins,Auxiliar de manutenção elétrica e hidráulica,90974,0,2379,35523,93353,128876,Maranhão
+Eduarda Costa,Afiador de facas ( inclusive ambulante),95536,0,6203,26573,101739,128312,Maranhão
+Eduarda Azevedo,Alfarrabista,82139,0,5163,40579,87302,127881,Maranhão
+Carlos Melo,Aramista (equilibrista),79714,4590,3476,39662,87780,127442,Maranhão
+Lavinia Gomes,Artesão modelador (vidros),87522,0,3004,36707,90526,127233,Maranhão
+Camila Carvalho,Assentador de canalização (edificações),97794,0,2594,26798,100388,127186,Maranhão
+Breno Rocha,Atendente de gabinete dentário,93228,856,959,31948,95043,126991,Maranhão
+Diego Rocha,Auxiliar de montagem de transformadores,95329,4081,4274,22902,103684,126586,Maranhão
+Davi Pinto,Agente de coleta de lixo,86202,3801,4054,32008,94057,126065,Maranhão
+Igor Correia,Analista de estação de tratamento de efluentes,88110,0,1709,35659,89819,125478,Maranhão
+Murilo Dias,Analista fiscal (economista),82543,0,3493,39335,86036,125371,Maranhão
+Rodrigo Alves,Antenista,84477,0,11462,29376,95939,125315,Maranhão
+Ágatha Alves,Aplicador de resinas em pisos,84216,782,1981,38274,86979,125253,Maranhão
+Vitória Dias,Assistente de produtos (técnico de seguros),110250,0,11206,3411,121456,124867,Maranhão
+Matheus Santos,Auxiliar de biblioteca,84216,5957,2845,31493,93018,124511,Maranhão
+Lavinia Barros,Auxiliar de cartório,97310,0,1200,25971,98510,124481,Maranhão
+Manuela Azevedo,Auxiliar de galvanização,90079,0,7385,26890,97464,124354,Maranhão
+Felipe Santos,Auxiliar de prótese dentária,82139,3916,2303,35859,88358,124217,Maranhão
+Caio Martins,Auxiliares de produção de refinação de sal,79714,285,3988,40114,83987,124101,Maranhão
+Gabrielly Santos,Advogado da união,85647,0,571,37600,86218,123818,Maranhão
+Luan Azevedo,Afiador ambulante,86068,280,2259,35190,88607,123797,Maranhão
+Miguel Souza,Agente de pátio,93077,0,2928,27680,96005,123685,Maranhão
+Vinicius Sousa,Ajudante de evaporador na destilação,99584,0,3706,20197,103290,123487,Maranhão
+Eduardo Barbosa,Ajudante de lubrificação (indústria),82139,60,4990,36267,87189,123456,Maranhão
+Gabriel Barros,Alergologista,75582,29793,2575,15353,107950,123303,Maranhão
+Vinicius Silva,Analista de mercado industrial (economista),83286,6830,3619,29371,93735,123106,Maranhão
+Danilo Oliveira,Analista de mercadologia (economista),75805,20850,8277,18168,104932,123100,Maranhão
+Rafaela Dias,Aprendiz de macarroneiro,85795,1668,12502,22903,99965,122868,Maranhão
+Renan Barbosa,Auxiliar de enfermagem de saúde pública,79072,805,8779,33508,88656,122164,Maranhão
+Julia Souza,Auxiliar de serviços jurídicos,90079,0,7339,24544,97418,121962,Maranhão
+Clara Pinto,Abade,91484,0,3683,26647,95167,121814,Maranhão
+Douglas Araujo,Abastecedor de caldeira,88926,0,622,32260,89548,121808,Maranhão
+Kai Rodrigues,Administrador de banco de dados,98301,0,329,23057,98630,121687,Maranhão
+Eduardo Araujo,Administrador público,79714,1805,2544,37561,84063,121624,Maranhão
+Isabelle Pereira,Afiador de serras,87014,629,3329,30568,90972,121540,Maranhão
+Bruno Pereira,Agente de coleta ( censo e pesquisas amostrais),80616,5962,2241,32653,88819,121472,Maranhão
+Kaua Barbosa,Agente de passagens,86682,0,2801,31946,89483,121429,Maranhão
+Samuel Ferreira,Ajudante de confeiteiro,73867,13892,1843,31681,89602,121283,Maranhão
+Leonardo Rodrigues,Alinhador de pneus,82122,3746,143,35035,86011,121046,Maranhão
+Bianca Correia,Árbitro reserva (futebol),85845,0,2439,32323,88284,120607,Maranhão
+Alex Cunha,Artista de circo (outros),82627,0,3202,34586,85829,120415,Maranhão
+Davi Barbosa,Assistente de presidência,86338,185,3693,30077,90216,120293,Maranhão
+Isabela Almeida,Atendente de consultório veterinário,84667,0,3782,31769,88449,120218,Maranhão
+Thiago Carvalho,Auxiliar de laboratorista de solo,77072,0,4929,37894,82001,119895,Maranhão
+Otávio Barros,Auxiliar de parteira,82967,0,2514,34352,85481,119833,Maranhão
+Rebeca Barros,Acupuntor,85091,0,0,34507,85091,119598,Maranhão
+Daniel Melo,Agente sanitarista,67746,17717,4258,29526,89721,119247,Maranhão
+Julia Alves,Ambientador,81716,1886,2547,32763,86149,118912,Maranhão
+Luana Dias,Analista de sistemas web (webmaster),80412,2850,970,34468,84232,118700,Maranhão
+Mateus Silva,Artista de cinema,74456,445,8839,34525,83740,118265,Maranhão
+Diogo Rocha,Assessor de diretoria,90375,0,5643,22206,96018,118224,Maranhão
+Nicolas Cardoso,Atendente de lanchonete,79156,0,656,38246,79812,118058,Maranhão
+Beatriz Costa,Auxiliar de faturamento,80283,2831,1973,32668,85087,117755,Maranhão
+Caio Melo,Administrador de fundos e carteiras de investimento,82832,0,11387,23101,94219,117320,Maranhão
+Kauã Cavalcanti,Agente comunitário de saúde,76446,4783,3025,32855,84254,117109,Maranhão
+Tomás Rocha,Ajustador de agulhas,80567,0,874,35279,81441,116720,Maranhão
+Luiza Cardoso,Ajustador ferramenteiro,79864,0,10163,26684,90027,116711,Maranhão
+Gabriela Pinto,Alimentador de linha de produção,81763,1618,4058,29193,87439,116632,Maranhão
+Emilly Sousa,Administrador de carteiras de câmbio e comércio exterior,80283,144,1886,32774,82313,115087,Maranhão
+Yasmin Sousa,Agente de proteção social,82295,5895,2701,23915,90891,114806,Maranhão
+Luiz Barbosa,Agente rodoviário,73598,330,10085,30739,84013,114752,Maranhão
+Gustavo Araujo,Ajudante de manutenção de aeronave,91717,4469,3217,15241,99403,114644,Maranhão
+Bianca Rocha,Alugador (comerciante varejista),75982,4386,1715,32440,82083,114523,Maranhão
+Beatriz Pinto,Amolador de guarnição - na fabricação têxtil,78379,0,4477,31614,82856,114470,Maranhão
+Marisa Dias,Apicultor,80816,0,1502,31897,82318,114215,Maranhão
+Vinicius Castro,Assessor de diretoria,84481,344,6054,22983,90879,113862,Maranhão
+Eduardo Cunha,Ator de televisão,79714,454,2623,30811,82791,113602,Maranhão
+Emilly Dias,Auxiliar de manutenção de linha férrea,77063,3530,872,31913,81465,113378,Maranhão
+Isabelle Azevedo,Azulejista,75335,4785,1152,31913,81272,113185,Maranhão
+Luiza Pinto,Agente operacional de estação,87159,0,1430,24220,88589,112809,Maranhão
+Erick Santos,Ajudante xaropeiro,74880,1058,4928,31737,80866,112603,Maranhão
+Caio Ribeiro,Assistente de contador de custos,76294,624,1885,33083,78803,111886,Maranhão
+Vitor Barbosa,Assistente técnico em madeira,77913,3144,6015,24720,87072,111792,Maranhão
+Lucas Souza,Ator bonequeiro,81420,1932,4160,24122,87512,111634,Maranhão
+Diogo Ferreira,Auxiliar de cobrança,75805,0,3870,31858,79675,111533,Maranhão
+Anna Azevedo,Auxiliar de dietista,70430,7716,3402,29941,81548,111489,Maranhão
+Matilde Pinto,Auxiliar de farmácia de manipulação,62736,24829,1197,22666,88762,111428,Maranhão
+Luiz Gomes,Auxiliar de serviços de importação e exportação,71799,0,1499,38025,73298,111323,Maranhão
+Alex Melo,Auxiliar-ajudante de operador de máquinas de lavar fibras,82832,0,2928,25466,85760,111226,Maranhão
+Luana Cunha,Advogado (concorrência desleal),80483,0,0,30502,80483,110985,Maranhão
+Mateus Rocha,Ajustador de máquinas de embalagem,69760,5553,3479,31753,78792,110545,Maranhão
+Vinicius Pinto,Ajustador de válvulas,74656,1144,730,34005,76530,110535,Maranhão
+Martim Ribeiro,Analista (psicanálise),75805,0,3655,30980,79460,110440,Maranhão
+Gabrielle Azevedo,Artista aéreo,65428,2908,9953,31695,78289,109984,Maranhão
+Camila Pinto,Assessor de microcrédito,71272,7181,4869,26619,83322,109941,Maranhão
+Cauã Ribeiro,Assistente administrativo,72561,55,3138,34169,75754,109923,Maranhão
+Erick Martins,Assistente de logística de transporte,51052,0,43928,14875,94980,109855,Maranhão
+Fernanda Oliveira,Auxiliar de apostas,75517,9798,1393,22909,86708,109617,Maranhão
+Rebeca Pinto,Auxiliar de eletrônica,71016,15203,3192,20152,89411,109563,Maranhão
+Melissa Costa,Auxiliar de feirante,81203,0,5571,22745,86774,109519,Maranhão
+Tiago Oliveira,Auxiliar técnico eletrônico,83656,0,868,24801,84524,109325,Maranhão
+Tomás Silva,Avaliador de automóveis,74861,0,3818,30622,78679,109301,Maranhão
+Sophia Pinto,Agente de ação social,71448,0,5023,32513,76471,108984,Maranhão
+Sofia Souza,Ampoleiro (jarras e garrafas térmicas),70932,703,2040,34885,73675,108560,Maranhão
+Gabriel Araujo,Analista de mercado agrícola (economista),66189,6050,7295,28935,79534,108469,Maranhão
+Isabelle Carvalho,Analista de recursos humanos,80514,0,4793,23120,85307,108427,Maranhão
+Diego Silva,Anotador de processo de produção,78266,4849,3179,22051,86294,108345,Maranhão
+Pedro Almeida,Atleta da natação,71446,3040,9861,23494,84347,107841,Maranhão
+Enzo Castro,Auxiliar de laboratório de análises físico-químicas,66770,736,9193,30842,76699,107541,Maranhão
+Julian Costa,Auxiliar técnico de hidrografia,73128,595,841,32836,74564,107400,Maranhão
+Sofia Cardoso,Aviador civil,71646,411,3834,31466,75891,107357,Maranhão
+Estevan Correia,Acompanhante de idosos,72385,0,1985,32900,74370,107270,Maranhão
+Thiago Almeida,Ajuntador de andiroba,74656,804,880,30375,76340,106715,Maranhão
+Gabriel Castro,Analista de leasing,75544,432,4114,26410,80090,106500,Maranhão
+Julia Pereira,Árbitro geral de pista,74599,217,1133,30241,75949,106190,Maranhão
+Gabrielle Almeida,Armador de móveis de vime,67648,7213,10339,20963,85200,106163,Maranhão
+Nicolash Lima,Atendente de balcão de café,72335,109,2237,31166,74681,105847,Maranhão
+Giovanna Souza,Atleta do beisebol,73867,1769,6233,23864,81869,105733,Maranhão
+Matilde Pereira,Auxiliar de produção de gorduras vegetais comestíveis,84866,994,1987,17547,87847,105394,Maranhão
+Felipe Martins,Auxiliar geral de conservação de vias permanentes (exceto trilhos),71349,411,1585,31985,73345,105330,Maranhão
+José Silva,Aviador (comércio varejista),76849,1468,3411,23539,81728,105267,Maranhão
+Larissa Ferreira,Advogados (direito eletrônico),69705,0,0,35322,69705,105027,Maranhão
+Beatriz Barbosa,Ajustador naval (reparo e construção),70392,1384,11876,20993,83652,104645,Maranhão
+Carla Souza,Alayan,64840,1412,2581,35803,68833,104636,Maranhão
+Letícia Ribeiro,Apresentador animador de programas de televisão,77202,0,6517,20537,83719,104256,Maranhão
+José Ferreira,Árbitro geral de provas fora do estádio,74917,0,577,28705,75494,104199,Maranhão
+Daniel Martins,Assistente de parto,70003,0,9761,24185,79764,103949,Maranhão
+Amanda Pinto,Assistente de prevenção de perdas,73256,0,2188,28496,75444,103940,Maranhão
+Emily Melo,Auxiliar de costura,85838,70,102,17602,86010,103612,Maranhão
+Nicole Gomes,Auxiliar de fabricação nas indústrias de artefatos de cimento,78032,0,4140,21356,82172,103528,Maranhão
+Mateus Alves,Auxiliar de radiologia (revelação fotográfica),71502,0,413,31503,71915,103418,Maranhão
+Bruna Silva,Afiador de tesouras ( inclusive ambulante),65947,0,4263,32772,70210,102982,Maranhão
+Kai Sousa,Ajudante de gasista,76539,2551,2511,21110,81601,102711,Maranhão
+Ana Rodrigues,Alergista,66782,0,9104,26650,75886,102536,Maranhão
+João Barros,Analista de cobrança (instituições financeiras),69705,0,5873,26861,75578,102439,Maranhão
+Sarah Pinto,Atleta do beisebol,66566,191,3502,31440,70259,101699,Maranhão
+Eduarda Goncalves,Atuário,72635,0,7988,21039,80623,101662,Maranhão
+Julian Correia,Afinador de piano,73385,0,7578,20049,80963,101012,Maranhão
+Estevan Ferreira,Analista de sistemas de automação,77021,1663,2151,19558,80835,100393,Maranhão
+Aline Barbosa,Arador,58986,2405,3329,35473,64720,100193,Maranhão
+Sophia Lima,Armador de móveis de vime,66948,0,786,32369,67734,100103,Maranhão
+Beatriz Araujo,Artista de rádio,60638,408,7567,31350,68613,99963,Maranhão
+Giovana Sousa,Assistente de diretoria,69724,101,876,29194,70701,99895,Maranhão
+Renan Rodrigues,Acafelador,72636,1259,2363,22887,76258,99145,Maranhão
+Leila Costa,Administrador de contadorias e registros fiscais,66550,443,935,31166,67928,99094,Maranhão
+Julia Rocha,Agente de segurança penitenciária,64445,3658,2605,28106,70708,98814,Maranhão
+Mateus Lima,Asperador de couro no acabamento de calçados,56965,19646,2123,19220,78734,97954,Maranhão
+Brenda Silva,Atleta do basquete,60217,1605,7053,28845,68875,97720,Maranhão
+Brenda Goncalves,Auxiliar de cabeleireiro,67356,0,397,29849,67753,97602,Maranhão
+Thaís Souza,Auxiliar de laboratório de imunobiológicos,65949,0,947,30572,66896,97468,Maranhão
+Giovana Correia,Avaliador de bens móveis,58986,9913,2049,26312,70948,97260,Maranhão
+Leila Almeida,Acabador de mármore e granito,71272,0,2980,22921,74252,97173,Maranhão
+Mariana Lima,Acabador de pedras,67915,0,9923,19330,77838,97168,Maranhão
+Laura Carvalho,Afiador ambulante,62734,0,3708,30523,66442,96965,Maranhão
+Kauan Cardoso,Ajudante de guincheiro,68003,0,2430,26275,70433,96708,Maranhão
+Cauã Sousa,Ajustador naval (reparo e construção),74648,0,3310,18617,77958,96575,Maranhão
+Clara Almeida,Alfaiate,55689,8541,5342,26994,69572,96566,Maranhão
+Vitor Sousa,Analista de recursos naturais (economista),70992,0,3804,21569,74796,96365,Maranhão
+Luana Azevedo,Artista plástico,63864,0,8850,23188,72714,95902,Maranhão
+Anna Santos,Auxiliar de arquitetura,64600,3213,1517,26248,69330,95578,Maranhão
+Rodrigo Carvalho,Administrador de arquivos,66890,1331,6348,20504,74569,95073,Maranhão
+Raissa Barbosa,Ajudante de pizzaiolo,70937,2041,2374,19245,75352,94597,Maranhão
+Melissa Azevedo,Ajudante de polidor de veículos,61565,156,1200,31675,62921,94596,Maranhão
+Matheus Pinto,Ajustador de instrumentos de precisão,67836,291,6784,19655,74911,94566,Maranhão
+Tânia Sousa,Armador de telhados,67917,3903,2219,20036,74039,94075,Maranhão
+Daniel Araujo,Atleta de remo,57513,19836,4013,12283,81362,93645,Maranhão
+Rafael Souza,Auxiliar administrativo de diretoria,61568,0,7238,24757,68806,93563,Maranhão
+Thaís Souza,Auxiliar de prótese dentária,67149,0,7843,18336,74992,93328,Maranhão
+Julia Ribeiro,Açaizeiro,64213,0,1561,27306,65774,93080,Maranhão
+Kauã Correia,Ajudante de derrubada,78684,1908,3087,9001,83679,92680,Maranhão
+Letícia Oliveira,Analista de suporte à inteligência ( grupo apoio),55057,0,5783,31502,60840,92342,Maranhão
+Gabriel Fernandes,Analista de turismo (turismólogo),56570,4082,2381,29281,63033,92314,Maranhão
+Matheus Pereira,Antiquário comércio varejista,57300,13739,3582,17628,74621,92249,Maranhão
+Kauã Martins,Árbitro de futsal,67881,0,2215,22034,70096,92130,Maranhão
+Guilherme Ribeiro,Artesão confeccionador de biojóias e ecojóias,67210,0,3452,21342,70662,92004,Maranhão
+Caio Goncalves,Atendente em agência de correios,57349,1388,2736,30296,61473,91769,Maranhão
+Douglas Pinto,Administrador de carteiras de crédito e cobrança,59154,0,1474,30589,60628,91217,Maranhão
+João Castro,Afinador de piano,57443,42,3101,30498,60586,91084,Maranhão
+Fernanda Gomes,Agente de comércio exterior,62098,0,6172,22774,68270,91044,Maranhão
+Luís Oliveira,Agente de reservas,52199,5345,3286,30158,60830,90988,Maranhão
+Isabela Alves,Agente policial,58992,1978,2676,27292,63646,90938,Maranhão
+Douglas Castro,Ajudante de acabamento de fundição,60868,133,6170,23731,67171,90902,Maranhão
+Vinicius Dias,Ajudante de serrador,56570,0,6079,28116,62649,90765,Maranhão
+Estevan Rocha,Anotador (karatê),63598,3403,2717,20754,69718,90472,Maranhão
+Leonor Santos,Armador de manilhas,54168,16080,1091,18977,71339,90316,Maranhão
+Ana Correia,Armazenário (comércio varejista),41020,21646,1729,25914,64395,90309,Maranhão
+Gabrielly Carvalho,Atendente de agência,59601,1359,2619,26473,63579,90052,Maranhão
+Marina Melo,Atendente de lanchonete,64448,0,1508,24058,65956,90014,Maranhão
+Vitoria Barros,Autor de ficção,68202,106,1492,20070,69800,89870,Maranhão
+Kaua Souza,Autoridade policial (delegado),59154,0,2057,28648,61211,89859,Maranhão
+Gabrielle Azevedo,Auxiliar de enfermagem da estratégia de saúde da família,57984,0,3933,27835,61917,89752,Maranhão
+Marina Souza,Auxiliar de enfermagem do trabalho,61017,0,6194,22535,67211,89746,Maranhão
+Isabela Correia,Auxiliar de estatística,66770,193,2880,19891,69843,89734,Maranhão
+Vinícius Barbosa,Abatedor de gado,59646,652,2029,27175,62327,89502,Maranhão
+Vitór Costa,Agente indígena de saneamento,61015,487,2502,25214,64004,89218,Maranhão
+Murilo Cavalcanti,Antiquário (comércio atacadista),65049,1296,3452,18939,69797,88736,Maranhão
+Ágatha Pinto,Árbitro de atletismo,66386,0,1350,20889,67736,88625,Maranhão
+Gustavo Ferreira,Assistente de diretoria,55834,0,4010,28574,59844,88418,Maranhão
+João Ribeiro,Atleta de pólo aquático,54470,7136,1098,25562,62704,88266,Maranhão
+Beatrice Ribeiro,Auxiliar de crédito,60501,428,1976,25217,62905,88122,Maranhão
+Marisa Pinto,Auxiliar de estúdio,54207,0,1557,32302,55764,88066,Maranhão
+Kai Ribeiro,Avicultor - empregador,58999,233,1200,27407,60432,87839,Maranhão
+Carolina Correia,Ajustador mecânico (usinagem em bancada e em máquinas-ferramentas),56992,3717,561,26016,61270,87286,Maranhão
+Lucas Castro,Amostrador de minérios,54760,1013,4582,26829,60355,87184,Maranhão
+Ryan Goncalves,Analista de laboratório de controle de qualidade,59136,0,853,27128,59989,87117,Maranhão
+Evelyn Ribeiro,Analista de planejamento financeiro,52537,2456,5694,26400,60687,87087,Maranhão
+Vinicius Azevedo,Apresentador de telejornal,59892,0,5999,21014,65891,86905,Maranhão
+Antônio Oliveira,Armarinheiro (comércio varejista),51573,5402,5593,24257,62568,86825,Maranhão
+Luis Ribeiro,Assessor trilíngüe,57513,9309,2793,17073,69615,86688,Maranhão
+Melissa Rodrigues,Assistente de operações de equipamentos de produção para televisão e produtoras de vídeo,55900,204,533,30017,56637,86654,Maranhão
+Nicole Castro,Auxiliar de produção de fumo,64582,23,1416,20232,66021,86253,Maranhão
+Fábio Barros,Agente técnico de operação na captação,55639,0,2377,27750,58016,85766,Maranhão
+Tomás Rodrigues,Ajudante de lingotamento,58272,335,935,26123,59542,85665,Maranhão
+Tiago Pereira,Analista de comunicação (teleprocessamento),55703,389,2926,26472,59018,85490,Maranhão
+Beatriz Souza,Apicultor - exclusive conta própria e empregador,53850,0,2842,28616,56692,85308,Maranhão

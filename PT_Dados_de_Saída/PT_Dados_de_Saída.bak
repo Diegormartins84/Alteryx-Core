@@ -1,0 +1,1368 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="516" width="462" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .xslx chamado 'Estados2' e nomeie a planilha como 'Planilha1'. No entanto, crie uma saída em lote para gerar uma planilha para cada estado (Dica: use a opção 'Alterar nome do arquivo/tabela' na parte inferior da janela de configuração). Novamente, execute o fluxo de trabalho duas vezes sem gerar erros para ter certeza de que chegou a resposta correta.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="94" y="66" width="415" height="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Dados de Saída</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="568" y="58" width="210" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="93" y="102" width="458" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Dados de Saída para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="152" width="462" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .csv chamado 'Dados_Empregados'</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="334" width="462" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .xslx chamado 'Estados' e nomeie a planilha como 'Planilha1'. Para considerar que você acertou a resposta, você deve executar este fluxo de trabalho duas vezes sem gerar erros (se um erro for gerado, altere a configuração da ferramenta e execute o fluxo novamente).</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="704" width="462" height="223" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .xslx chamado 'Trabalho_Estados' e nomeie a planilha como 'Planilha 1'. No entanto, crie uma saída em lote para gerar uma planilha para cada estado (Dica: use a opção 'Alterar nome do arquivo/tabela' na parte inferior da janela de configuração).
+Remova os dados de estado para que não estejam contidos nos dados das planilhas, mas permaneçam nos nomes das guias. Novamente, execute o fluxo de trabalho duas vezes sem gerar erros para ter certeza de que chegou a resposta correta.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="936" width="462" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .csv chamado 'Dados_Empregados_Estado', fazendo com que o caminho do arquivo seja um caminho relativo e não absoluto. Observação: nas soluções, todos os arquivos foram gravados usando caminhos relativos.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="1118" width="462" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Leia e grave ao mesmo tempo o arquivo 'PT_Base-de-dados.csv' (ou seja, grave um arquivo .csv na mesma pasta que o arquivo de entrada e com o mesmo nome). Alerta de spoiler: você pode precisar de uma ferramenta Bloquear até Concluir para chegar ao resultado que deseja.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="89" y="1300" width="461" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Grave um arquivo .csv diferente para cada estado (com o nome do estado sendo o nome do arquivo). AVISO: certifique-se de gravar suas saídas em um local que você possa ter mais de 25 arquivos.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="159" y="208" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="159" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="149" y="581" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="159" y="992" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="1174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="1356" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="158" y="804" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+            <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="618" y="104" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="139">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="650" y="1306" width="461" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .csv diferente para cada estado (com o nome do estado sendo o nome do arquivo). AVISO: certifique-se de gravar suas saídas em um local que você possa ter mais de 25 arquivos.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="132">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="649" y="1123" width="462" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Leia e grave ao mesmo tempo o arquivo 'PT_Base-de-dados.csv' (ou seja, grave um arquivo .csv na mesma pasta que o arquivo de entrada e com o mesmo nome). Alerta de spoiler: você pode precisar de uma ferramenta Bloquear até Concluir para chegar ao resultado que deseja.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="144">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="647" y="707" width="462" height="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .xslx chamado 'Trabalho_Estados' e nomeie a planilha como 'Planilha 1'. No entanto, crie uma saída em lote para gerar uma planilha para cada estado (Dica: use a opção 'Alterar nome do arquivo/tabela' na parte inferior da janela de configuração).
+Remova os dados de estado para que não estejam contidos nos dados das planilhas, mas permaneçam nos nomes das guias. Novamente, execute o fluxo de trabalho duas vezes sem gerar erros para ter certeza de que chegou a resposta correta.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="648" y="942" width="462" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .csv chamado 'Dados_Empregados_Estado', fazendo com que o caminho do arquivo seja um caminho relativo e não absoluto. Observação: nas soluções, todos os arquivos foram gravados usando caminhos relativos.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="645" y="340" width="462" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .xslx chamado 'Estados' e nomeie a planilha como 'Planilha1'. Para considerar que você acertou a resposta, você deve executar este fluxo de trabalho duas vezes sem gerar erros (se um erro for gerado, altere a configuração da ferramenta e execute o fluxo novamente).</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="122">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="643" y="153" width="462" height="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .csv chamado 'Dados_Empregados'</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="128">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="645" y="520" width="462" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Grave um arquivo .xslx chamado 'Estados2' e nomeie a planilha como 'Planilha1'. No entanto, crie uma saída em lote para gerar uma planilha para cada estado (Dica: use a opção 'Alterar nome do arquivo/tabela' na parte inferior da janela de configuração). Novamente, execute o fluxo de trabalho duas vezes sem gerar erros para ter certeza de que chegou a resposta correta.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="123">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="714" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="966" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">Dados_Empregados</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Dados_Empregados</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="126">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="714" y="395" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="968" y="395" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">Estados.xlsx|||Planilha1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Estados.xlsx
+Query=Planilha1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="130">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="969" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">Estados2.xlsx|||Planilha1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>FileName</MultiFileType>
+              <MultiFileField>Estado</MultiFileField>
+              <KeepField value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Estados2.xlsx
+Query=Planilha1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="716" y="589" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="145">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="714" y="800" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="157">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="969" y="800" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">Trabalho_Estados.xlsx|||Planilha1</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>Overwrite</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>FileName</MultiFileType>
+              <MultiFileField>Estado</MultiFileField>
+              <KeepField value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Trabalho_Estados.xlsx
+Query=Planilha1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="968" y="995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">Dados_Empregados_Estado.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Dados_Empregados_Estado.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="713" y="995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="158">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="712" y="1190" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="160">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="968" y="1191" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">PT_Base-de-Dados.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="159">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+            <Position x="840" y="1191" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output2">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output3">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+        </Node>
+        <Node ToolID="140">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="713" y="1372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">PT_Base-de-Dados.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>PT_Base-de-Dados.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Nome do empregado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Cargo" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Hora extra" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Outros pagamentos" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário total" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Salário Total &amp; Benefícios" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+                <Field name="Estado" size="254" source="File: C:\Users\aburks\Documents\Academy materials\Learning path\Exercises\Try It\PT_Output\PT_Base-de-Dados.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="141">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="967" y="1372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">Todos.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="True" />
+              <MultiFileType>FileName</MultiFileType>
+              <MultiFileField>Estado</MultiFileField>
+              <KeepField value="True" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Todos.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1515" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1564" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="145" Connection="Output" />
+      <Destination ToolID="157" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="Output" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="158" Connection="Output" />
+      <Destination ToolID="159" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="159" Connection="Output" />
+      <Destination ToolID="160" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="140" Connection="Output" />
+      <Destination ToolID="141" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-3" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Dados_de_Saída</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

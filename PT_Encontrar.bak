@@ -1,0 +1,2805 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="376" y="1076" width="108" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="376" y="628" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="376" y="180" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="376" y="404" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="376" y="852" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="516" y="1076" width="123" height="99" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Observe os resultados desta ferramenta Encontrar e Substituir para entender o que pode acontecer quando ela é "mal configurada". Nomes podem ficar errados ou distorcidos.</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="490" height="82" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Encontrar e Substituir</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="666" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="448" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Encontrar e Substituir para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="614" width="290" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Substitua as abreviações encontradas na coluna 'Comércio' pelas suas respectivas palavras por extenso. (Tenha cuidado para não substituir o que não é uma abreviação.)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="390" width="291" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Inclua o sinalizador 'S' nas linhas da coluna 'Comércio' que contenham as palavras LIMITADA, SOCIEDADE ANÔNIMA ou COMPANHIA.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="166" width="291" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Substitua as palavras inteiras por extenso da coluna 'Comércio' por suas respectivas abreviações. 
+(Exemplo: LIMITADA = LTDA)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="838" width="293" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Substitua somente as abreviações encontradas no início das linhas na coluna 'Comércio' pelas suas respectivas palavras por extenso.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1062" width="292" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Substitua somente as abreviações encontradas no início das linhas na coluna 'Comércio' pelas suas respectivas palavras por extenso, mesmo se uma correspondência for encontrada dentro de outra palavra.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="143">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="81" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>COMPANHIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LIMITADA</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>GRUPO AMOEDO SOCIEDADE ANÔNIMA</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>ARMAZÉM CORAL EMPRESA DE PEQUENO PORTE</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO MICROEMPRESA</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>TUPAN CONSTRUÇÃO LIMITADA</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>IRMÃOS SOARES SOCIEDADE ANÔNIMA</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>COMERCIAL IVAPORÃ EMPRESA DE PEQUENO PORTE</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>COPAFER COMERCIAL E COMPANHIA</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>NORMATEL HOME CENTER MICROEMPRESA</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>COMPANHIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>TINTAS MC LIMITADA</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>REDE ALTERNATIVA EMPRESA DE PEQUENO PORTE</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>ELÉTRICA COMERCIAL ANDRA LIMITADA</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SOCIEDADE ANÔNIMA</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="292" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="palavra" />
+            <Field name="substituição" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LIMITADA</c>
+              <c>LTDA</c>
+            </r>
+            <r>
+              <c>SOCIEDADE ANÔNIMA</c>
+              <c>SA</c>
+            </r>
+            <r>
+              <c>MICROEMPRESA</c>
+              <c>ME</c>
+            </r>
+            <r>
+              <c>EMPRESA DE PEQUENO PORTE</c>
+              <c>EPP</c>
+            </r>
+            <r>
+              <c>COMPANHIA</c>
+              <c>CIA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="145">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="447" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>COMPANHIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LIMITADA</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>GRUPO AMOEDO SOCIEDADE ANÔNIMA</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>ARMAZÉM CORAL EMPRESA DE PEQUENO PORTE</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO MICROEMPRESA</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>TUPAN CONSTRUÇÃO LIMITADA</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>IRMÃOS SOARES SOCIEDADE ANÔNIMA</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>COMERCIAL IVAPORÃ EMPRESA DE PEQUENO PORTE</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>COPAFER COMERCIAL E COMPANHIA</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>NORMATEL HOME CENTER MICROEMPRESA</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>COMPANHIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>TINTAS MC LIMITADA</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>REDE ALTERNATIVA EMPRESA DE PEQUENO PORTE</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>ELÉTRICA COMERCIAL ANDRA LIMITADA</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SOCIEDADE ANÔNIMA</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="517" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Palavra" />
+            <Field name="Sinalizador" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LIMITADA</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>COMPANHIA</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>SOCIEDADE ANÔNIMA</c>
+              <c>S</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="81" y="675" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c>cia brasileira de bricolagem leroy merlin</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c>saint-gobain distribuição brasileira ltda</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo sa</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - epp</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>megacenter materiais de construção - me</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção ltda</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares sa</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - epp</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e cia</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - me</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>cia redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc ltda</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - epp</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra ltda</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção sa</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="741" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="palavra" />
+            <Field name="substituição" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LTDA</c>
+              <c>LIMITADA</c>
+            </r>
+            <r>
+              <c>SA</c>
+              <c>SOCIEDADE ANÔNIMA</c>
+            </r>
+            <r>
+              <c>ME</c>
+              <c>MICROEMPRESA</c>
+            </r>
+            <r>
+              <c>EPP</c>
+              <c>EMPRESA DE PEQUENO PORTE</c>
+            </r>
+            <r>
+              <c>CIA</c>
+              <c>COMPANHIA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="897" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c>cia brasileira de bricolagem leroy merlin</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c>saint-gobain distribuição brasileira ltda</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo sa</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - epp</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>megacenter materiais de construção - me</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção ltda</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares sa</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - epp</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e cia</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - me</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>cia redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc ltda</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - epp</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra ltda</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção sa</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="84" y="962" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="palavra" />
+            <Field name="substituição" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LTDA</c>
+              <c>LIMITADA</c>
+            </r>
+            <r>
+              <c>SA</c>
+              <c>SOCIEDADE ANÔNIMA</c>
+            </r>
+            <r>
+              <c>ME</c>
+              <c>MICROEMPRESA</c>
+            </r>
+            <r>
+              <c>EPP</c>
+              <c>EMPRESA DE PEQUENO PORTE</c>
+            </r>
+            <r>
+              <c>CIA</c>
+              <c>COMPANHIA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="1124" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c>cia brasileira de bricolagem leroy merlin</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c>saint-gobain distribuição brasileira ltda</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo sa</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - epp</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>megacenter materiais de construção - me</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção ltda</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares sa</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - epp</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e cia</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - me</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>cia redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc ltda</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - epp</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra ltda</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção sa</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="1189" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="palavra" />
+            <Field name="substituição" />
+          </Fields>
+          <Data>
+            <r>
+              <c>LTDA</c>
+              <c>LIMITADA</c>
+            </r>
+            <r>
+              <c>SA</c>
+              <c>SOCIEDADE ANÔNIMA</c>
+            </r>
+            <r>
+              <c>ME</c>
+              <c>MICROEMPRESA</c>
+            </r>
+            <r>
+              <c>EPP</c>
+              <c>EMPRESA DE PEQUENO PORTE</c>
+            </r>
+            <r>
+              <c>CIA</c>
+              <c>COMPANHIA</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="398" y="199" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>CIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LTDA</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>GRUPO AMOEDO SA</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>ARMAZÉM CORAL EPP</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO ME</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>TUPAN CONSTRUÇÃO LTDA</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>IRMÃOS SOARES SA</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>COMERCIAL IVAPORÃ EPP</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>COPAFER COMERCIAL E CIA</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>NORMATEL HOME CENTER ME</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>CIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>TINTAS MC LTDA</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>REDE ALTERNATIVA EPP</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>ELÉTRICA COMERCIAL ANDRA LTDA</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SA</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="402" y="427" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+            <Field name="Sinalizador" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>COMPANHIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+              <c>12056</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LIMITADA</c>
+              <c>554</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>GRUPO AMOEDO SOCIEDADE ANÔNIMA</c>
+              <c>300</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>ARMAZÉM CORAL EMPRESA DE PEQUENO PORTE</c>
+              <c>302</c>
+              <c />
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO MICROEMPRESA</c>
+              <c>1810</c>
+              <c />
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>TUPAN CONSTRUÇÃO LIMITADA</c>
+              <c>890</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>IRMÃOS SOARES SOCIEDADE ANÔNIMA</c>
+              <c>63</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>COMERCIAL IVAPORÃ EMPRESA DE PEQUENO PORTE</c>
+              <c>8227</c>
+              <c />
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>COPAFER COMERCIAL E COMPANHIA</c>
+              <c>16471</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>NORMATEL HOME CENTER MICROEMPRESA</c>
+              <c>2406</c>
+              <c />
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>COMPANHIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+              <c>648</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>TINTAS MC LIMITADA</c>
+              <c>4205</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>REDE ALTERNATIVA EMPRESA DE PEQUENO PORTE</c>
+              <c>21</c>
+              <c />
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>ELÉTRICA COMERCIAL ANDRA LIMITADA</c>
+              <c>192</c>
+              <c>S</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SOCIEDADE ANÔNIMA</c>
+              <c>500</c>
+              <c>S</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="399" y="647" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c><![CDATA[COMPANHIA brasileira de bricolagem leroy ]]></c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c>saint-gobain distribuição brasileira LIMI</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo SOCIEDADE ANÔNIMA</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - EMPRESA DE PEQUENO PORTE</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>megacenter materiais de construção - MICR</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção LIMITADA</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares SOCIEDADE ANÔNIMA</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - EMPRESA DE PEQUENO P</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e COMPANHIA</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - MICROEMPRESA</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>COMPANHIA redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc LIMITADA</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - EMPRESA DE PEQUENO PO</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra LIMITADA</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção SOCIEDA</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="402" y="873" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c><![CDATA[COMPANHIA brasileira de bricolagem leroy ]]></c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c>saint-gobain distribuição brasileira ltda</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo sa</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - epp</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>megacenter materiais de construção - me</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção ltda</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares sa</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - epp</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e cia</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - me</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>COMPANHIA redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc ltda</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - epp</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra ltda</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção sa</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="402" y="1105" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="Número da transação" />
+            <Field name="Data" />
+            <Field name="Comércio" />
+            <Field name="Valor total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>10/03/2015</c>
+              <c><![CDATA[COMPANHIA brasileira de bricolagem leroy ]]></c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>10/03/2015</c>
+              <c><![CDATA[SOCIEDADE ANÔNIMAint-gobain distribuição ]]></c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>10/03/2015</c>
+              <c>grupo amoedo sa</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>11/03/2015</c>
+              <c>armazém coral  - epp</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>11/03/2015</c>
+              <c>MICROEMPRESAgacenter materiais de constru</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>12/03/2015</c>
+              <c>tupan construção ltda</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>12/03/2015</c>
+              <c>irmãos soares sa</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>12/03/2015</c>
+              <c>comercial ivaporã  - epp</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>12/03/2015</c>
+              <c>copafer comercial e cia</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>13/03/2015</c>
+              <c>normatel home center - me</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>14/03/2015</c>
+              <c>COMPANHIA redemac materiais de construção</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>14/03/2015</c>
+              <c>tintas mc ltda</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>15/03/2015</c>
+              <c>rede alternativa  - epp</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>15/03/2015</c>
+              <c>elétrica comercial andra ltda</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>16/03/2015</c>
+              <c>tumeleiro materiais de construção sa</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="159">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="524" y="632" width="136" height="76" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Observe que o conteúdo de algumas linhas neste exemplo fica truncado porque o resultado gerado é maior do que o tamanho da coluna de entrada.</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="714" y="100" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="739" y="1033" width="292" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Substitua somente as abreviações encontradas no início das linhas na coluna 'Comércio' pelas suas respectivas palavras por extenso, mesmo se uma correspondência for encontrada dentro de outra palavra.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="739" y="810" width="293" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Substitua somente as abreviações encontradas no início das linhas na coluna 'Comércio' pelas suas respectivas palavras por extenso.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="742" y="592" width="290" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Substitua as abreviações encontradas na coluna 'Comércio' pelas suas respectivas palavras por extenso. (Tenha cuidado para não substituir o que não é uma abreviação.)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="740" y="376" width="291" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Inclua o sinalizador 'S' nas linhas da coluna 'Comércio' que contenham as palavras LIMITADA, SOCIEDADE ANÔNIMA ou COMPANHIA.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="740" y="149" width="291" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Substitua as palavras inteiras por extenso da coluna 'Comércio' por suas respectivas abreviações. 
+(Exemplo: LIMITADA = LTDA.)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="135">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="897" y="905" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Comércio</FieldFind>
+              <FieldSearch>palavra</FieldSearch>
+              <ReplaceFoundField>substituição</ReplaceFoundField>
+              <FindMode>FindBegin</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="128">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="791" y="496" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="Palavra" />
+                <Field name="Sinalizador" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>LIMITADA</c>
+                  <c>S</c>
+                </r>
+                <r>
+                  <c>COMPANHIA</c>
+                  <c>S</c>
+                </r>
+                <r>
+                  <c>SOCIEDADE ANÔNIMA</c>
+                  <c>S</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="134">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="793" y="941" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="palavra" />
+                <Field name="substituição" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>LTDA</c>
+                  <c>LIMITADA</c>
+                </r>
+                <r>
+                  <c>SA</c>
+                  <c>SOCIEDADE ANÔNIMA</c>
+                </r>
+                <r>
+                  <c>ME</c>
+                  <c>MICROEMPRESA</c>
+                </r>
+                <r>
+                  <c>EPP</c>
+                  <c>EMPRESA DE PEQUENO PORTE</c>
+                </r>
+                <r>
+                  <c>CIA</c>
+                  <c>COMPANHIA</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="133">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="791" y="876" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="Número da transação" />
+                <Field name="Data" />
+                <Field name="Comércio" />
+                <Field name="Valor total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>10/03/2015</c>
+                  <c>cia brasileira de bricolagem leroy merlin</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>10/03/2015</c>
+                  <c>saint-gobain distribuição brasileira ltda</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>10/03/2015</c>
+                  <c>grupo amoedo sa</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>11/03/2015</c>
+                  <c>armazém coral  - epp</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>11/03/2015</c>
+                  <c>megacenter materiais de construção - me</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>12/03/2015</c>
+                  <c>tupan construção ltda</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>12/03/2015</c>
+                  <c>irmãos soares sa</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>12/03/2015</c>
+                  <c>comercial ivaporã  - epp</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>12/03/2015</c>
+                  <c>copafer comercial e cia</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>13/03/2015</c>
+                  <c>normatel home center - me</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>14/03/2015</c>
+                  <c>cia redemac materiais de construção</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>14/03/2015</c>
+                  <c>tintas mc ltda</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>15/03/2015</c>
+                  <c>rede alternativa  - epp</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>15/03/2015</c>
+                  <c>elétrica comercial andra ltda</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>16/03/2015</c>
+                  <c>tumeleiro materiais de construção sa</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="132">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="900" y="685" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Comércio</FieldFind>
+              <FieldSearch>palavra</FieldSearch>
+              <ReplaceFoundField>substituição</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="131">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="791" y="720" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="palavra" />
+                <Field name="substituição" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>LTDA</c>
+                  <c>LIMITADA</c>
+                </r>
+                <r>
+                  <c>SA</c>
+                  <c>SOCIEDADE ANÔNIMA</c>
+                </r>
+                <r>
+                  <c>ME</c>
+                  <c>MICROEMPRESA</c>
+                </r>
+                <r>
+                  <c>EPP</c>
+                  <c>EMPRESA DE PEQUENO PORTE</c>
+                </r>
+                <r>
+                  <c>CIA</c>
+                  <c>COMPANHIA</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="136">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="800" y="1103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="Número da transação" />
+                <Field name="Data" />
+                <Field name="Comércio" />
+                <Field name="Valor total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>10/03/2015</c>
+                  <c>cia brasileira de bricolagem leroy merlin</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>10/03/2015</c>
+                  <c>saint-gobain distribuição brasileira ltda</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>10/03/2015</c>
+                  <c>grupo amoedo sa</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>11/03/2015</c>
+                  <c>armazém coral  - epp</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>11/03/2015</c>
+                  <c>megacenter materiais de construção - me</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>12/03/2015</c>
+                  <c>tupan construção ltda</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>12/03/2015</c>
+                  <c>irmãos soares sa</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>12/03/2015</c>
+                  <c>comercial ivaporã  - epp</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>12/03/2015</c>
+                  <c>copafer comercial e cia</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>13/03/2015</c>
+                  <c>normatel home center - me</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>14/03/2015</c>
+                  <c>cia redemac materiais de construção</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>14/03/2015</c>
+                  <c>tintas mc ltda</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>15/03/2015</c>
+                  <c>rede alternativa  - epp</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>15/03/2015</c>
+                  <c>elétrica comercial andra ltda</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>16/03/2015</c>
+                  <c>tumeleiro materiais de construção sa</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="130">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="790" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="Número da transação" />
+                <Field name="Data" />
+                <Field name="Comércio" />
+                <Field name="Valor total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>10/03/2015</c>
+                  <c>cia brasileira de bricolagem leroy merlin</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>10/03/2015</c>
+                  <c>saint-gobain distribuição brasileira ltda</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>10/03/2015</c>
+                  <c>grupo amoedo sa</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>11/03/2015</c>
+                  <c>armazém coral  - epp</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>11/03/2015</c>
+                  <c>megacenter materiais de construção - me</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>12/03/2015</c>
+                  <c>tupan construção ltda</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>12/03/2015</c>
+                  <c>irmãos soares sa</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>12/03/2015</c>
+                  <c>comercial ivaporã  - epp</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>12/03/2015</c>
+                  <c>copafer comercial e cia</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>13/03/2015</c>
+                  <c>normatel home center - me</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>14/03/2015</c>
+                  <c>cia redemac materiais de construção</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>14/03/2015</c>
+                  <c>tintas mc ltda</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>15/03/2015</c>
+                  <c>rede alternativa  - epp</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>15/03/2015</c>
+                  <c>elétrica comercial andra ltda</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>16/03/2015</c>
+                  <c>tumeleiro materiais de construção sa</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="791" y="271" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="palavra" />
+                <Field name="substituição" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>LIMITADA</c>
+                  <c>LTDA</c>
+                </r>
+                <r>
+                  <c>SOCIEDADE ANÔNIMA</c>
+                  <c>SA</c>
+                </r>
+                <r>
+                  <c>MICROEMPRESA</c>
+                  <c>ME</c>
+                </r>
+                <r>
+                  <c>EMPRESA DE PEQUENO PORTE</c>
+                  <c>EPP</c>
+                </r>
+                <r>
+                  <c>COMPANHIA</c>
+                  <c>CIA</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="790" y="201" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="Número da transação" />
+                <Field name="Data" />
+                <Field name="Comércio" />
+                <Field name="Valor total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>COMPANHIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LIMITADA</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>GRUPO AMOEDO SOCIEDADE ANÔNIMA</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>ARMAZÉM CORAL EMPRESA DE PEQUENO PORTE</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO MICROEMPRESA</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>TUPAN CONSTRUÇÃO LIMITADA</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>IRMÃOS SOARES SOCIEDADE ANÔNIMA</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>COMERCIAL IVAPORÃ EMPRESA DE PEQUENO PORTE</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>COPAFER COMERCIAL E COMPANHIA</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>NORMATEL HOME CENTER MICROEMPRESA</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>COMPANHIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>TINTAS MC LIMITADA</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>REDE ALTERNATIVA EMPRESA DE PEQUENO PORTE</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>ELÉTRICA COMERCIAL ANDRA LIMITADA</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SOCIEDADE ANÔNIMA</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="800" y="1168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="palavra" />
+                <Field name="substituição" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>LTDA</c>
+                  <c>LIMITADA</c>
+                </r>
+                <r>
+                  <c>SA</c>
+                  <c>SOCIEDADE ANÔNIMA</c>
+                </r>
+                <r>
+                  <c>ME</c>
+                  <c>MICROEMPRESA</c>
+                </r>
+                <r>
+                  <c>EPP</c>
+                  <c>EMPRESA DE PEQUENO PORTE</c>
+                </r>
+                <r>
+                  <c>CIA</c>
+                  <c>COMPANHIA</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="138">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="899" y="1128" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Comércio</FieldFind>
+              <FieldSearch>palavra</FieldSearch>
+              <ReplaceFoundField>substituição</ReplaceFoundField>
+              <FindMode>FindBegin</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="palavra" />
+                <Field field="substituição" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="127">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="791" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="Número da transação" />
+                <Field name="Data" />
+                <Field name="Comércio" />
+                <Field name="Valor total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>COMPANHIA BRASILEIRA DE BRICOLAGEM LEROY MERLIN</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>SAINT-GOBAIN DISTRIBUIÇÃO BRASILEIRA LIMITADA</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>GRUPO AMOEDO SOCIEDADE ANÔNIMA</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>ARMAZÉM CORAL EMPRESA DE PEQUENO PORTE</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>MEGACENTER MATERIAIS DE CONSTRUÇÃO MICROEMPRESA</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>TUPAN CONSTRUÇÃO LIMITADA</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>IRMÃOS SOARES SOCIEDADE ANÔNIMA</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>COMERCIAL IVAPORÃ EMPRESA DE PEQUENO PORTE</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>COPAFER COMERCIAL E COMPANHIA</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>NORMATEL HOME CENTER MICROEMPRESA</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>COMPANHIA REDEMAC MATERIAIS DE CONSTRUÇÃO</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>TINTAS MC LIMITADA</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>REDE ALTERNATIVA EMPRESA DE PEQUENO PORTE</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>ELÉTRICA COMERCIAL ANDRA LIMITADA</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>TUMELEIRO MATERIAIS DE CONSTRUÇÃO SOCIEDADE ANÔNIMA</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="129">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="906" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Comércio</FieldFind>
+              <FieldSearch>Palavra</FieldSearch>
+              <ReplaceFoundField>Sinalizador</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Sinalizador" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="126">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="898" y="224" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Comércio</FieldFind>
+              <FieldSearch>palavra</FieldSearch>
+              <ReplaceFoundField>substituição</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="palavra" />
+                <Field field="substituição" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1290" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1339" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="129" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="129" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="134" Connection="Output" />
+      <Destination ToolID="135" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="135" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="132" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="132" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="138" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="137" Connection="Output" />
+      <Destination ToolID="138" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="126" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="126" Connection="Targets" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-4" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>AMB_PT_Encontrar</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

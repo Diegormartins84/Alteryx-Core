@@ -1,0 +1,6501 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2">
+  <Nodes>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="418" y="712" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="418" y="376" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="418" y="166" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado desejado</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="68" width="462" height="82" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Exercício: Ferramenta Agrupar Campos</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="690" y="54" width="260" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Clique no triângulo do lado direito para ver as respostas.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="490" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a ferramenta Agrupar Campos para obter os resultados a seguir.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="152" width="325" height="183" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Agregue a soma das vendas a cada segmento.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Segmento" />
+            <Field name="Vendas" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Casa</c>
+              <c>936322.13</c>
+            </r>
+            <r>
+              <c>Escritório</c>
+              <c>215900.12</c>
+            </r>
+            <r>
+              <c>Lazer</c>
+              <c>550308.76</c>
+            </r>
+            <r>
+              <c>Comida</c>
+              <c>1334031.10</c>
+            </r>
+            <r>
+              <c>Artigos esportivos</c>
+              <c>233022.56</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Soma Vendas" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3269584.67</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="362" width="325" height="308" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Agregue os dados para combinar cada artigo de vesturário às cores e tamanhos.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="418" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Tipo" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Calça</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+            </r>
+            <r>
+              <c>Meia</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="488" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Tamanho" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Extra-Extra Grande</c>
+            </r>
+            <r>
+              <c>Extra Grande</c>
+            </r>
+            <r>
+              <c>Grande</c>
+            </r>
+            <r>
+              <c>Médio</c>
+            </r>
+            <r>
+              <c>Pequeno</c>
+            </r>
+            <r>
+              <c>Extra pequeno</c>
+            </r>
+            <r>
+              <c>Extra-Extra Pequeno</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="82" y="586" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Cor" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Preto</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="698" width="322" height="308" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Agregue os dados para combinar cada artigo de vesturário às cores e tamanhos. (Novamente, mas desta vez com mais dados!)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="68" y="754" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Tipo" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Calça</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+            </r>
+            <r>
+              <c>Meia</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="68" y="824" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Tamanho" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Extra-Extra Grande</c>
+            </r>
+            <r>
+              <c>Extra Grande</c>
+            </r>
+            <r>
+              <c>Grande</c>
+            </r>
+            <r>
+              <c>Médio</c>
+            </r>
+            <r>
+              <c>Pequeno</c>
+            </r>
+            <r>
+              <c>Extra pequeno</c>
+            </r>
+            <r>
+              <c>Extra-Extra Pequeno</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="68" y="936" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Cor" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Prata</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="446" y="194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Segmento" />
+            <Field name="Vendas" />
+            <Field name="Soma Vendas" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Casa</c>
+              <c>936322.13</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Escritório</c>
+              <c>215900.12</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Lazer</c>
+              <c>550308.76</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Comida</c>
+              <c>1334031.1</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Artigos esportivos</c>
+              <c>233022.56</c>
+              <c>3269584.67</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="446" y="418" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="294" />
+          <Fields>
+            <Field name="Tipo" />
+            <Field name="Tamanho" />
+            <Field name="Cor" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="446" y="754" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="714" />
+          <Fields>
+            <Field name="Tipo" />
+            <Field name="Tamanho" />
+            <Field name="Cor" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Calça</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Camiseta</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Meia</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda íntima</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Moda banho</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Grande</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Médio</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra pequeno</c>
+              <c>Prata</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Vermelho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Laranja</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Amarelo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Roxo</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Preto</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Cinza</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde água</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Rosa</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul marinho</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Carmim</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Azul claro</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Verde abacate</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Ferrugem</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Neon</c>
+            </r>
+            <r>
+              <c>Boné</c>
+              <c>Extra-Extra Pequeno</c>
+              <c>Prata</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="186" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="282" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="174" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="246" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="757" y="117" width="375" height="961" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Soluções</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="782" y="166" width="325" height="183" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Agregue a soma das vendas a cada segmento.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="810" y="194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="Segmento" />
+                <Field name="Vendas" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Casa</c>
+                  <c>936322.13</c>
+                </r>
+                <r>
+                  <c>Escritório</c>
+                  <c>215900.12</c>
+                </r>
+                <r>
+                  <c>Lazer</c>
+                  <c>550308.76</c>
+                </r>
+                <r>
+                  <c>Comida</c>
+                  <c>1334031.10</c>
+                </r>
+                <r>
+                  <c>Artigos esportivos</c>
+                  <c>233022.56</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="810" y="278" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Soma Vendas" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>3269584.67</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1006" y="236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="782" y="376" width="325" height="280" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Agregue os dados para combinar cada artigo de vesturário às cores e tamanhos.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="810" y="432" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Tipo" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Calça</c>
+                </r>
+                <r>
+                  <c>Camiseta</c>
+                </r>
+                <r>
+                  <c>Meia</c>
+                </r>
+                <r>
+                  <c>Moda íntima</c>
+                </r>
+                <r>
+                  <c>Moda banho</c>
+                </r>
+                <r>
+                  <c>Boné</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="810" y="502" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Tamanho" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Extra-Extra Grande</c>
+                </r>
+                <r>
+                  <c>Extra Grande</c>
+                </r>
+                <r>
+                  <c>Grande</c>
+                </r>
+                <r>
+                  <c>Médio</c>
+                </r>
+                <r>
+                  <c>Pequeno</c>
+                </r>
+                <r>
+                  <c>Extra pequeno</c>
+                </r>
+                <r>
+                  <c>Extra-Extra Pequeno</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="936" y="460" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="810" y="572" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Cor" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Vermelho</c>
+                </r>
+                <r>
+                  <c>Laranja</c>
+                </r>
+                <r>
+                  <c>Amarelo</c>
+                </r>
+                <r>
+                  <c>Verde</c>
+                </r>
+                <r>
+                  <c>Azul</c>
+                </r>
+                <r>
+                  <c>Roxo</c>
+                </r>
+                <r>
+                  <c>Preto</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1034" y="530" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="781" y="684" width="322" height="369" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Agregue os dados para combinar cada artigo de vesturário às cores e tamanhos. (Novamente, mas desta vez com mais dados!)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="796" y="740" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Tipo" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Calça</c>
+                </r>
+                <r>
+                  <c>Camiseta</c>
+                </r>
+                <r>
+                  <c>Meia</c>
+                </r>
+                <r>
+                  <c>Moda íntima</c>
+                </r>
+                <r>
+                  <c>Moda banho</c>
+                </r>
+                <r>
+                  <c>Boné</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="796" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Tamanho" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Extra-Extra Grande</c>
+                </r>
+                <r>
+                  <c>Extra Grande</c>
+                </r>
+                <r>
+                  <c>Grande</c>
+                </r>
+                <r>
+                  <c>Médio</c>
+                </r>
+                <r>
+                  <c>Pequeno</c>
+                </r>
+                <r>
+                  <c>Extra pequeno</c>
+                </r>
+                <r>
+                  <c>Extra-Extra Pequeno</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="963" y="782" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="795" y="922" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="17" />
+              <Fields>
+                <Field name="Cor" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Vermelho</c>
+                </r>
+                <r>
+                  <c>Laranja</c>
+                </r>
+                <r>
+                  <c>Amarelo</c>
+                </r>
+                <r>
+                  <c>Verde</c>
+                </r>
+                <r>
+                  <c>Azul</c>
+                </r>
+                <r>
+                  <c>Roxo</c>
+                </r>
+                <r>
+                  <c>Preto</c>
+                </r>
+                <r>
+                  <c>Cinza</c>
+                </r>
+                <r>
+                  <c>Verde água</c>
+                </r>
+                <r>
+                  <c>Rosa</c>
+                </r>
+                <r>
+                  <c>Azul marinho</c>
+                </r>
+                <r>
+                  <c>Carmim</c>
+                </r>
+                <r>
+                  <c>Azul claro</c>
+                </r>
+                <r>
+                  <c>Verde abacate</c>
+                </r>
+                <r>
+                  <c>Ferrugem</c>
+                </r>
+                <r>
+                  <c>Neon</c>
+                </r>
+                <r>
+                  <c>Prata</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1020" y="908" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1086" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Recurso Educacional Alteryx - Termos e Condições</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1135" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>O uso deste recurso da Alteryx é apenas para fins educacionais e está sujeito às condições estabelecidas no site alteryx.com/terms-and-conditions. As informações aqui contidas não podem ser reproduzidas, transmitidas ou distribuídas sem a permissão da Alteryx, Inc.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="71" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="71" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="72" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="72" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="73" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="74" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="74" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="75" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Source" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-6" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Agrupar</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a4b06cab-256b-4655-9619-1c60e47f2d9f" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="a4b06cab-256b-4655-9619-1c60e47f2d9f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

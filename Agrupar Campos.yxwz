@@ -1,0 +1,1140 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.4">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="402" width="947" height="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Agregar um único registro a todo o conjunto de dados</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="545.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="9" />
+              <Fields>
+                <Field name="Cor" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Laranja</c>
+                </r>
+                <r>
+                  <c>Azul</c>
+                </r>
+                <r>
+                  <c>Laranja</c>
+                </r>
+                <r>
+                  <c>Amarelo</c>
+                </r>
+                <r>
+                  <c>Vermelho</c>
+                </r>
+                <r>
+                  <c>Verde</c>
+                </r>
+                <r>
+                  <c>Violeta</c>
+                </r>
+                <r>
+                  <c>Violeta</c>
+                </r>
+                <r>
+                  <c>Índigo</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Conjunto de dados</AnnotationText>
+              <DefaultAnnotationText>Conjunto de dados</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="258" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>Cor</FieldFind>
+              <FieldSearch>Cor</FieldSearch>
+              <ReplaceFoundField>Cor</ReplaceFoundField>
+              <FindMode>FindWhole</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="Valor" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Agrupar valores ao conjunto de dados original</AnnotationText>
+              <DefaultAnnotationText>Agrupar valores ao conjunto de dados original</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="546" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Cor" selected="False" input="Source_" />
+                    <SelectField field="Source_Valor" selected="True" rename="Valor Máximo" input="Source_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+                <Field name="Valor Máximo" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="366" y="677.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>=</Operator>
+                <Field>Cor</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2020-07-08 09:38:20</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>Azul</Operand>
+                  <StartDate>2020-07-08 09:38:20</StartDate>
+                  <EndDate>2020-07-08 09:38:20</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Filtrar cor selecionada pelo usuário</AnnotationText>
+              <DefaultAnnotationText>[Cor] = "Azul"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="510" y="726" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Selecione uma cor</AnnotationText>
+              <DefaultAnnotationText>Menu Suspenso (8)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="522" y="846" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Atualizar valor do operando (cor) na Fórmula</AnnotationText>
+              <DefaultAnnotationText>Atualizar valor</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="726" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Valor] &lt;= [Valor Máximo]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Valor] &lt;= [Valor Máximo]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+                <Field name="Valor Máximo" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+                <Field name="Valor Máximo" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15992_6c2a2f0f2b6842ac9d2d3e1934e69a6e_\Engine_5088_35c615f27f3e4814a6555171eb2286b9_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="654.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Cor" />
+                <Field name="Valor" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Vermelho</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>Laranja</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>Amarelo</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>Verde</c>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>Azul</c>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>Índigo</c>
+                  <c>12</c>
+                </r>
+                <r>
+                  <c>Violeta</c>
+                  <c>14</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Tabela-mestre de cores e valores</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cor" size="8" source="TextInput:" type="String" />
+                <Field name="Valor" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="606" y="774" width="324" height="60" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Ao final, serão mostradas todas as cores do conjunto de dados original que tenham um valor menor ou igual ao da cor selecionada no menu suspenso.</Text>
+              <Font name="Arial" size="9.75" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="426" y="486" width="324" height="72" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>A ferramenta Agrupar Campos também tem a funcionalidade da ferramenta Selecionar, permitindo que a coluna com o valor selecionado pelo usuário seja renomeada para Valor Máximo.</Text>
+              <Font name="Arial" size="9.75" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="978" width="551" height="471" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Agregar a data e a hora atuais a todos os registros</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="1182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Números" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>8</c>
+                </r>
+                <r>
+                  <c>9</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Números</AnnotationText>
+              <DefaultAnnotationText>Numbers</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Números" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="1314" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Letras" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>d</c>
+                </r>
+                <r>
+                  <c>e</c>
+                </r>
+                <r>
+                  <c>f</c>
+                </r>
+                <r>
+                  <c>g</c>
+                </r>
+                <r>
+                  <c>h</c>
+                </r>
+                <r>
+                  <c>i</c>
+                </r>
+                <r>
+                  <c>j</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Letras</AnnotationText>
+              <DefaultAnnotationText>Letters</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Letras" size="1" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+            <Position x="114" y="1062" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UpdateField value="False" />
+              <UpdateField_Name />
+              <CreateField_Name>Data e Hora Atuais</CreateField_Name>
+              <CreateField_Type>DateTime</CreateField_Type>
+              <CreateField_Size>19</CreateField_Size>
+              <Expression_Init>DateTimeNow()</Expression_Init>
+              <Expression_Cond>!isnull([Data e Hora Atuais])</Expression_Cond>
+              <Expression_Loop>Null()</Expression_Loop>
+              <RecordCount value="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Data e Hora Atuais" type="DateTime" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="294" y="1194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Números" source="TextInput:" type="Byte" />
+                <Field name="Data e Hora Atuais" type="DateTime" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="294" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Letras" size="1" source="TextInput:" type="String" />
+                <Field name="Data e Hora Atuais" type="DateTime" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="486" y="1194" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15992_6c2a2f0f2b6842ac9d2d3e1934e69a6e_\Engine_5088_54cfaf1f8ecd40dd83b0485b350dba77_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="486" y="1326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15992_6c2a2f0f2b6842ac9d2d3e1934e69a6e_\Engine_5088_8e65fdb4b0a54721a79a52e6078e9791_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="479" height="339" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Realizar junção cartesiana</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="26" />
+              <Fields>
+                <Field name="Produto" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>ProdutoA</c>
+                </r>
+                <r>
+                  <c>ProdutoB</c>
+                </r>
+                <r>
+                  <c>ProdutoC</c>
+                </r>
+                <r>
+                  <c>ProdutoD</c>
+                </r>
+                <r>
+                  <c>ProdutoE</c>
+                </r>
+                <r>
+                  <c>ProdutoF</c>
+                </r>
+                <r>
+                  <c>ProdutoG</c>
+                </r>
+                <r>
+                  <c>ProdutoH</c>
+                </r>
+                <r>
+                  <c>ProdutoI</c>
+                </r>
+                <r>
+                  <c>ProdutoJ</c>
+                </r>
+                <r>
+                  <c>ProdutoK</c>
+                </r>
+                <r>
+                  <c>ProdutoL</c>
+                </r>
+                <r>
+                  <c>ProdutoM</c>
+                </r>
+                <r>
+                  <c>ProdutoN</c>
+                </r>
+                <r>
+                  <c>ProdutoO</c>
+                </r>
+                <r>
+                  <c>ProdutoP</c>
+                </r>
+                <r>
+                  <c>ProdutoQ</c>
+                </r>
+                <r>
+                  <c>ProdutoR</c>
+                </r>
+                <r>
+                  <c>ProdutoS</c>
+                </r>
+                <r>
+                  <c>ProdutoT</c>
+                </r>
+                <r>
+                  <c>ProdutoU</c>
+                </r>
+                <r>
+                  <c>ProdutoV</c>
+                </r>
+                <r>
+                  <c>ProdutoW</c>
+                </r>
+                <r>
+                  <c>ProdutoX</c>
+                </r>
+                <r>
+                  <c>ProdutoY</c>
+                </r>
+                <r>
+                  <c>ProdutoZ</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Produtos</AnnotationText>
+              <DefaultAnnotationText>Produtos</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Produto" size="8" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="114" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="26" />
+              <Fields>
+                <Field name="Cliente" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Cliente1</c>
+                </r>
+                <r>
+                  <c>Cliente2</c>
+                </r>
+                <r>
+                  <c>Cliente3</c>
+                </r>
+                <r>
+                  <c>Cliente4</c>
+                </r>
+                <r>
+                  <c>Cliente5</c>
+                </r>
+                <r>
+                  <c>Cliente6</c>
+                </r>
+                <r>
+                  <c>Cliente7</c>
+                </r>
+                <r>
+                  <c>Cliente8</c>
+                </r>
+                <r>
+                  <c>Cliente9</c>
+                </r>
+                <r>
+                  <c>Cliente10</c>
+                </r>
+                <r>
+                  <c>Cliente11</c>
+                </r>
+                <r>
+                  <c>Cliente12</c>
+                </r>
+                <r>
+                  <c>Cliente13</c>
+                </r>
+                <r>
+                  <c>Cliente14</c>
+                </r>
+                <r>
+                  <c>Cliente15</c>
+                </r>
+                <r>
+                  <c>Cliente16</c>
+                </r>
+                <r>
+                  <c>Cliente17</c>
+                </r>
+                <r>
+                  <c>Cliente18</c>
+                </r>
+                <r>
+                  <c>Cliente19</c>
+                </r>
+                <r>
+                  <c>Cliente20</c>
+                </r>
+                <r>
+                  <c>Cliente21</c>
+                </r>
+                <r>
+                  <c>Cliente22</c>
+                </r>
+                <r>
+                  <c>Cliente23</c>
+                </r>
+                <r>
+                  <c>Cliente24</c>
+                </r>
+                <r>
+                  <c>Cliente25</c>
+                </r>
+                <r>
+                  <c>Cliente26</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Clientes</AnnotationText>
+              <DefaultAnnotationText>Clientes</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Cliente" size="9" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="270" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Produto" size="8" source="TextInput:" type="String" />
+                <Field name="Cliente" size="9" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="414" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_15992_6c2a2f0f2b6842ac9d2d3e1934e69a6e_\Engine_5088_cb368ae423b8460284ce6e20212e322d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="4" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="5" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Question" />
+      <Destination ToolID="9" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="32" Connection="Targets" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Targets" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Menu Suspenso (8)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Agrupar Campos</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="9" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>6/Simple/Operands/Operand</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Perguntas</Description>
+          <Name>Tabulação (7)</Name>
+          <ToolId value="7" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Selecione uma cor:</Description>
+              <Name>Menu Suspenso (8)</Name>
+              <ToolId value="8" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[Vermelho
+Laranja
+Amarelo
+Verde
+Azul
+Índigo
+Violeta
+]]></Manual_Values>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Wizard</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="0" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="11" Selected="True" />
+        <Tool ToolId="49" Selected="False" />
+        <Tool ToolId="35" Selected="False" />
+        <Tool ToolId="39" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
