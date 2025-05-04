@@ -305,16 +305,29 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
           </JoinInfo>
           <SelectConfiguration>
             <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
+              <OrderChanged value="True" />
               <CommaDecimal value="False" />
               <SelectFields>
-                <SelectField field="Left_ID do cliente" selected="True" input="Left_" type="Int16" size="2" />
+                <SelectField field="Right_ID do pedido" selected="True" input="Right_" />
+                <SelectField field="Left_ID do cliente" selected="False" input="Left_" type="Int16" size="2" />
+                <SelectField field="Left_Número da loja" selected="False" input="Left_" />
+                <SelectField field="Left_Segmento do cliente" selected="False" input="Left_" />
+                <SelectField field="Left_Região" selected="False" input="Left_" />
+                <SelectField field="Left_Transações anuais" selected="False" input="Left_" />
+                <SelectField field="Left_Nome do cliente" selected="False" input="Left_" />
+                <SelectField field="Left_Endereço" selected="False" input="Left_" />
+                <SelectField field="Left_Cidade" selected="False" input="Left_" />
+                <SelectField field="Left_CEP" selected="False" input="Left_" />
                 <SelectField field="Right_ID do Cliente" selected="False" rename="Right_ID do Cliente" input="Right_" />
-                <SelectField field="Right_Desconto" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_SKU do produto" selected="False" input="Right_" />
+                <SelectField field="Right_Desconto" selected="True" rename="Total Economizado" input="Right_" type="Double" size="8" />
                 <SelectField field="Right_Valor por unidade" selected="True" input="Right_" type="Double" size="8" />
                 <SelectField field="Right_Valor do frete" selected="True" input="Right_" type="Double" size="8" />
-                <SelectField field="Right_Data de envio" selected="True" input="Right_" type="Date" size="10" />
+                <SelectField field="Right_Data do pedido" selected="True" input="Right_" />
+                <SelectField field="Right_Data de envio" selected="False" input="Right_" type="Date" size="10" />
                 <SelectField field="Right_Quantidade solicitada" selected="True" input="Right_" type="Double" size="8" />
+                <SelectField field="Right_Prioridade" selected="False" input="Right_" />
+                <SelectField field="Right_Data de envio formatado" selected="True" input="Right_" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
@@ -336,9 +349,9 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
         <Configuration>
           <SummarizeFields>
             <SummarizeField field="ID do pedido" action="GroupBy" rename="ID do pedido" />
-            <SummarizeField field="Custo total" action="Sum" rename="Sum_Custo total" />
-            <SummarizeField field="Desconto" action="Sum" rename="Sum_Desconto" />
-            <SummarizeField field="Dias até o envio" action="Avg" rename="Avg_Dias até o envio" />
+            <SummarizeField field="Custo total" action="Sum" rename="Total" />
+            <SummarizeField field="Total Economizado" action="Sum" rename="Total Economizado" />
+            <SummarizeField field="Dias até o envio" action="Max" rename="Dias até o envio" />
           </SummarizeFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -357,7 +370,7 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
         <Configuration>
           <FormulaFields>
             <FormulaField expression="DateTimeDiff([Data de envio formatado],[Data do pedido],&quot;days&quot;)" field="Dias até o envio" size="2" type="Int16" enabled="true" />
-            <FormulaField expression="([Valor por unidade] * [Quantidade solicitada]) - [Valor do frete]" field="Custo total" size="8" type="Double" enabled="true" />
+            <FormulaField expression="([Valor por unidade] * [Quantidade solicitada]) -  [Total Economizado] + [Valor do frete]" field="Custo total" size="8" type="Double" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -374,7 +387,19 @@ EXPORTOU SUA SOLUÇÃO PARA UM ARQUIVO .YXZP</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\diego\AppData\Local\Temp\Alteryx\Engine_9868_4a04d94de97e4f0bb2edaf25e7ec702b_\Engine_18176_3b7a5ae15ab84e00bffaccad4377ebd3_.yxdb</TempFile>
+          <TempFile>C:\Users\diego\AppData\Local\Temp\Alteryx\Engine_11580_9038a7d1d5934cf0ba86f11afccb9302_\Engine_4112_dac47a6a5f934679a4b166c86dddef02_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Perfil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
