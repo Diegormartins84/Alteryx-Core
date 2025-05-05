@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="77" y="399" width="84" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Benchmark da indústria</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="77" y="231" width="84" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultados da pesquisa de engajamento</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="89" y="447" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="11" />
+          <Fields>
+            <Field name="Nome" />
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Área</c>
+              <c>Marketing</c>
+              <c>Suporte ao Cliente</c>
+              <c>Recursos Humanos</c>
+              <c>Treinamento</c>
+            </r>
+            <r>
+              <c>Q1:Entendo como meu cargo contribui para alcançar a missão da campanhia.</c>
+              <c>4.1</c>
+              <c>5.8</c>
+              <c>5.3</c>
+              <c>5.1</c>
+            </r>
+            <r>
+              <c>Q2:Meu trabalho é reconhecido pela liderança.</c>
+              <c>4.8</c>
+              <c>4.6</c>
+              <c>5.4</c>
+              <c>4.4</c>
+            </r>
+            <r>
+              <c>Q3:Tenho acesso aos recursos que preciso para obter sucesso em minhas atividades.</c>
+              <c>6.1</c>
+              <c>5.7</c>
+              <c>5.2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Q4:Acredito que a comunicação entre as áreas é eficiente.</c>
+              <c>5.8</c>
+              <c>4.2</c>
+              <c>6.2</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>Q5:Sei quais são as oportunidades de crescimento dentro da empresa.</c>
+              <c>5.2</c>
+              <c>4.6</c>
+              <c>4.1</c>
+              <c>3.9</c>
+            </r>
+            <r>
+              <c>Q6:A maneira como meu chefe avalia a minha performance é clara.</c>
+              <c>4.5</c>
+              <c>5.4</c>
+              <c>5.9</c>
+              <c>4.9</c>
+            </r>
+            <r>
+              <c>Q7:Minha opinião é levada em consideração nas tomadas de decisão.</c>
+              <c>4.8</c>
+              <c>4.6</c>
+              <c>5.4</c>
+              <c>4.4</c>
+            </r>
+            <r>
+              <c>Q8:A empresa tem metas alinhadas aos objetivos.</c>
+              <c>6.5</c>
+              <c>5</c>
+              <c>4.8</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>Q9:Meu salário é justo para as funções que desempenho.</c>
+              <c>7</c>
+              <c>5</c>
+              <c>6.9</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>Q10:Você indicaria um amigo ou familiar qualificado para trabalhar na empresa.</c>
+              <c>5.1</c>
+              <c>5.2</c>
+              <c>5.1</c>
+              <c>4.9</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Nome" size="81" source="TextInput:" type="V_String" />
+            <Field name="1" size="9" source="TextInput:" type="V_String" />
+            <Field name="2" size="18" source="TextInput:" type="V_String" />
+            <Field name="3" size="16" source="TextInput:" type="V_String" />
+            <Field name="4" size="11" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="77" y="63" width="518" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Projeto Final</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="77" y="111" width="518" height="106" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>A área de RH acabou de receber os resultados da pesquisa de engajamento. Use  o que você aprendeu para trabalhar nessa pesquisa e tornar os resultados mais orientados aos usuários finais. Comece calculando a média de cada questão por área.
+
+Em seguida, adicione o benchmark da indústria e compare os resultados. As questões que obtiveram média de 1 ponto abaixo do benchmark devem ser marcadas para REVISÃO.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="623" y="119" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Resultado Final</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="637" y="147" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">PT_Resultado_Final.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Resultado_Final.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Área" size="2048" source="Summarize: GroupBy - Área" type="V_String" />
+            <Field name="#" size="3" source="Transpose:" type="String" />
+            <Field description="Ferramenta Texto para Colunas: Dividido a partir do nome" name="Questão" size="81" source="TextToColumns: Parsed from Nome" type="V_String" />
+            <Field name="Pontuação" source="Formula: SmartRound([Pontuação])" type="Double" />
+            <Field name="Benchmark" source="TextInput:" type="Double" />
+            <Field name="Diferença" source="Formula: [Pontuação]-[Benchmark]" type="Double" />
+            <Field name="Revisão" size="1073741823" source="Formula: if [Diferença]&lt;-1 then &quot;REVISÃO&quot; else &quot;&quot; endif" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="91" y="273" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">PT_Resultados_Pesquisa.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PT_Resultados_Pesquisa.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Campo 1" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 2" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 3" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 4" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 5" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 6" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 7" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 8" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 9" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 10" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 11" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 12" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 13" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 14" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+            <Field name="Campo 15" size="255" source="File: C:\Users\sylvia.pereira\alteryx.com\GRP_Instructional Designers - Documents\Getting Started Learning Path\PT_Learning Path\Exercises\Final Project\Capstone_solution\PT_Resultados.xlsx|||`Planilha1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-2" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PT_Projeto_Final</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
